@@ -252,10 +252,10 @@ def create_chart_v2(df):
             orientation='h',
             yanchor='bottom',
             y=1.02,
-            xanchor='left',
-            x=0.35
+            xanchor='center',
+            x=0.5
         ),
-        margin=dict(t=150, b=100, l=60, r=40),
+        margin=dict(t=150, b=100, l=60, r=120),
         plot_bgcolor='white',
         paper_bgcolor='white',
         font=dict(family='Arial, sans-serif'),
