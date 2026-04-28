@@ -145,7 +145,7 @@ def create_chart_v2(df):
                 {'y': [occ_data['women_count_k_approx']]},
                 {'title.text': f'Women in Tech by Age: {OCC_LABELS.get(occ, occ)}'}
             ],
-            label=OCC_LABELS.get(occ, occ),
+            label=f'{occ}                    ',
             method='update'
         ))
 
@@ -252,8 +252,8 @@ def create_chart_v2(df):
             orientation='h',
             yanchor='bottom',
             y=1.02,
-            xanchor='right',
-            x=1
+            xanchor='left',
+            x=0.35
         ),
         margin=dict(t=150, b=100, l=60, r=40),
         plot_bgcolor='white',
