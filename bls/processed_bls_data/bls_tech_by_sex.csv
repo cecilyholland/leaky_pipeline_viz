@@ -1,0 +1,111 @@
+year,occupation,occupation_full,total_employed_k,pct_women,pct_men
+2015,CS & Math (all),Computer and mathematical occupations,4369.0,24.7,75.3
+2016,CS & Math (all),Computer and mathematical occupations,4601.0,25.5,74.5
+2017,CS & Math (all),Computer and mathematical occupations,4804.0,25.5,74.5
+2018,CS & Math (all),Computer and mathematical occupations,5126.0,25.6,74.4
+2019,CS & Math (all),Computer and mathematical occupations,5352.0,25.8,74.2
+2020,CS & Math (all),Computer and mathematical occupations,5603.0,25.2,74.8
+2021,CS & Math (all),Computer and mathematical occupations,5688.0,26.2,73.8
+2022,CS & Math (all),Computer and mathematical occupations,6171.0,26.7,73.3
+2023,CS & Math (all),Computer and mathematical occupations,6502.0,26.9,73.1
+2024,CS & Math (all),Computer and mathematical occupations,6386.0,26.4,73.6
+2015,CS Managers,Computer and information systems managers,652.0,27.2,72.8
+2016,CS Managers,Computer and information systems managers,597.0,25.5,74.5
+2017,CS Managers,Computer and information systems managers,630.0,28.6,71.4
+2018,CS Managers,Computer and information systems managers,623.0,27.0,73.0
+2019,CS Managers,Computer and information systems managers,654.0,28.7,71.3
+2020,CS Managers,Computer and information systems managers,744.0,26.6,73.4
+2021,CS Managers,Computer and information systems managers,715.0,26.7,73.3
+2022,CS Managers,Computer and information systems managers,764.0,26.4,73.6
+2023,CS Managers,Computer and information systems managers,793.0,27.7,72.3
+2024,CS Managers,Computer and information systems managers,732.0,30.1,69.9
+2015,Computer Hardware Engineers,Computer hardware engineers,72.0,12.8,87.2
+2016,Computer Hardware Engineers,Computer hardware engineers,69.0,24.7,75.3
+2017,Computer Hardware Engineers,Computer hardware engineers,80.0,17.2,82.8
+2018,Computer Hardware Engineers,Computer hardware engineers,71.0,18.9,81.1
+2019,Computer Hardware Engineers,Computer hardware engineers,77.0,22.8,77.2
+2020,Computer Hardware Engineers,Computer hardware engineers,89.0,18.4,81.6
+2021,Computer Hardware Engineers,Computer hardware engineers,88.0,13.4,86.6
+2022,Computer Hardware Engineers,Computer hardware engineers,90.0,15.7,84.3
+2023,Computer Hardware Engineers,Computer hardware engineers,71.0,5.9,94.1
+2024,Computer Hardware Engineers,Computer hardware engineers,85.0,14.3,85.7
+2015,Computer Network Architects,Computer network architects,114.0,12.1,87.9
+2016,Computer Network Architects,Computer network architects,115.0,9.7,90.3
+2017,Computer Network Architects,Computer network architects,106.0,4.2,95.8
+2018,Computer Network Architects,Computer network architects,114.0,10.3,89.7
+2019,Computer Network Architects,Computer network architects,106.0,9.2,90.8
+2020,Computer Network Architects,Computer network architects,107.0,9.3,90.7
+2021,Computer Network Architects,Computer network architects,102.0,11.8,88.2
+2022,Computer Network Architects,Computer network architects,98.0,8.6,91.4
+2023,Computer Network Architects,Computer network architects,104.0,7.7,92.3
+2024,Computer Network Architects,Computer network architects,139.0,7.1,92.9
+2015,Computer Programmers,Computer programmers,480.0,21.0,79.0
+2016,Computer Programmers,Computer programmers,466.0,22.6,77.4
+2017,Computer Programmers,Computer programmers,473.0,21.2,78.8
+2018,Computer Programmers,Computer programmers,477.0,21.2,78.8
+2019,Computer Programmers,Computer programmers,454.0,20.3,79.7
+2020,Computer Programmers,Computer programmers,417.0,21.1,78.9
+2021,Computer Programmers,Computer programmers,444.0,19.5,80.5
+2022,Computer Programmers,Computer programmers,457.0,22.1,77.9
+2023,Computer Programmers,Computer programmers,402.0,21.5,78.5
+2024,Computer Programmers,Computer programmers,334.0,17.8,82.2
+2015,Computer Support Specialists,Computer support specialists,475.0,26.4,73.6
+2016,Computer Support Specialists,Computer support specialists,570.0,25.5,74.5
+2017,Computer Support Specialists,Computer support specialists,532.0,27.1,72.9
+2018,Computer Support Specialists,Computer support specialists,566.0,28.1,71.9
+2019,Computer Support Specialists,Computer support specialists,547.0,26.4,73.6
+2020,Computer Support Specialists,Computer support specialists,660.0,25.9,74.1
+2021,Computer Support Specialists,Computer support specialists,660.0,23.8,76.2
+2022,Computer Support Specialists,Computer support specialists,704.0,25.8,74.2
+2023,Computer Support Specialists,Computer support specialists,687.0,26.2,73.8
+2024,Computer Support Specialists,Computer support specialists,633.0,26.9,73.1
+2015,Computer Systems Analysts,Computer systems analysts,552.0,34.2,65.8
+2016,Computer Systems Analysts,Computer systems analysts,526.0,35.7,64.3
+2017,Computer Systems Analysts,Computer systems analysts,554.0,38.9,61.1
+2018,Computer Systems Analysts,Computer systems analysts,652.0,37.5,62.5
+2019,Computer Systems Analysts,Computer systems analysts,663.0,40.1,59.9
+2020,Computer Systems Analysts,Computer systems analysts,594.0,35.6,64.4
+2021,Computer Systems Analysts,Computer systems analysts,464.0,37.5,62.5
+2022,Computer Systems Analysts,Computer systems analysts,501.0,38.7,61.3
+2023,Computer Systems Analysts,Computer systems analysts,513.0,37.8,62.2
+2024,Computer Systems Analysts,Computer systems analysts,547.0,43.1,56.9
+2015,Database Administrators,Database administrators,93.0,38.0,62.0
+2016,Database Administrators,Database administrators,90.0,46.2,53.8
+2017,Database Administrators,Database administrators,96.0,40.6,59.4
+2018,Database Administrators,Database administrators,108.0,37.9,62.1
+2019,Database Administrators,Database administrators,106.0,30.2,69.8
+2020,Database Administrators,Database administrators and architects,121.0,28.8,71.2
+2021,Database Administrators,Database administrators and architects,111.0,35.0,65.0
+2022,Database Administrators,Database administrators and architects,137.0,38.8,61.2
+2023,Database Administrators,Database administrators and architects,122.0,30.8,69.2
+2024,Database Administrators,Database administrators and architects,148.0,28.9,71.1
+2015,Information Security Analysts,Information security analysts,70.0,19.7,80.3
+2016,Information Security Analysts,Information security analysts,89.0,21.8,78.2
+2017,Information Security Analysts,Information security analysts,105.0,20.2,79.8
+2018,Information Security Analysts,Information security analysts,97.0,24.9,75.1
+2019,Information Security Analysts,Information security analysts,125.0,17.1,82.9
+2020,Information Security Analysts,Information security analysts,137.0,11.4,88.6
+2021,Information Security Analysts,Information security analysts,152.0,18.2,81.8
+2022,Information Security Analysts,Information security analysts,178.0,18.0,82.0
+2023,Information Security Analysts,Information security analysts,231.0,19.3,80.7
+2024,Information Security Analysts,Information security analysts,243.0,18.9,81.1
+2015,Network & Systems Admins,Network and computer systems administrators,218.0,15.9,84.1
+2016,Network & Systems Admins,Network and computer systems administrators,218.0,17.1,82.9
+2017,Network & Systems Admins,Network and computer systems administrators,210.0,23.5,76.5
+2018,Network & Systems Admins,Network and computer systems administrators,204.0,21.2,78.8
+2019,Network & Systems Admins,Network and computer systems administrators,199.0,26.1,73.9
+2020,Network & Systems Admins,Network and computer systems administrators,238.0,19.8,80.2
+2021,Network & Systems Admins,Network and computer systems administrators,212.0,17.2,82.8
+2022,Network & Systems Admins,Network and computer systems administrators,217.0,19.8,80.2
+2023,Network & Systems Admins,Network and computer systems administrators,202.0,16.7,83.3
+2024,Network & Systems Admins,Network and computer systems administrators,154.0,17.1,82.9
+2015,Software Developers,"Software developers, applications and systems software",1353.0,17.9,82.1
+2016,Software Developers,"Software developers, applications and systems software",1483.0,20.0,80.0
+2017,Software Developers,"Software developers, applications and systems software",1536.0,18.7,81.3
+2018,Software Developers,"Software developers, applications and systems software",1682.0,19.3,80.7
+2019,Software Developers,"Software developers, applications and systems software",1815.0,18.7,81.3
+2020,Software Developers,Software developers,1883.0,19.4,80.6
+2021,Software Developers,Software developers,1932.0,19.7,80.3
+2022,Software Developers,Software developers,2085.0,21.5,78.5
+2023,Software Developers,Software developers,2134.0,20.2,79.8
+2024,Software Developers,Software developers,2077.0,20.3,79.7

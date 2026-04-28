@@ -1,0 +1,51 @@
+company,year,women_overall_pct,women_technical_pct,reporting_status,source
+Google,2014,29.0,17.5,reported,Google Diversity Annual Report 2024
+Google,2015,29.2,18.7,reported,Google Diversity Annual Report 2024
+Google,2016,29.3,19.6,reported,Google Diversity Annual Report 2024
+Google,2017,29.5,20.6,reported,Google Diversity Annual Report 2024
+Google,2018,29.8,21.7,reported,Google Diversity Annual Report 2024
+Google,2019,31.0,23.1,reported,Google Diversity Annual Report 2024
+Google,2020,31.6,24.0,reported,Google Diversity Annual Report 2024
+Google,2021,32.2,24.8,reported,Google Diversity Annual Report 2024
+Google,2022,33.5,26.1,reported,Google Diversity Annual Report 2024
+Google,2023,33.9,26.7,reported,Google Diversity Annual Report 2024
+Google,2024,33.8,27.2,reported,Google Diversity Annual Report 2024
+Google,2025,,, not_reported,Google confirmed no 2025 DEI report (WIRED Nov 2025)
+Apple,2016,31.0,22.0,reported,Apple Inclusion & Diversity Report 2016
+Apple,2017,32.0,23.0,reported,Apple Inclusion & Diversity Report 2017
+Apple,2018,32.0,23.0,reported,Apple Inclusion & Diversity Report 2018
+Apple,2019,33.0,23.0,reported,Apple Inclusion & Diversity Report 2019
+Apple,2020,34.0,23.0,reported,Apple Inclusion & Diversity Report 2020
+Apple,2021,34.8,23.0,reported,Apple Inclusion & Diversity Report 2021
+Apple,2022,35.0,24.0,reported,Apple Inclusion & Diversity Report 2022
+Apple,2023,35.0,24.0,reported,Apple Inclusion & Diversity Report 2023
+Apple,2024,35.0,25.0,reported,Apple Inclusion & Diversity Report 2024
+Apple,2025,,,still_reporting,Apple confirmed continuing DEI reporting 2025
+Microsoft,2016,26.0,17.0,reported,Microsoft D&I Report 2016
+Microsoft,2017,26.0,18.0,reported,Microsoft D&I Report 2017
+Microsoft,2018,26.6,19.0,reported,Microsoft D&I Report 2018
+Microsoft,2019,27.0,20.0,reported,Microsoft D&I Report 2019
+Microsoft,2020,28.5,21.0,reported,Microsoft D&I Report 2020
+Microsoft,2021,29.0,22.0,reported,Microsoft D&I Report 2021
+Microsoft,2022,29.8,25.6,reported,Microsoft D&I Report 2022
+Microsoft,2023,30.5,26.7,reported,Microsoft D&I Report 2023
+Microsoft,2024,31.6,27.2,reported,Microsoft Global D&I Report Oct 2024
+Microsoft,2025,,,not_reported,Microsoft confirmed no 2025 DEI report (WIRED Nov 2025)
+Meta,2015,31.0,15.0,reported,Meta Diversity Report 2015
+Meta,2016,31.0,17.0,reported,Meta Diversity Report 2016
+Meta,2017,33.0,17.0,reported,Meta Diversity Report 2017
+Meta,2018,33.0,18.0,reported,Meta Diversity Report 2018
+Meta,2019,34.0,20.0,reported,Meta Diversity Report 2019
+Meta,2020,35.6,22.7,reported,Meta Diversity Report 2020
+Meta,2021,36.3,24.1,reported,Meta Diversity Report 2021
+Meta,2022,37.0,24.9,reported,Meta Diversity Report 2022
+Meta,2023,37.1,25.9,reported,Meta Diversity Report 2023
+Meta,2024,,,not_reported,Meta confirmed no 2024 DEI report (WIRED Nov 2025)
+Meta,2025,,,not_reported,Meta confirmed no 2025 DEI report (WIRED Nov 2025)
+Amazon,2019,42.0,,reported,Amazon Diversity Report 2019
+Amazon,2020,43.5,,reported,Amazon Diversity Report 2020
+Amazon,2021,44.0,,reported,Amazon Diversity Report 2021
+Amazon,2022,44.0,,reported,Amazon Diversity Report 2022
+Amazon,2023,44.8,,reported,Amazon Diversity Report 2023
+Amazon,2024,45.0,,still_reporting,Amazon confirmed continuing DEI reporting 2025
+Amazon,2025,,,still_reporting,Amazon confirmed continuing DEI reporting 2025

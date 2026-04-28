@@ -1,0 +1,1080 @@
+year,track,cip4,AWLEVEL,award_label,CTOTALT,CTOTALW,CTOTALM,pct_women
+2010,Computer Engineering,14.09,3,Associate's,23,0,23,0.0
+2010,Computer Engineering,14.09,5,Bachelor's,4589,403,4186,8.8
+2010,Computer Engineering,14.09,7,Master's,3146,736,2410,23.4
+2010,Computer Engineering,14.09,17,Doctorate,306,47,259,15.4
+2010,Computer Programming,11.02,3,Associate's,2299,577,1722,25.1
+2010,Computer Programming,11.02,5,Bachelor's,934,157,777,16.8
+2010,Computer Programming,11.02,7,Master's,91,24,67,26.4
+2010,Computer Programming,11.02,17,Doctorate,0,0,0,
+2010,Computer Science,11.07,3,Associate's,858,209,649,24.4
+2010,Computer Science,11.07,5,Bachelor's,8342,1069,7273,12.8
+2010,Computer Science,11.07,7,Master's,5203,1220,3983,23.4
+2010,Computer Science,11.07,17,Doctorate,746,132,614,17.7
+2010,Cybersecurity,11.10,3,Associate's,4631,954,3677,20.6
+2010,Cybersecurity,11.10,5,Bachelor's,3070,595,2475,19.4
+2010,Cybersecurity,11.10,7,Master's,870,191,679,22.0
+2010,Cybersecurity,11.10,17,Doctorate,1,1,0,100.0
+2010,Electrical Engineering,14.10,3,Associate's,195,18,177,9.2
+2010,Electrical Engineering,14.10,5,Bachelor's,11798,1346,10452,11.4
+2010,Electrical Engineering,14.10,7,Master's,9315,1740,7575,18.7
+2010,Electrical Engineering,14.10,17,Doctorate,1873,334,1539,17.8
+2010,Engineering (Other),14.01,3,Associate's,1871,256,1615,13.7
+2010,Engineering (Other),14.01,5,Bachelor's,2088,404,1684,19.3
+2010,Engineering (Other),14.01,7,Master's,2132,453,1679,21.2
+2010,Engineering (Other),14.01,17,Doctorate,337,81,256,24.0
+2010,Engineering (Other),14.02,3,Associate's,2,0,2,0.0
+2010,Engineering (Other),14.02,5,Bachelor's,3247,465,2782,14.3
+2010,Engineering (Other),14.02,7,Master's,1187,162,1025,13.6
+2010,Engineering (Other),14.02,17,Doctorate,235,40,195,17.0
+2010,Engineering (Other),14.03,3,Associate's,7,1,6,14.3
+2010,Engineering (Other),14.03,5,Bachelor's,836,209,627,25.0
+2010,Engineering (Other),14.03,7,Master's,241,89,152,36.9
+2010,Engineering (Other),14.03,17,Doctorate,93,27,66,29.0
+2010,Engineering (Other),14.04,3,Associate's,9,3,6,33.3
+2010,Engineering (Other),14.04,5,Bachelor's,799,188,611,23.5
+2010,Engineering (Other),14.04,7,Master's,145,42,103,29.0
+2010,Engineering (Other),14.04,17,Doctorate,6,2,4,33.3
+2010,Engineering (Other),14.05,3,Associate's,11,2,9,18.2
+2010,Engineering (Other),14.05,5,Bachelor's,3854,1435,2419,37.2
+2010,Engineering (Other),14.05,7,Master's,1382,556,826,40.2
+2010,Engineering (Other),14.05,17,Doctorate,749,290,459,38.7
+2010,Engineering (Other),14.06,5,Bachelor's,69,25,44,36.2
+2010,Engineering (Other),14.06,7,Master's,10,1,9,10.0
+2010,Engineering (Other),14.06,17,Doctorate,11,7,4,63.6
+2010,Engineering (Other),14.07,3,Associate's,9,4,5,44.4
+2010,Engineering (Other),14.07,5,Bachelor's,5866,2022,3844,34.5
+2010,Engineering (Other),14.07,7,Master's,1054,351,703,33.3
+2010,Engineering (Other),14.07,17,Doctorate,837,246,591,29.4
+2010,Engineering (Other),14.08,3,Associate's,30,2,28,6.7
+2010,Engineering (Other),14.08,5,Bachelor's,11636,2388,9248,20.5
+2010,Engineering (Other),14.08,7,Master's,4126,1091,3035,26.4
+2010,Engineering (Other),14.08,17,Doctorate,723,188,535,26.0
+2010,Engineering (Other),14.11,3,Associate's,18,3,15,16.7
+2010,Engineering (Other),14.11,5,Bachelor's,80,18,62,22.5
+2010,Engineering (Other),14.11,7,Master's,53,8,45,15.1
+2010,Engineering (Other),14.11,17,Doctorate,26,3,23,11.5
+2010,Engineering (Other),14.12,5,Bachelor's,458,63,395,13.8
+2010,Engineering (Other),14.12,7,Master's,85,11,74,12.9
+2010,Engineering (Other),14.12,17,Doctorate,37,9,28,24.3
+2010,Engineering (Other),14.13,3,Associate's,124,9,115,7.3
+2010,Engineering (Other),14.13,5,Bachelor's,419,96,323,22.9
+2010,Engineering (Other),14.13,7,Master's,307,74,233,24.1
+2010,Engineering (Other),14.13,17,Doctorate,106,24,82,22.6
+2010,Engineering (Other),14.14,3,Associate's,0,0,0,
+2010,Engineering (Other),14.14,5,Bachelor's,662,287,375,43.4
+2010,Engineering (Other),14.14,7,Master's,613,254,359,41.4
+2010,Engineering (Other),14.14,17,Doctorate,122,56,66,45.9
+2010,Engineering (Other),14.18,3,Associate's,0,0,0,
+2010,Engineering (Other),14.18,5,Bachelor's,922,218,704,23.6
+2010,Engineering (Other),14.18,7,Master's,663,182,481,27.5
+2010,Engineering (Other),14.18,17,Doctorate,513,115,398,22.4
+2010,Engineering (Other),14.19,3,Associate's,119,12,107,10.1
+2010,Engineering (Other),14.19,5,Bachelor's,18867,2160,16707,11.4
+2010,Engineering (Other),14.19,7,Master's,4872,689,4183,14.1
+2010,Engineering (Other),14.19,17,Doctorate,999,122,877,12.2
+2010,Engineering (Other),14.20,5,Bachelor's,84,27,57,32.1
+2010,Engineering (Other),14.20,7,Master's,38,9,29,23.7
+2010,Engineering (Other),14.20,17,Doctorate,12,1,11,8.3
+2010,Engineering (Other),14.21,3,Associate's,0,0,0,
+2010,Engineering (Other),14.21,5,Bachelor's,197,17,180,8.6
+2010,Engineering (Other),14.21,7,Master's,29,3,26,10.3
+2010,Engineering (Other),14.21,17,Doctorate,4,0,4,0.0
+2010,Engineering (Other),14.22,5,Bachelor's,341,37,304,10.9
+2010,Engineering (Other),14.22,7,Master's,31,6,25,19.4
+2010,Engineering (Other),14.22,17,Doctorate,8,1,7,12.5
+2010,Engineering (Other),14.23,5,Bachelor's,410,70,340,17.1
+2010,Engineering (Other),14.23,7,Master's,276,43,233,15.6
+2010,Engineering (Other),14.23,17,Doctorate,111,22,89,19.8
+2010,Engineering (Other),14.24,5,Bachelor's,193,32,161,16.6
+2010,Engineering (Other),14.24,7,Master's,88,19,69,21.6
+2010,Engineering (Other),14.24,17,Doctorate,13,0,13,0.0
+2010,Engineering (Other),14.25,5,Bachelor's,779,120,659,15.4
+2010,Engineering (Other),14.25,7,Master's,289,56,233,19.4
+2010,Engineering (Other),14.25,17,Doctorate,37,7,30,18.9
+2010,Engineering (Other),14.27,3,Associate's,1,0,1,0.0
+2010,Engineering (Other),14.27,5,Bachelor's,640,153,487,23.9
+2010,Engineering (Other),14.27,7,Master's,1561,335,1226,21.5
+2010,Engineering (Other),14.27,17,Doctorate,92,18,74,19.6
+2010,Engineering (Other),14.28,5,Bachelor's,219,149,70,68.0
+2010,Engineering (Other),14.28,7,Master's,43,23,20,53.5
+2010,Engineering (Other),14.28,17,Doctorate,32,18,14,56.2
+2010,Engineering (Other),14.32,5,Bachelor's,75,15,60,20.0
+2010,Engineering (Other),14.32,7,Master's,90,28,62,31.1
+2010,Engineering (Other),14.32,17,Doctorate,56,17,39,30.4
+2010,Engineering (Other),14.33,3,Associate's,9,2,7,22.2
+2010,Engineering (Other),14.33,5,Bachelor's,433,51,382,11.8
+2010,Engineering (Other),14.33,7,Master's,88,23,65,26.1
+2010,Engineering (Other),14.34,5,Bachelor's,34,5,29,14.7
+2010,Engineering (Other),14.34,7,Master's,3,0,3,0.0
+2010,Engineering (Other),14.34,17,Doctorate,2,0,2,0.0
+2010,Engineering (Other),14.35,3,Associate's,44,8,36,18.2
+2010,Engineering (Other),14.35,5,Bachelor's,3178,973,2205,30.6
+2010,Engineering (Other),14.35,7,Master's,1891,488,1403,25.8
+2010,Engineering (Other),14.35,17,Doctorate,240,61,179,25.4
+2010,Engineering (Other),14.36,3,Associate's,27,1,26,3.7
+2010,Engineering (Other),14.36,5,Bachelor's,294,30,264,10.2
+2010,Engineering (Other),14.36,7,Master's,354,68,286,19.2
+2010,Engineering (Other),14.36,17,Doctorate,11,2,9,18.2
+2010,Engineering (Other),14.37,3,Associate's,7,2,5,28.6
+2010,Engineering (Other),14.37,5,Bachelor's,398,116,282,29.1
+2010,Engineering (Other),14.37,7,Master's,536,148,388,27.6
+2010,Engineering (Other),14.37,17,Doctorate,60,13,47,21.7
+2010,Engineering (Other),14.38,3,Associate's,20,3,17,15.0
+2010,Engineering (Other),14.38,5,Bachelor's,49,2,47,4.1
+2010,Engineering (Other),14.38,7,Master's,14,6,8,42.9
+2010,Engineering (Other),14.38,17,Doctorate,2,1,1,50.0
+2010,Engineering (Other),14.39,5,Bachelor's,133,45,88,33.8
+2010,Engineering (Other),14.39,7,Master's,77,19,58,24.7
+2010,Engineering (Other),14.39,17,Doctorate,3,1,2,33.3
+2010,Engineering (Other),14.40,5,Bachelor's,10,3,7,30.0
+2010,Engineering (Other),14.40,7,Master's,10,1,9,10.0
+2010,Engineering (Other),14.40,17,Doctorate,2,0,2,0.0
+2010,Engineering (Other),14.41,5,Bachelor's,29,5,24,17.2
+2010,Engineering (Other),14.42,3,Associate's,0,0,0,
+2010,Engineering (Other),14.42,7,Master's,31,3,28,9.7
+2010,Engineering (Other),14.42,17,Doctorate,14,2,12,14.3
+2010,Engineering (Other),14.43,5,Bachelor's,22,10,12,45.5
+2010,Engineering (Other),14.45,5,Bachelor's,73,30,43,41.1
+2010,Engineering (Other),14.45,7,Master's,6,3,3,50.0
+2010,Engineering (Other),14.99,3,Associate's,45,8,37,17.8
+2010,Engineering (Other),14.99,5,Bachelor's,664,128,536,19.3
+2010,Engineering (Other),14.99,7,Master's,1300,263,1037,20.2
+2010,Engineering (Other),14.99,17,Doctorate,71,20,51,28.2
+2010,IT & General Computing,11.01,3,Associate's,7668,2021,5647,26.4
+2010,IT & General Computing,11.01,5,Bachelor's,16519,2976,13543,18.0
+2010,IT & General Computing,11.01,7,Master's,6453,1734,4719,26.9
+2010,IT & General Computing,11.01,17,Doctorate,649,130,519,20.0
+2010,Information & Data Science,11.04,3,Associate's,2165,498,1667,23.0
+2010,Information & Data Science,11.04,5,Bachelor's,5383,1295,4088,24.1
+2010,Information & Data Science,11.04,7,Master's,3587,1297,2290,36.2
+2010,Information & Data Science,11.04,17,Doctorate,122,59,63,48.4
+2010,Networking & Systems,11.09,3,Associate's,9241,1452,7789,15.7
+2010,Networking & Systems,11.09,5,Bachelor's,1282,155,1127,12.1
+2010,Networking & Systems,11.09,7,Master's,718,153,565,21.3
+2010,Networking & Systems,11.09,17,Doctorate,4,0,4,0.0
+2010,Other Computing,11.03,3,Associate's,850,287,563,33.8
+2010,Other Computing,11.03,5,Bachelor's,104,21,83,20.2
+2010,Other Computing,11.03,7,Master's,6,2,4,33.3
+2010,Other Computing,11.05,3,Associate's,432,123,309,28.5
+2010,Other Computing,11.05,5,Bachelor's,1051,210,841,20.0
+2010,Other Computing,11.05,7,Master's,186,48,138,25.8
+2010,Other Computing,11.05,17,Doctorate,4,0,4,0.0
+2010,Other Computing,11.06,3,Associate's,218,118,100,54.1
+2010,Other Computing,11.06,5,Bachelor's,1,1,0,100.0
+2010,Other Computing,11.99,3,Associate's,1143,260,883,22.7
+2010,Other Computing,11.99,5,Bachelor's,676,110,566,16.3
+2010,Other Computing,11.99,7,Master's,534,140,394,26.2
+2010,Other Computing,11.99,17,Doctorate,42,15,27,35.7
+2010,Software & Media Applications,11.08,3,Associate's,4473,1644,2829,36.8
+2010,Software & Media Applications,11.08,5,Bachelor's,3600,905,2695,25.1
+2010,Software & Media Applications,11.08,7,Master's,532,168,364,31.6
+2010,Software & Media Applications,11.08,17,Doctorate,0,0,0,
+2013,Computer Engineering,14.09,3,Associate's,45,14,31,31.1
+2013,Computer Engineering,14.09,5,Bachelor's,5328,517,4811,9.7
+2013,Computer Engineering,14.09,7,Master's,3273,739,2534,22.6
+2013,Computer Engineering,14.09,17,Doctorate,353,51,302,14.4
+2013,Computer Programming,11.02,3,Associate's,3547,662,2885,18.7
+2013,Computer Programming,11.02,5,Bachelor's,1706,218,1488,12.8
+2013,Computer Programming,11.02,7,Master's,105,18,87,17.1
+2013,Computer Programming,11.02,17,Doctorate,5,0,5,0.0
+2013,Computer Science,11.07,3,Associate's,1009,136,873,13.5
+2013,Computer Science,11.07,5,Bachelor's,11623,1542,10081,13.3
+2013,Computer Science,11.07,7,Master's,6525,1516,5009,23.2
+2013,Computer Science,11.07,17,Doctorate,865,134,731,15.5
+2013,Cybersecurity,11.10,3,Associate's,7695,1639,6056,21.3
+2013,Cybersecurity,11.10,5,Bachelor's,6612,1116,5496,16.9
+2013,Cybersecurity,11.10,7,Master's,2010,454,1556,22.6
+2013,Cybersecurity,11.10,17,Doctorate,22,4,18,18.2
+2013,Electrical Engineering,14.10,3,Associate's,142,12,130,8.5
+2013,Electrical Engineering,14.10,5,Bachelor's,13243,1568,11675,11.8
+2013,Electrical Engineering,14.10,7,Master's,9639,1858,7781,19.3
+2013,Electrical Engineering,14.10,17,Doctorate,2132,314,1818,14.7
+2013,Engineering (Other),14.01,3,Associate's,2855,397,2458,13.9
+2013,Engineering (Other),14.01,5,Bachelor's,2237,503,1734,22.5
+2013,Engineering (Other),14.01,7,Master's,2037,479,1558,23.5
+2013,Engineering (Other),14.01,17,Doctorate,393,86,307,21.9
+2013,Engineering (Other),14.02,3,Associate's,1,0,1,0.0
+2013,Engineering (Other),14.02,5,Bachelor's,3571,494,3077,13.8
+2013,Engineering (Other),14.02,7,Master's,1335,199,1136,14.9
+2013,Engineering (Other),14.02,17,Doctorate,321,49,272,15.3
+2013,Engineering (Other),14.03,3,Associate's,3,2,1,66.7
+2013,Engineering (Other),14.03,5,Bachelor's,962,300,662,31.2
+2013,Engineering (Other),14.03,7,Master's,310,134,176,43.2
+2013,Engineering (Other),14.03,17,Doctorate,135,43,92,31.9
+2013,Engineering (Other),14.04,3,Associate's,14,4,10,28.6
+2013,Engineering (Other),14.04,5,Bachelor's,770,192,578,24.9
+2013,Engineering (Other),14.04,7,Master's,142,41,101,28.9
+2013,Engineering (Other),14.04,17,Doctorate,8,3,5,37.5
+2013,Engineering (Other),14.05,3,Associate's,22,1,21,4.5
+2013,Engineering (Other),14.05,5,Bachelor's,4931,1926,3005,39.1
+2013,Engineering (Other),14.05,7,Master's,1944,799,1145,41.1
+2013,Engineering (Other),14.05,17,Doctorate,963,341,622,35.4
+2013,Engineering (Other),14.06,5,Bachelor's,79,28,51,35.4
+2013,Engineering (Other),14.06,7,Master's,15,4,11,26.7
+2013,Engineering (Other),14.06,17,Doctorate,10,2,8,20.0
+2013,Engineering (Other),14.07,3,Associate's,21,7,14,33.3
+2013,Engineering (Other),14.07,5,Bachelor's,7691,2480,5211,32.2
+2013,Engineering (Other),14.07,7,Master's,1453,517,936,35.6
+2013,Engineering (Other),14.07,17,Doctorate,840,262,578,31.2
+2013,Engineering (Other),14.08,3,Associate's,80,15,65,18.8
+2013,Engineering (Other),14.08,5,Bachelor's,13533,2900,10633,21.4
+2013,Engineering (Other),14.08,7,Master's,5406,1523,3883,28.2
+2013,Engineering (Other),14.08,17,Doctorate,869,217,652,25.0
+2013,Engineering (Other),14.11,3,Associate's,13,2,11,15.4
+2013,Engineering (Other),14.11,5,Bachelor's,94,11,83,11.7
+2013,Engineering (Other),14.11,7,Master's,87,11,76,12.6
+2013,Engineering (Other),14.11,17,Doctorate,63,12,51,19.0
+2013,Engineering (Other),14.12,3,Associate's,5,1,4,20.0
+2013,Engineering (Other),14.12,5,Bachelor's,466,76,390,16.3
+2013,Engineering (Other),14.12,7,Master's,120,16,104,13.3
+2013,Engineering (Other),14.12,17,Doctorate,74,16,58,21.6
+2013,Engineering (Other),14.13,3,Associate's,210,17,193,8.1
+2013,Engineering (Other),14.13,5,Bachelor's,449,116,333,25.8
+2013,Engineering (Other),14.13,7,Master's,306,72,234,23.5
+2013,Engineering (Other),14.13,17,Doctorate,121,32,89,26.4
+2013,Engineering (Other),14.14,3,Associate's,24,7,17,29.2
+2013,Engineering (Other),14.14,5,Bachelor's,1213,542,671,44.7
+2013,Engineering (Other),14.14,7,Master's,828,392,436,47.3
+2013,Engineering (Other),14.14,17,Doctorate,158,78,80,49.4
+2013,Engineering (Other),14.18,3,Associate's,2,0,2,0.0
+2013,Engineering (Other),14.18,5,Bachelor's,1129,334,795,29.6
+2013,Engineering (Other),14.18,7,Master's,868,264,604,30.4
+2013,Engineering (Other),14.18,17,Doctorate,600,153,447,25.5
+2013,Engineering (Other),14.19,3,Associate's,171,18,153,10.5
+2013,Engineering (Other),14.19,5,Bachelor's,22388,2703,19685,12.1
+2013,Engineering (Other),14.19,7,Master's,5937,828,5109,13.9
+2013,Engineering (Other),14.19,17,Doctorate,1325,201,1124,15.2
+2013,Engineering (Other),14.20,5,Bachelor's,108,25,83,23.1
+2013,Engineering (Other),14.20,7,Master's,38,6,32,15.8
+2013,Engineering (Other),14.20,17,Doctorate,19,5,14,26.3
+2013,Engineering (Other),14.21,3,Associate's,0,0,0,
+2013,Engineering (Other),14.21,5,Bachelor's,239,30,209,12.6
+2013,Engineering (Other),14.21,7,Master's,66,14,52,21.2
+2013,Engineering (Other),14.21,17,Doctorate,19,2,17,10.5
+2013,Engineering (Other),14.22,3,Associate's,3,1,2,33.3
+2013,Engineering (Other),14.22,5,Bachelor's,412,50,362,12.1
+2013,Engineering (Other),14.22,7,Master's,43,6,37,14.0
+2013,Engineering (Other),14.22,17,Doctorate,7,3,4,42.9
+2013,Engineering (Other),14.23,5,Bachelor's,595,91,504,15.3
+2013,Engineering (Other),14.23,7,Master's,372,50,322,13.4
+2013,Engineering (Other),14.23,17,Doctorate,120,21,99,17.5
+2013,Engineering (Other),14.24,5,Bachelor's,201,37,164,18.4
+2013,Engineering (Other),14.24,7,Master's,91,20,71,22.0
+2013,Engineering (Other),14.24,17,Doctorate,14,4,10,28.6
+2013,Engineering (Other),14.25,3,Associate's,1,1,0,100.0
+2013,Engineering (Other),14.25,5,Bachelor's,1130,155,975,13.7
+2013,Engineering (Other),14.25,7,Master's,395,70,325,17.7
+2013,Engineering (Other),14.25,17,Doctorate,96,16,80,16.7
+2013,Engineering (Other),14.27,3,Associate's,0,0,0,
+2013,Engineering (Other),14.27,5,Bachelor's,737,147,590,19.9
+2013,Engineering (Other),14.27,7,Master's,2213,488,1725,22.1
+2013,Engineering (Other),14.27,17,Doctorate,119,33,86,27.7
+2013,Engineering (Other),14.28,5,Bachelor's,228,159,69,69.7
+2013,Engineering (Other),14.28,7,Master's,46,30,16,65.2
+2013,Engineering (Other),14.28,17,Doctorate,33,16,17,48.5
+2013,Engineering (Other),14.32,5,Bachelor's,112,24,88,21.4
+2013,Engineering (Other),14.32,7,Master's,84,26,58,31.0
+2013,Engineering (Other),14.32,17,Doctorate,66,21,45,31.8
+2013,Engineering (Other),14.33,3,Associate's,3,0,3,0.0
+2013,Engineering (Other),14.33,5,Bachelor's,413,35,378,8.5
+2013,Engineering (Other),14.33,7,Master's,118,28,90,23.7
+2013,Engineering (Other),14.33,17,Doctorate,1,0,1,0.0
+2013,Engineering (Other),14.34,5,Bachelor's,21,1,20,4.8
+2013,Engineering (Other),14.34,7,Master's,4,1,3,25.0
+2013,Engineering (Other),14.34,17,Doctorate,2,0,2,0.0
+2013,Engineering (Other),14.35,3,Associate's,42,7,35,16.7
+2013,Engineering (Other),14.35,5,Bachelor's,3747,1115,2632,29.8
+2013,Engineering (Other),14.35,7,Master's,2027,596,1431,29.4
+2013,Engineering (Other),14.35,17,Doctorate,313,88,225,28.1
+2013,Engineering (Other),14.36,3,Associate's,3,0,3,0.0
+2013,Engineering (Other),14.36,5,Bachelor's,274,40,234,14.6
+2013,Engineering (Other),14.36,7,Master's,328,70,258,21.3
+2013,Engineering (Other),14.36,17,Doctorate,7,1,6,14.3
+2013,Engineering (Other),14.37,3,Associate's,8,3,5,37.5
+2013,Engineering (Other),14.37,5,Bachelor's,429,139,290,32.4
+2013,Engineering (Other),14.37,7,Master's,748,229,519,30.6
+2013,Engineering (Other),14.37,17,Doctorate,70,16,54,22.9
+2013,Engineering (Other),14.38,3,Associate's,15,3,12,20.0
+2013,Engineering (Other),14.38,5,Bachelor's,44,6,38,13.6
+2013,Engineering (Other),14.38,7,Master's,6,0,6,0.0
+2013,Engineering (Other),14.38,17,Doctorate,0,0,0,
+2013,Engineering (Other),14.39,3,Associate's,0,0,0,
+2013,Engineering (Other),14.39,5,Bachelor's,169,65,104,38.5
+2013,Engineering (Other),14.39,7,Master's,142,34,108,23.9
+2013,Engineering (Other),14.39,17,Doctorate,16,7,9,43.8
+2013,Engineering (Other),14.40,5,Bachelor's,20,2,18,10.0
+2013,Engineering (Other),14.40,7,Master's,4,1,3,25.0
+2013,Engineering (Other),14.40,17,Doctorate,6,3,3,50.0
+2013,Engineering (Other),14.41,5,Bachelor's,43,6,37,14.0
+2013,Engineering (Other),14.42,3,Associate's,18,1,17,5.6
+2013,Engineering (Other),14.42,5,Bachelor's,26,3,23,11.5
+2013,Engineering (Other),14.42,7,Master's,61,9,52,14.8
+2013,Engineering (Other),14.42,17,Doctorate,12,0,12,0.0
+2013,Engineering (Other),14.43,5,Bachelor's,54,20,34,37.0
+2013,Engineering (Other),14.43,7,Master's,4,3,1,75.0
+2013,Engineering (Other),14.44,5,Bachelor's,5,2,3,40.0
+2013,Engineering (Other),14.45,5,Bachelor's,170,61,109,35.9
+2013,Engineering (Other),14.45,7,Master's,14,5,9,35.7
+2013,Engineering (Other),14.45,17,Doctorate,9,4,5,44.4
+2013,Engineering (Other),14.99,3,Associate's,76,8,68,10.5
+2013,Engineering (Other),14.99,5,Bachelor's,668,133,535,19.9
+2013,Engineering (Other),14.99,7,Master's,1107,255,852,23.0
+2013,Engineering (Other),14.99,17,Doctorate,123,40,83,32.5
+2013,IT & General Computing,11.01,3,Associate's,8827,2038,6789,23.1
+2013,IT & General Computing,11.01,5,Bachelor's,19134,3423,15711,17.9
+2013,IT & General Computing,11.01,7,Master's,8151,2171,5980,26.6
+2013,IT & General Computing,11.01,17,Doctorate,722,135,587,18.7
+2013,Information & Data Science,11.04,3,Associate's,1045,252,793,24.1
+2013,Information & Data Science,11.04,5,Bachelor's,6041,1319,4722,21.8
+2013,Information & Data Science,11.04,7,Master's,4158,1489,2669,35.8
+2013,Information & Data Science,11.04,17,Doctorate,149,55,94,36.9
+2013,Networking & Systems,11.09,3,Associate's,11094,1524,9570,13.7
+2013,Networking & Systems,11.09,5,Bachelor's,1833,182,1651,9.9
+2013,Networking & Systems,11.09,7,Master's,738,173,565,23.4
+2013,Networking & Systems,11.09,17,Doctorate,5,1,4,20.0
+2013,Other Computing,11.03,3,Associate's,967,255,712,26.4
+2013,Other Computing,11.03,5,Bachelor's,81,11,70,13.6
+2013,Other Computing,11.05,3,Associate's,212,28,184,13.2
+2013,Other Computing,11.05,5,Bachelor's,1542,331,1211,21.5
+2013,Other Computing,11.05,7,Master's,298,86,212,28.9
+2013,Other Computing,11.06,3,Associate's,238,106,132,44.5
+2013,Other Computing,11.99,3,Associate's,1026,193,833,18.8
+2013,Other Computing,11.99,5,Bachelor's,478,92,386,19.2
+2013,Other Computing,11.99,7,Master's,417,126,291,30.2
+2013,Other Computing,11.99,17,Doctorate,50,22,28,44.0
+2013,Software & Media Applications,11.08,3,Associate's,3591,1529,2062,42.6
+2013,Software & Media Applications,11.08,5,Bachelor's,3894,1313,2581,33.7
+2013,Software & Media Applications,11.08,7,Master's,696,292,404,42.0
+2013,Software & Media Applications,11.08,17,Doctorate,5,0,5,0.0
+2016,Computer Engineering,14.09,3,Associate's,63,3,60,4.8
+2016,Computer Engineering,14.09,5,Bachelor's,7531,883,6648,11.7
+2016,Computer Engineering,14.09,7,Master's,5316,1545,3771,29.1
+2016,Computer Engineering,14.09,17,Doctorate,373,56,317,15.0
+2016,Computer Programming,11.02,3,Associate's,3475,658,2817,18.9
+2016,Computer Programming,11.02,5,Bachelor's,1678,213,1465,12.7
+2016,Computer Programming,11.02,7,Master's,118,23,95,19.5
+2016,Computer Programming,11.02,17,Doctorate,8,3,5,37.5
+2016,Computer Science,11.07,3,Associate's,1694,250,1444,14.8
+2016,Computer Science,11.07,5,Bachelor's,19902,3396,16506,17.1
+2016,Computer Science,11.07,7,Master's,12489,3455,9034,27.7
+2016,Computer Science,11.07,17,Doctorate,924,158,766,17.1
+2016,Cybersecurity,11.10,3,Associate's,5898,1143,4755,19.4
+2016,Cybersecurity,11.10,5,Bachelor's,5252,852,4400,16.2
+2016,Cybersecurity,11.10,7,Master's,3295,881,2414,26.7
+2016,Cybersecurity,11.10,17,Doctorate,25,6,19,24.0
+2016,Electrical Engineering,14.10,3,Associate's,293,25,268,8.5
+2016,Electrical Engineering,14.10,5,Bachelor's,16174,2094,14080,12.9
+2016,Electrical Engineering,14.10,7,Master's,13915,3197,10718,23.0
+2016,Electrical Engineering,14.10,17,Doctorate,2251,360,1891,16.0
+2016,Engineering (Other),14.01,3,Associate's,3915,606,3309,15.5
+2016,Engineering (Other),14.01,5,Bachelor's,2337,498,1839,21.3
+2016,Engineering (Other),14.01,7,Master's,2547,626,1921,24.6
+2016,Engineering (Other),14.01,17,Doctorate,398,80,318,20.1
+2016,Engineering (Other),14.02,3,Associate's,0,0,0,
+2016,Engineering (Other),14.02,5,Bachelor's,3970,567,3403,14.3
+2016,Engineering (Other),14.02,7,Master's,1527,252,1275,16.5
+2016,Engineering (Other),14.02,17,Doctorate,344,50,294,14.5
+2016,Engineering (Other),14.03,3,Associate's,13,2,11,15.4
+2016,Engineering (Other),14.03,5,Bachelor's,1112,376,736,33.8
+2016,Engineering (Other),14.03,7,Master's,307,131,176,42.7
+2016,Engineering (Other),14.03,17,Doctorate,125,48,77,38.4
+2016,Engineering (Other),14.04,3,Associate's,0,0,0,
+2016,Engineering (Other),14.04,5,Bachelor's,661,214,447,32.4
+2016,Engineering (Other),14.04,7,Master's,167,66,101,39.5
+2016,Engineering (Other),14.04,17,Doctorate,15,3,12,20.0
+2016,Engineering (Other),14.05,3,Associate's,28,6,22,21.4
+2016,Engineering (Other),14.05,5,Bachelor's,6607,2780,3827,42.1
+2016,Engineering (Other),14.05,7,Master's,2360,1000,1360,42.4
+2016,Engineering (Other),14.05,17,Doctorate,1045,396,649,37.9
+2016,Engineering (Other),14.06,5,Bachelor's,84,24,60,28.6
+2016,Engineering (Other),14.06,7,Master's,22,5,17,22.7
+2016,Engineering (Other),14.06,17,Doctorate,8,1,7,12.5
+2016,Engineering (Other),14.07,3,Associate's,38,10,28,26.3
+2016,Engineering (Other),14.07,5,Bachelor's,10063,3324,6739,33.0
+2016,Engineering (Other),14.07,7,Master's,1701,566,1135,33.3
+2016,Engineering (Other),14.07,17,Doctorate,1012,325,687,32.1
+2016,Engineering (Other),14.08,3,Associate's,117,22,95,18.8
+2016,Engineering (Other),14.08,5,Bachelor's,13493,3274,10219,24.3
+2016,Engineering (Other),14.08,7,Master's,5670,1627,4043,28.7
+2016,Engineering (Other),14.08,17,Doctorate,1010,241,769,23.9
+2016,Engineering (Other),14.11,3,Associate's,6,1,5,16.7
+2016,Engineering (Other),14.11,5,Bachelor's,86,14,72,16.3
+2016,Engineering (Other),14.11,7,Master's,81,13,68,16.0
+2016,Engineering (Other),14.11,17,Doctorate,71,13,58,18.3
+2016,Engineering (Other),14.12,3,Associate's,11,1,10,9.1
+2016,Engineering (Other),14.12,5,Bachelor's,601,96,505,16.0
+2016,Engineering (Other),14.12,7,Master's,131,26,105,19.8
+2016,Engineering (Other),14.12,17,Doctorate,72,18,54,25.0
+2016,Engineering (Other),14.13,3,Associate's,351,46,305,13.1
+2016,Engineering (Other),14.13,5,Bachelor's,514,183,331,35.6
+2016,Engineering (Other),14.13,7,Master's,355,66,289,18.6
+2016,Engineering (Other),14.13,17,Doctorate,109,27,82,24.8
+2016,Engineering (Other),14.14,3,Associate's,9,4,5,44.4
+2016,Engineering (Other),14.14,5,Bachelor's,1463,664,799,45.4
+2016,Engineering (Other),14.14,7,Master's,870,391,479,44.9
+2016,Engineering (Other),14.14,17,Doctorate,141,70,71,49.6
+2016,Engineering (Other),14.18,3,Associate's,11,1,10,9.1
+2016,Engineering (Other),14.18,5,Bachelor's,1446,402,1044,27.8
+2016,Engineering (Other),14.18,7,Master's,1000,307,693,30.7
+2016,Engineering (Other),14.18,17,Doctorate,670,170,500,25.4
+2016,Engineering (Other),14.19,3,Associate's,301,35,266,11.6
+2016,Engineering (Other),14.19,5,Bachelor's,29765,4042,25723,13.6
+2016,Engineering (Other),14.19,7,Master's,7616,1119,6497,14.7
+2016,Engineering (Other),14.19,17,Doctorate,1463,228,1235,15.6
+2016,Engineering (Other),14.20,5,Bachelor's,168,40,128,23.8
+2016,Engineering (Other),14.20,7,Master's,46,7,39,15.2
+2016,Engineering (Other),14.20,17,Doctorate,15,2,13,13.3
+2016,Engineering (Other),14.21,5,Bachelor's,336,48,288,14.3
+2016,Engineering (Other),14.21,7,Master's,103,21,82,20.4
+2016,Engineering (Other),14.21,17,Doctorate,24,5,19,20.8
+2016,Engineering (Other),14.22,3,Associate's,0,0,0,
+2016,Engineering (Other),14.22,5,Bachelor's,425,40,385,9.4
+2016,Engineering (Other),14.22,7,Master's,51,9,42,17.6
+2016,Engineering (Other),14.22,17,Doctorate,7,0,7,0.0
+2016,Engineering (Other),14.23,5,Bachelor's,513,86,427,16.8
+2016,Engineering (Other),14.23,7,Master's,322,48,274,14.9
+2016,Engineering (Other),14.23,17,Doctorate,144,25,119,17.4
+2016,Engineering (Other),14.24,5,Bachelor's,190,46,144,24.2
+2016,Engineering (Other),14.24,7,Master's,82,17,65,20.7
+2016,Engineering (Other),14.24,17,Doctorate,17,5,12,29.4
+2016,Engineering (Other),14.25,5,Bachelor's,1984,317,1667,16.0
+2016,Engineering (Other),14.25,7,Master's,514,109,405,21.2
+2016,Engineering (Other),14.25,17,Doctorate,105,21,84,20.0
+2016,Engineering (Other),14.27,5,Bachelor's,924,211,713,22.8
+2016,Engineering (Other),14.27,7,Master's,2145,511,1634,23.8
+2016,Engineering (Other),14.27,17,Doctorate,128,35,93,27.3
+2016,Engineering (Other),14.28,5,Bachelor's,271,209,62,77.1
+2016,Engineering (Other),14.28,7,Master's,54,36,18,66.7
+2016,Engineering (Other),14.28,17,Doctorate,36,20,16,55.6
+2016,Engineering (Other),14.32,5,Bachelor's,109,30,79,27.5
+2016,Engineering (Other),14.32,7,Master's,91,23,68,25.3
+2016,Engineering (Other),14.32,17,Doctorate,65,17,48,26.2
+2016,Engineering (Other),14.33,3,Associate's,0,0,0,
+2016,Engineering (Other),14.33,5,Bachelor's,487,78,409,16.0
+2016,Engineering (Other),14.33,7,Master's,225,43,182,19.1
+2016,Engineering (Other),14.33,17,Doctorate,1,0,1,0.0
+2016,Engineering (Other),14.34,5,Bachelor's,28,6,22,21.4
+2016,Engineering (Other),14.34,7,Master's,1,0,1,0.0
+2016,Engineering (Other),14.34,17,Doctorate,1,0,1,0.0
+2016,Engineering (Other),14.35,3,Associate's,37,2,35,5.4
+2016,Engineering (Other),14.35,5,Bachelor's,5063,1625,3438,32.1
+2016,Engineering (Other),14.35,7,Master's,2842,744,2098,26.2
+2016,Engineering (Other),14.35,17,Doctorate,315,97,218,30.8
+2016,Engineering (Other),14.36,3,Associate's,7,0,7,0.0
+2016,Engineering (Other),14.36,5,Bachelor's,437,55,382,12.6
+2016,Engineering (Other),14.36,7,Master's,344,63,281,18.3
+2016,Engineering (Other),14.36,17,Doctorate,2,1,1,50.0
+2016,Engineering (Other),14.37,3,Associate's,7,4,3,57.1
+2016,Engineering (Other),14.37,5,Bachelor's,405,162,243,40.0
+2016,Engineering (Other),14.37,7,Master's,862,287,575,33.3
+2016,Engineering (Other),14.37,17,Doctorate,70,20,50,28.6
+2016,Engineering (Other),14.38,3,Associate's,8,0,8,0.0
+2016,Engineering (Other),14.38,5,Bachelor's,30,4,26,13.3
+2016,Engineering (Other),14.38,7,Master's,8,3,5,37.5
+2016,Engineering (Other),14.38,17,Doctorate,9,2,7,22.2
+2016,Engineering (Other),14.39,5,Bachelor's,287,104,183,36.2
+2016,Engineering (Other),14.39,7,Master's,164,32,132,19.5
+2016,Engineering (Other),14.39,17,Doctorate,21,6,15,28.6
+2016,Engineering (Other),14.40,3,Associate's,9,1,8,11.1
+2016,Engineering (Other),14.40,5,Bachelor's,13,4,9,30.8
+2016,Engineering (Other),14.40,7,Master's,5,0,5,0.0
+2016,Engineering (Other),14.40,17,Doctorate,4,1,3,25.0
+2016,Engineering (Other),14.41,5,Bachelor's,28,2,26,7.1
+2016,Engineering (Other),14.41,17,Doctorate,1,1,0,100.0
+2016,Engineering (Other),14.42,3,Associate's,53,4,49,7.5
+2016,Engineering (Other),14.42,5,Bachelor's,116,19,97,16.4
+2016,Engineering (Other),14.42,7,Master's,161,24,137,14.9
+2016,Engineering (Other),14.42,17,Doctorate,14,2,12,14.3
+2016,Engineering (Other),14.43,5,Bachelor's,79,33,46,41.8
+2016,Engineering (Other),14.43,7,Master's,19,6,13,31.6
+2016,Engineering (Other),14.44,5,Bachelor's,1,0,1,0.0
+2016,Engineering (Other),14.45,5,Bachelor's,284,109,175,38.4
+2016,Engineering (Other),14.45,7,Master's,22,8,14,36.4
+2016,Engineering (Other),14.45,17,Doctorate,21,8,13,38.1
+2016,Engineering (Other),14.99,3,Associate's,26,5,21,19.2
+2016,Engineering (Other),14.99,5,Bachelor's,930,212,718,22.8
+2016,Engineering (Other),14.99,7,Master's,1158,279,879,24.1
+2016,Engineering (Other),14.99,17,Doctorate,158,39,119,24.7
+2016,IT & General Computing,11.01,3,Associate's,9518,1972,7546,20.7
+2016,IT & General Computing,11.01,5,Bachelor's,26563,4850,21713,18.3
+2016,IT & General Computing,11.01,7,Master's,15126,4786,10340,31.6
+2016,IT & General Computing,11.01,17,Doctorate,785,153,632,19.5
+2016,Information & Data Science,11.04,3,Associate's,937,198,739,21.1
+2016,Information & Data Science,11.04,5,Bachelor's,6982,1692,5290,24.2
+2016,Information & Data Science,11.04,7,Master's,6338,2283,4055,36.0
+2016,Information & Data Science,11.04,17,Doctorate,159,57,102,35.8
+2016,Networking & Systems,11.09,3,Associate's,4847,639,4208,13.2
+2016,Networking & Systems,11.09,5,Bachelor's,1923,222,1701,11.5
+2016,Networking & Systems,11.09,7,Master's,832,200,632,24.0
+2016,Networking & Systems,11.09,17,Doctorate,3,0,3,0.0
+2016,Other Computing,11.03,3,Associate's,999,240,759,24.0
+2016,Other Computing,11.03,5,Bachelor's,68,11,57,16.2
+2016,Other Computing,11.05,3,Associate's,154,22,132,14.3
+2016,Other Computing,11.05,5,Bachelor's,1420,347,1073,24.4
+2016,Other Computing,11.05,7,Master's,815,249,566,30.6
+2016,Other Computing,11.05,17,Doctorate,3,1,2,33.3
+2016,Other Computing,11.06,3,Associate's,234,100,134,42.7
+2016,Other Computing,11.99,3,Associate's,367,59,308,16.1
+2016,Other Computing,11.99,5,Bachelor's,342,79,263,23.1
+2016,Other Computing,11.99,7,Master's,364,130,234,35.7
+2016,Other Computing,11.99,17,Doctorate,33,11,22,33.3
+2016,Software & Media Applications,11.08,3,Associate's,2805,1235,1570,44.0
+2016,Software & Media Applications,11.08,5,Bachelor's,3251,1185,2066,36.5
+2016,Software & Media Applications,11.08,7,Master's,1106,420,686,38.0
+2016,Software & Media Applications,11.08,17,Doctorate,1,0,1,0.0
+2019,Computer Engineering,14.09,3,Associate's,104,23,81,22.1
+2019,Computer Engineering,14.09,5,Bachelor's,10704,1428,9276,13.3
+2019,Computer Engineering,14.09,7,Master's,4523,1264,3259,27.9
+2019,Computer Engineering,14.09,17,Doctorate,363,54,309,14.9
+2019,Computer Programming,11.02,3,Associate's,3787,765,3022,20.2
+2019,Computer Programming,11.02,5,Bachelor's,1560,232,1328,14.9
+2019,Computer Programming,11.02,7,Master's,145,44,101,30.3
+2019,Computer Science,11.07,3,Associate's,2944,501,2443,17.0
+2019,Computer Science,11.07,5,Bachelor's,31737,6299,25438,19.8
+2019,Computer Science,11.07,7,Master's,11600,3260,8340,28.1
+2019,Computer Science,11.07,17,Doctorate,1129,225,904,19.9
+2019,Cybersecurity,11.10,3,Associate's,6744,1159,5585,17.2
+2019,Cybersecurity,11.10,5,Bachelor's,7229,1237,5992,17.1
+2019,Cybersecurity,11.10,7,Master's,7824,2070,5754,26.5
+2019,Cybersecurity,11.10,17,Doctorate,62,12,50,19.4
+2019,Electrical Engineering,14.10,3,Associate's,297,52,245,17.5
+2019,Electrical Engineering,14.10,5,Bachelor's,17946,2634,15312,14.7
+2019,Electrical Engineering,14.10,7,Master's,10493,2439,8054,23.2
+2019,Electrical Engineering,14.10,17,Doctorate,2305,392,1913,17.0
+2019,Engineering (Other),14.01,3,Associate's,4685,764,3921,16.3
+2019,Engineering (Other),14.01,5,Bachelor's,2900,690,2210,23.8
+2019,Engineering (Other),14.01,7,Master's,2939,671,2268,22.8
+2019,Engineering (Other),14.01,17,Doctorate,427,104,323,24.4
+2019,Engineering (Other),14.02,3,Associate's,13,1,12,7.7
+2019,Engineering (Other),14.02,5,Bachelor's,4887,670,4217,13.7
+2019,Engineering (Other),14.02,7,Master's,1715,302,1413,17.6
+2019,Engineering (Other),14.02,17,Doctorate,372,54,318,14.5
+2019,Engineering (Other),14.03,3,Associate's,11,0,11,0.0
+2019,Engineering (Other),14.03,5,Bachelor's,1205,466,739,38.7
+2019,Engineering (Other),14.03,7,Master's,203,86,117,42.4
+2019,Engineering (Other),14.03,17,Doctorate,130,53,77,40.8
+2019,Engineering (Other),14.04,3,Associate's,0,0,0,
+2019,Engineering (Other),14.04,5,Bachelor's,772,292,480,37.8
+2019,Engineering (Other),14.04,7,Master's,173,64,109,37.0
+2019,Engineering (Other),14.04,17,Doctorate,15,2,13,13.3
+2019,Engineering (Other),14.05,3,Associate's,18,5,13,27.8
+2019,Engineering (Other),14.05,5,Bachelor's,7921,3843,4078,48.5
+2019,Engineering (Other),14.05,7,Master's,2909,1295,1614,44.5
+2019,Engineering (Other),14.05,17,Doctorate,1127,421,706,37.4
+2019,Engineering (Other),14.06,5,Bachelor's,71,27,44,38.0
+2019,Engineering (Other),14.06,7,Master's,14,5,9,35.7
+2019,Engineering (Other),14.06,17,Doctorate,16,5,11,31.2
+2019,Engineering (Other),14.07,3,Associate's,47,12,35,25.5
+2019,Engineering (Other),14.07,5,Bachelor's,11423,4038,7385,35.3
+2019,Engineering (Other),14.07,7,Master's,1824,591,1233,32.4
+2019,Engineering (Other),14.07,17,Doctorate,1069,354,715,33.1
+2019,Engineering (Other),14.08,3,Associate's,119,22,97,18.5
+2019,Engineering (Other),14.08,5,Bachelor's,14832,3763,11069,25.4
+2019,Engineering (Other),14.08,7,Master's,5612,1680,3932,29.9
+2019,Engineering (Other),14.08,17,Doctorate,1231,325,906,26.4
+2019,Engineering (Other),14.11,3,Associate's,8,3,5,37.5
+2019,Engineering (Other),14.11,5,Bachelor's,137,28,109,20.4
+2019,Engineering (Other),14.11,7,Master's,71,12,59,16.9
+2019,Engineering (Other),14.11,17,Doctorate,81,15,66,18.5
+2019,Engineering (Other),14.12,3,Associate's,14,3,11,21.4
+2019,Engineering (Other),14.12,5,Bachelor's,683,134,549,19.6
+2019,Engineering (Other),14.12,7,Master's,133,26,107,19.5
+2019,Engineering (Other),14.12,17,Doctorate,88,27,61,30.7
+2019,Engineering (Other),14.13,3,Associate's,464,94,370,20.3
+2019,Engineering (Other),14.13,5,Bachelor's,599,196,403,32.7
+2019,Engineering (Other),14.13,7,Master's,298,84,214,28.2
+2019,Engineering (Other),14.13,17,Doctorate,142,35,107,24.6
+2019,Engineering (Other),14.14,3,Associate's,3,2,1,66.7
+2019,Engineering (Other),14.14,5,Bachelor's,1712,858,854,50.1
+2019,Engineering (Other),14.14,7,Master's,919,441,478,48.0
+2019,Engineering (Other),14.14,17,Doctorate,188,79,109,42.0
+2019,Engineering (Other),14.18,3,Associate's,7,0,7,0.0
+2019,Engineering (Other),14.18,5,Bachelor's,1554,508,1046,32.7
+2019,Engineering (Other),14.18,7,Master's,1140,344,796,30.2
+2019,Engineering (Other),14.18,17,Doctorate,714,220,494,30.8
+2019,Engineering (Other),14.19,3,Associate's,380,46,334,12.1
+2019,Engineering (Other),14.19,5,Bachelor's,37343,5794,31549,15.5
+2019,Engineering (Other),14.19,7,Master's,7864,1248,6616,15.9
+2019,Engineering (Other),14.19,17,Doctorate,1635,261,1374,16.0
+2019,Engineering (Other),14.20,5,Bachelor's,184,59,125,32.1
+2019,Engineering (Other),14.20,7,Master's,37,6,31,16.2
+2019,Engineering (Other),14.20,17,Doctorate,14,1,13,7.1
+2019,Engineering (Other),14.21,3,Associate's,0,0,0,
+2019,Engineering (Other),14.21,5,Bachelor's,188,38,150,20.2
+2019,Engineering (Other),14.21,7,Master's,82,15,67,18.3
+2019,Engineering (Other),14.21,17,Doctorate,18,5,13,27.8
+2019,Engineering (Other),14.22,3,Associate's,0,0,0,
+2019,Engineering (Other),14.22,5,Bachelor's,426,60,366,14.1
+2019,Engineering (Other),14.22,7,Master's,41,7,34,17.1
+2019,Engineering (Other),14.22,17,Doctorate,6,2,4,33.3
+2019,Engineering (Other),14.23,5,Bachelor's,543,97,446,17.9
+2019,Engineering (Other),14.23,7,Master's,261,46,215,17.6
+2019,Engineering (Other),14.23,17,Doctorate,164,26,138,15.9
+2019,Engineering (Other),14.24,5,Bachelor's,192,50,142,26.0
+2019,Engineering (Other),14.24,7,Master's,85,19,66,22.4
+2019,Engineering (Other),14.24,17,Doctorate,30,6,24,20.0
+2019,Engineering (Other),14.25,5,Bachelor's,1704,283,1421,16.6
+2019,Engineering (Other),14.25,7,Master's,386,76,310,19.7
+2019,Engineering (Other),14.25,17,Doctorate,146,26,120,17.8
+2019,Engineering (Other),14.27,5,Bachelor's,834,236,598,28.3
+2019,Engineering (Other),14.27,7,Master's,2020,478,1542,23.7
+2019,Engineering (Other),14.27,17,Doctorate,114,24,90,21.1
+2019,Engineering (Other),14.28,5,Bachelor's,260,197,63,75.8
+2019,Engineering (Other),14.28,7,Master's,76,47,29,61.8
+2019,Engineering (Other),14.28,17,Doctorate,30,20,10,66.7
+2019,Engineering (Other),14.32,5,Bachelor's,181,32,149,17.7
+2019,Engineering (Other),14.32,7,Master's,111,33,78,29.7
+2019,Engineering (Other),14.32,17,Doctorate,84,22,62,26.2
+2019,Engineering (Other),14.33,3,Associate's,0,0,0,
+2019,Engineering (Other),14.33,5,Bachelor's,553,78,475,14.1
+2019,Engineering (Other),14.33,7,Master's,291,64,227,22.0
+2019,Engineering (Other),14.33,17,Doctorate,1,0,1,0.0
+2019,Engineering (Other),14.34,3,Associate's,0,0,0,
+2019,Engineering (Other),14.34,5,Bachelor's,52,5,47,9.6
+2019,Engineering (Other),14.34,7,Master's,0,0,0,
+2019,Engineering (Other),14.34,17,Doctorate,0,0,0,
+2019,Engineering (Other),14.35,3,Associate's,37,4,33,10.8
+2019,Engineering (Other),14.35,5,Bachelor's,5817,1912,3905,32.9
+2019,Engineering (Other),14.35,7,Master's,2861,722,2139,25.2
+2019,Engineering (Other),14.35,17,Doctorate,323,98,225,30.3
+2019,Engineering (Other),14.36,3,Associate's,3,0,3,0.0
+2019,Engineering (Other),14.36,5,Bachelor's,506,89,417,17.6
+2019,Engineering (Other),14.36,7,Master's,374,92,282,24.6
+2019,Engineering (Other),14.36,17,Doctorate,10,1,9,10.0
+2019,Engineering (Other),14.37,5,Bachelor's,462,189,273,40.9
+2019,Engineering (Other),14.37,7,Master's,1085,422,663,38.9
+2019,Engineering (Other),14.37,17,Doctorate,77,16,61,20.8
+2019,Engineering (Other),14.38,3,Associate's,2,0,2,0.0
+2019,Engineering (Other),14.38,5,Bachelor's,38,2,36,5.3
+2019,Engineering (Other),14.38,7,Master's,13,6,7,46.2
+2019,Engineering (Other),14.38,17,Doctorate,4,0,4,0.0
+2019,Engineering (Other),14.39,5,Bachelor's,248,89,159,35.9
+2019,Engineering (Other),14.39,7,Master's,119,33,86,27.7
+2019,Engineering (Other),14.39,17,Doctorate,17,7,10,41.2
+2019,Engineering (Other),14.40,5,Bachelor's,35,6,29,17.1
+2019,Engineering (Other),14.40,7,Master's,7,3,4,42.9
+2019,Engineering (Other),14.40,17,Doctorate,2,2,0,100.0
+2019,Engineering (Other),14.41,3,Associate's,20,2,18,10.0
+2019,Engineering (Other),14.41,5,Bachelor's,28,2,26,7.1
+2019,Engineering (Other),14.41,17,Doctorate,2,0,2,0.0
+2019,Engineering (Other),14.42,3,Associate's,134,9,125,6.7
+2019,Engineering (Other),14.42,5,Bachelor's,323,45,278,13.9
+2019,Engineering (Other),14.42,7,Master's,298,58,240,19.5
+2019,Engineering (Other),14.42,17,Doctorate,27,3,24,11.1
+2019,Engineering (Other),14.43,3,Associate's,2,2,0,100.0
+2019,Engineering (Other),14.43,5,Bachelor's,110,51,59,46.4
+2019,Engineering (Other),14.43,7,Master's,6,2,4,33.3
+2019,Engineering (Other),14.44,5,Bachelor's,9,2,7,22.2
+2019,Engineering (Other),14.45,5,Bachelor's,311,136,175,43.7
+2019,Engineering (Other),14.45,7,Master's,35,10,25,28.6
+2019,Engineering (Other),14.45,17,Doctorate,27,3,24,11.1
+2019,Engineering (Other),14.99,3,Associate's,15,2,13,13.3
+2019,Engineering (Other),14.99,5,Bachelor's,1031,287,744,27.8
+2019,Engineering (Other),14.99,7,Master's,1357,393,964,29.0
+2019,Engineering (Other),14.99,17,Doctorate,191,67,124,35.1
+2019,IT & General Computing,11.01,3,Associate's,10195,2088,8107,20.5
+2019,IT & General Computing,11.01,5,Bachelor's,36674,7326,29348,20.0
+2019,IT & General Computing,11.01,7,Master's,15812,5297,10515,33.5
+2019,IT & General Computing,11.01,17,Doctorate,806,180,626,22.3
+2019,Information & Data Science,11.04,3,Associate's,906,188,718,20.8
+2019,Information & Data Science,11.04,5,Bachelor's,9118,2414,6704,26.5
+2019,Information & Data Science,11.04,7,Master's,6516,2759,3757,42.3
+2019,Information & Data Science,11.04,17,Doctorate,166,72,94,43.4
+2019,Networking & Systems,11.09,3,Associate's,4092,555,3537,13.6
+2019,Networking & Systems,11.09,5,Bachelor's,1270,169,1101,13.3
+2019,Networking & Systems,11.09,7,Master's,645,209,436,32.4
+2019,Networking & Systems,11.09,17,Doctorate,1,0,1,0.0
+2019,Other Computing,11.03,3,Associate's,860,179,681,20.8
+2019,Other Computing,11.03,5,Bachelor's,179,33,146,18.4
+2019,Other Computing,11.03,7,Master's,57,23,34,40.4
+2019,Other Computing,11.03,17,Doctorate,0,0,0,
+2019,Other Computing,11.05,3,Associate's,68,20,48,29.4
+2019,Other Computing,11.05,5,Bachelor's,1140,262,878,23.0
+2019,Other Computing,11.05,7,Master's,613,229,384,37.4
+2019,Other Computing,11.05,17,Doctorate,4,3,1,75.0
+2019,Other Computing,11.06,3,Associate's,237,84,153,35.4
+2019,Other Computing,11.06,7,Master's,0,0,0,
+2019,Other Computing,11.99,3,Associate's,191,27,164,14.1
+2019,Other Computing,11.99,5,Bachelor's,190,41,149,21.6
+2019,Other Computing,11.99,7,Master's,307,116,191,37.8
+2019,Other Computing,11.99,17,Doctorate,12,5,7,41.7
+2019,Software & Media Applications,11.08,3,Associate's,2241,933,1308,41.6
+2019,Software & Media Applications,11.08,5,Bachelor's,3499,1486,2013,42.5
+2019,Software & Media Applications,11.08,7,Master's,2495,1079,1416,43.2
+2019,Software & Media Applications,11.08,17,Doctorate,4,0,4,0.0
+2022,Computer Engineering,14.09,3,Associate's,111,22,89,19.8
+2022,Computer Engineering,14.09,5,Bachelor's,12226,1951,10275,16.0
+2022,Computer Engineering,14.09,7,Master's,3890,1073,2817,27.6
+2022,Computer Engineering,14.09,17,Doctorate,424,89,335,21.0
+2022,Computer Programming,11.02,3,Associate's,3781,792,2989,20.9
+2022,Computer Programming,11.02,5,Bachelor's,2494,442,2052,17.7
+2022,Computer Programming,11.02,7,Master's,373,91,282,24.4
+2022,Computer Science,11.07,3,Associate's,4463,841,3622,18.8
+2022,Computer Science,11.07,5,Bachelor's,41944,9090,32854,21.7
+2022,Computer Science,11.07,7,Master's,12080,3441,8639,28.5
+2022,Computer Science,11.07,17,Doctorate,1386,315,1071,22.7
+2022,Cybersecurity,11.10,3,Associate's,7822,1602,6220,20.5
+2022,Cybersecurity,11.10,5,Bachelor's,10101,1921,8180,19.0
+2022,Cybersecurity,11.10,7,Master's,9929,2944,6985,29.7
+2022,Cybersecurity,11.10,17,Doctorate,125,23,102,18.4
+2022,Electrical Engineering,14.10,3,Associate's,259,37,222,14.3
+2022,Electrical Engineering,14.10,5,Bachelor's,16470,2750,13720,16.7
+2022,Electrical Engineering,14.10,7,Master's,7060,1453,5607,20.6
+2022,Electrical Engineering,14.10,17,Doctorate,2212,394,1818,17.8
+2022,Engineering (Other),14.01,3,Associate's,4572,859,3713,18.8
+2022,Engineering (Other),14.01,5,Bachelor's,2706,696,2010,25.7
+2022,Engineering (Other),14.01,7,Master's,2655,769,1886,29.0
+2022,Engineering (Other),14.01,17,Doctorate,507,133,374,26.2
+2022,Engineering (Other),14.02,3,Associate's,50,12,38,24.0
+2022,Engineering (Other),14.02,5,Bachelor's,5944,1021,4923,17.2
+2022,Engineering (Other),14.02,7,Master's,2080,363,1717,17.5
+2022,Engineering (Other),14.02,17,Doctorate,442,66,376,14.9
+2022,Engineering (Other),14.03,3,Associate's,6,1,5,16.7
+2022,Engineering (Other),14.03,5,Bachelor's,1042,440,602,42.2
+2022,Engineering (Other),14.03,7,Master's,198,89,109,44.9
+2022,Engineering (Other),14.03,17,Doctorate,127,58,69,45.7
+2022,Engineering (Other),14.04,5,Bachelor's,813,300,513,36.9
+2022,Engineering (Other),14.04,7,Master's,183,67,116,36.6
+2022,Engineering (Other),14.04,17,Doctorate,20,8,12,40.0
+2022,Engineering (Other),14.05,3,Associate's,25,9,16,36.0
+2022,Engineering (Other),14.05,5,Bachelor's,8599,4583,4016,53.3
+2022,Engineering (Other),14.05,7,Master's,3217,1572,1645,48.9
+2022,Engineering (Other),14.05,17,Doctorate,1265,568,697,44.9
+2022,Engineering (Other),14.06,5,Bachelor's,73,32,41,43.8
+2022,Engineering (Other),14.06,7,Master's,16,6,10,37.5
+2022,Engineering (Other),14.06,17,Doctorate,11,1,10,9.1
+2022,Engineering (Other),14.07,3,Associate's,36,13,23,36.1
+2022,Engineering (Other),14.07,5,Bachelor's,9433,3850,5583,40.8
+2022,Engineering (Other),14.07,7,Master's,1556,603,953,38.8
+2022,Engineering (Other),14.07,17,Doctorate,1186,400,786,33.7
+2022,Engineering (Other),14.08,3,Associate's,104,32,72,30.8
+2022,Engineering (Other),14.08,5,Bachelor's,14747,4053,10694,27.5
+2022,Engineering (Other),14.08,7,Master's,4453,1533,2920,34.4
+2022,Engineering (Other),14.08,17,Doctorate,1230,365,865,29.7
+2022,Engineering (Other),14.11,3,Associate's,17,4,13,23.5
+2022,Engineering (Other),14.11,5,Bachelor's,91,13,78,14.3
+2022,Engineering (Other),14.11,7,Master's,70,10,60,14.3
+2022,Engineering (Other),14.11,17,Doctorate,77,22,55,28.6
+2022,Engineering (Other),14.12,3,Associate's,11,3,8,27.3
+2022,Engineering (Other),14.12,5,Bachelor's,661,119,542,18.0
+2022,Engineering (Other),14.12,7,Master's,168,37,131,22.0
+2022,Engineering (Other),14.12,17,Doctorate,99,22,77,22.2
+2022,Engineering (Other),14.13,3,Associate's,368,77,291,20.9
+2022,Engineering (Other),14.13,5,Bachelor's,565,224,341,39.6
+2022,Engineering (Other),14.13,7,Master's,331,113,218,34.1
+2022,Engineering (Other),14.13,17,Doctorate,152,35,117,23.0
+2022,Engineering (Other),14.14,3,Associate's,2,1,1,50.0
+2022,Engineering (Other),14.14,5,Bachelor's,1916,1088,828,56.8
+2022,Engineering (Other),14.14,7,Master's,739,394,345,53.3
+2022,Engineering (Other),14.14,17,Doctorate,156,79,77,50.6
+2022,Engineering (Other),14.18,3,Associate's,2,0,2,0.0
+2022,Engineering (Other),14.18,5,Bachelor's,1535,511,1024,33.3
+2022,Engineering (Other),14.18,7,Master's,1047,375,672,35.8
+2022,Engineering (Other),14.18,17,Doctorate,770,232,538,30.1
+2022,Engineering (Other),14.19,3,Associate's,272,45,227,16.5
+2022,Engineering (Other),14.19,5,Bachelor's,35501,6100,29401,17.2
+2022,Engineering (Other),14.19,7,Master's,6953,1309,5644,18.8
+2022,Engineering (Other),14.19,17,Doctorate,1883,359,1524,19.1
+2022,Engineering (Other),14.20,5,Bachelor's,133,45,88,33.8
+2022,Engineering (Other),14.20,7,Master's,35,7,28,20.0
+2022,Engineering (Other),14.20,17,Doctorate,21,2,19,9.5
+2022,Engineering (Other),14.21,3,Associate's,0,0,0,
+2022,Engineering (Other),14.21,5,Bachelor's,166,22,144,13.3
+2022,Engineering (Other),14.21,7,Master's,92,22,70,23.9
+2022,Engineering (Other),14.21,17,Doctorate,19,3,16,15.8
+2022,Engineering (Other),14.22,5,Bachelor's,374,57,317,15.2
+2022,Engineering (Other),14.22,7,Master's,37,4,33,10.8
+2022,Engineering (Other),14.22,17,Doctorate,12,5,7,41.7
+2022,Engineering (Other),14.23,5,Bachelor's,400,88,312,22.0
+2022,Engineering (Other),14.23,7,Master's,243,51,192,21.0
+2022,Engineering (Other),14.23,17,Doctorate,176,28,148,15.9
+2022,Engineering (Other),14.24,5,Bachelor's,200,58,142,29.0
+2022,Engineering (Other),14.24,7,Master's,67,20,47,29.9
+2022,Engineering (Other),14.24,17,Doctorate,10,4,6,40.0
+2022,Engineering (Other),14.25,5,Bachelor's,749,110,639,14.7
+2022,Engineering (Other),14.25,7,Master's,235,35,200,14.9
+2022,Engineering (Other),14.25,17,Doctorate,96,20,76,20.8
+2022,Engineering (Other),14.27,5,Bachelor's,727,229,498,31.5
+2022,Engineering (Other),14.27,7,Master's,2159,583,1576,27.0
+2022,Engineering (Other),14.27,17,Doctorate,152,21,131,13.8
+2022,Engineering (Other),14.28,3,Associate's,0,0,0,
+2022,Engineering (Other),14.28,5,Bachelor's,205,177,28,86.3
+2022,Engineering (Other),14.28,7,Master's,54,40,14,74.1
+2022,Engineering (Other),14.28,17,Doctorate,26,13,13,50.0
+2022,Engineering (Other),14.32,5,Bachelor's,169,33,136,19.5
+2022,Engineering (Other),14.32,7,Master's,85,22,63,25.9
+2022,Engineering (Other),14.32,17,Doctorate,56,18,38,32.1
+2022,Engineering (Other),14.33,5,Bachelor's,608,75,533,12.3
+2022,Engineering (Other),14.33,7,Master's,246,67,179,27.2
+2022,Engineering (Other),14.33,17,Doctorate,3,2,1,66.7
+2022,Engineering (Other),14.34,3,Associate's,0,0,0,
+2022,Engineering (Other),14.34,5,Bachelor's,43,7,36,16.3
+2022,Engineering (Other),14.34,7,Master's,0,0,0,
+2022,Engineering (Other),14.34,17,Doctorate,0,0,0,
+2022,Engineering (Other),14.35,3,Associate's,33,7,26,21.2
+2022,Engineering (Other),14.35,5,Bachelor's,5551,1983,3568,35.7
+2022,Engineering (Other),14.35,7,Master's,1732,530,1202,30.6
+2022,Engineering (Other),14.35,17,Doctorate,408,139,269,34.1
+2022,Engineering (Other),14.36,3,Associate's,6,1,5,16.7
+2022,Engineering (Other),14.36,5,Bachelor's,515,90,425,17.5
+2022,Engineering (Other),14.36,7,Master's,363,86,277,23.7
+2022,Engineering (Other),14.36,17,Doctorate,3,1,2,33.3
+2022,Engineering (Other),14.37,5,Bachelor's,547,225,322,41.1
+2022,Engineering (Other),14.37,7,Master's,921,427,494,46.4
+2022,Engineering (Other),14.37,17,Doctorate,97,24,73,24.7
+2022,Engineering (Other),14.38,3,Associate's,0,0,0,
+2022,Engineering (Other),14.38,5,Bachelor's,69,7,62,10.1
+2022,Engineering (Other),14.38,7,Master's,5,1,4,20.0
+2022,Engineering (Other),14.38,17,Doctorate,4,2,2,50.0
+2022,Engineering (Other),14.39,3,Associate's,0,0,0,
+2022,Engineering (Other),14.39,5,Bachelor's,192,76,116,39.6
+2022,Engineering (Other),14.39,7,Master's,90,23,67,25.6
+2022,Engineering (Other),14.39,17,Doctorate,22,8,14,36.4
+2022,Engineering (Other),14.40,5,Bachelor's,36,13,23,36.1
+2022,Engineering (Other),14.40,7,Master's,5,1,4,20.0
+2022,Engineering (Other),14.40,17,Doctorate,2,0,2,0.0
+2022,Engineering (Other),14.41,3,Associate's,4,2,2,50.0
+2022,Engineering (Other),14.41,5,Bachelor's,27,1,26,3.7
+2022,Engineering (Other),14.41,17,Doctorate,1,1,0,100.0
+2022,Engineering (Other),14.42,3,Associate's,93,15,78,16.1
+2022,Engineering (Other),14.42,5,Bachelor's,475,82,393,17.3
+2022,Engineering (Other),14.42,7,Master's,403,65,338,16.1
+2022,Engineering (Other),14.42,17,Doctorate,61,5,56,8.2
+2022,Engineering (Other),14.43,3,Associate's,0,0,0,
+2022,Engineering (Other),14.43,5,Bachelor's,119,55,64,46.2
+2022,Engineering (Other),14.43,7,Master's,18,12,6,66.7
+2022,Engineering (Other),14.44,5,Bachelor's,3,1,2,33.3
+2022,Engineering (Other),14.44,7,Master's,30,18,12,60.0
+2022,Engineering (Other),14.45,3,Associate's,0,0,0,
+2022,Engineering (Other),14.45,5,Bachelor's,364,186,178,51.1
+2022,Engineering (Other),14.45,7,Master's,45,22,23,48.9
+2022,Engineering (Other),14.45,17,Doctorate,46,17,29,37.0
+2022,Engineering (Other),14.47,5,Bachelor's,554,85,469,15.3
+2022,Engineering (Other),14.47,7,Master's,752,165,587,21.9
+2022,Engineering (Other),14.47,17,Doctorate,168,34,134,20.2
+2022,Engineering (Other),14.48,3,Associate's,0,0,0,
+2022,Engineering (Other),14.48,5,Bachelor's,54,14,40,25.9
+2022,Engineering (Other),14.48,7,Master's,57,18,39,31.6
+2022,Engineering (Other),14.99,3,Associate's,10,1,9,10.0
+2022,Engineering (Other),14.99,5,Bachelor's,867,311,556,35.9
+2022,Engineering (Other),14.99,7,Master's,1414,438,976,31.0
+2022,Engineering (Other),14.99,17,Doctorate,185,51,134,27.6
+2022,IT & General Computing,11.01,3,Associate's,11907,2656,9251,22.3
+2022,IT & General Computing,11.01,5,Bachelor's,42792,9806,32986,22.9
+2022,IT & General Computing,11.01,7,Master's,18833,6407,12426,34.0
+2022,IT & General Computing,11.01,17,Doctorate,1013,281,732,27.7
+2022,Information & Data Science,11.04,3,Associate's,987,199,788,20.2
+2022,Information & Data Science,11.04,5,Bachelor's,9585,2669,6916,27.8
+2022,Information & Data Science,11.04,7,Master's,5850,2772,3078,47.4
+2022,Information & Data Science,11.04,17,Doctorate,184,84,100,45.7
+2022,Networking & Systems,11.09,3,Associate's,3003,507,2496,16.9
+2022,Networking & Systems,11.09,5,Bachelor's,1056,149,907,14.1
+2022,Networking & Systems,11.09,7,Master's,410,144,266,35.1
+2022,Networking & Systems,11.09,17,Doctorate,2,1,1,50.0
+2022,Other Computing,11.03,3,Associate's,783,189,594,24.1
+2022,Other Computing,11.03,5,Bachelor's,184,55,129,29.9
+2022,Other Computing,11.03,7,Master's,272,107,165,39.3
+2022,Other Computing,11.03,17,Doctorate,2,0,2,0.0
+2022,Other Computing,11.05,3,Associate's,99,22,77,22.2
+2022,Other Computing,11.05,5,Bachelor's,981,239,742,24.4
+2022,Other Computing,11.05,7,Master's,557,237,320,42.5
+2022,Other Computing,11.05,17,Doctorate,2,1,1,50.0
+2022,Other Computing,11.06,3,Associate's,149,48,101,32.2
+2022,Other Computing,11.99,3,Associate's,162,31,131,19.1
+2022,Other Computing,11.99,5,Bachelor's,191,45,146,23.6
+2022,Other Computing,11.99,7,Master's,165,40,125,24.2
+2022,Other Computing,11.99,17,Doctorate,17,5,12,29.4
+2022,Software & Media Applications,11.08,3,Associate's,2135,982,1153,46.0
+2022,Software & Media Applications,11.08,5,Bachelor's,4137,1759,2378,42.5
+2022,Software & Media Applications,11.08,7,Master's,3354,1425,1929,42.5
+2022,Software & Media Applications,11.08,17,Doctorate,8,0,8,0.0
+2024,Computer Engineering,14.09,3,Associate's,218,54,164,24.8
+2024,Computer Engineering,14.09,5,Bachelor's,12158,1901,10257,15.6
+2024,Computer Engineering,14.09,7,Master's,6727,1970,4757,29.3
+2024,Computer Engineering,14.09,17,Doctorate,413,93,320,22.5
+2024,Computer Programming,11.02,3,Associate's,4193,930,3263,22.2
+2024,Computer Programming,11.02,5,Bachelor's,2397,440,1957,18.4
+2024,Computer Programming,11.02,7,Master's,480,151,329,31.5
+2024,Computer Science,11.07,3,Associate's,5649,1174,4475,20.8
+2024,Computer Science,11.07,5,Bachelor's,46155,9991,36164,21.6
+2024,Computer Science,11.07,7,Master's,25590,7851,17739,30.7
+2024,Computer Science,11.07,17,Doctorate,1628,371,1257,22.8
+2024,Cybersecurity,11.10,3,Associate's,10031,2238,7793,22.3
+2024,Cybersecurity,11.10,5,Bachelor's,14773,2854,11919,19.3
+2024,Cybersecurity,11.10,7,Master's,13573,3909,9664,28.8
+2024,Cybersecurity,11.10,17,Doctorate,101,27,74,26.7
+2024,Electrical Engineering,14.10,3,Associate's,273,31,242,11.4
+2024,Electrical Engineering,14.10,5,Bachelor's,14969,2432,12537,16.2
+2024,Electrical Engineering,14.10,7,Master's,8766,1971,6795,22.5
+2024,Electrical Engineering,14.10,17,Doctorate,2102,400,1702,19.0
+2024,Engineering (Other),14.01,3,Associate's,4909,948,3961,19.3
+2024,Engineering (Other),14.01,5,Bachelor's,2959,810,2149,27.4
+2024,Engineering (Other),14.01,7,Master's,4081,1132,2949,27.7
+2024,Engineering (Other),14.01,17,Doctorate,412,98,314,23.8
+2024,Engineering (Other),14.02,3,Associate's,48,10,38,20.8
+2024,Engineering (Other),14.02,5,Bachelor's,6433,1184,5249,18.4
+2024,Engineering (Other),14.02,7,Master's,2512,497,2015,19.8
+2024,Engineering (Other),14.02,17,Doctorate,457,84,373,18.4
+2024,Engineering (Other),14.03,3,Associate's,3,0,3,0.0
+2024,Engineering (Other),14.03,5,Bachelor's,761,348,413,45.7
+2024,Engineering (Other),14.03,7,Master's,202,107,95,53.0
+2024,Engineering (Other),14.03,17,Doctorate,121,48,73,39.7
+2024,Engineering (Other),14.04,3,Associate's,0,0,0,
+2024,Engineering (Other),14.04,5,Bachelor's,902,333,569,36.9
+2024,Engineering (Other),14.04,7,Master's,197,74,123,37.6
+2024,Engineering (Other),14.04,17,Doctorate,22,9,13,40.9
+2024,Engineering (Other),14.05,3,Associate's,11,2,9,18.2
+2024,Engineering (Other),14.05,5,Bachelor's,8633,4664,3969,54.0
+2024,Engineering (Other),14.05,7,Master's,3716,1956,1760,52.6
+2024,Engineering (Other),14.05,17,Doctorate,1334,574,760,43.0
+2024,Engineering (Other),14.06,5,Bachelor's,48,24,24,50.0
+2024,Engineering (Other),14.06,7,Master's,19,8,11,42.1
+2024,Engineering (Other),14.06,17,Doctorate,10,5,5,50.0
+2024,Engineering (Other),14.07,3,Associate's,45,23,22,51.1
+2024,Engineering (Other),14.07,5,Bachelor's,8068,3368,4700,41.7
+2024,Engineering (Other),14.07,7,Master's,1655,605,1050,36.6
+2024,Engineering (Other),14.07,17,Doctorate,1139,369,770,32.4
+2024,Engineering (Other),14.08,3,Associate's,110,30,80,27.3
+2024,Engineering (Other),14.08,5,Bachelor's,13644,3784,9860,27.7
+2024,Engineering (Other),14.08,7,Master's,4940,1608,3332,32.6
+2024,Engineering (Other),14.08,17,Doctorate,1195,384,811,32.1
+2024,Engineering (Other),14.11,3,Associate's,4,2,2,50.0
+2024,Engineering (Other),14.11,5,Bachelor's,67,7,60,10.4
+2024,Engineering (Other),14.11,7,Master's,62,12,50,19.4
+2024,Engineering (Other),14.11,17,Doctorate,53,9,44,17.0
+2024,Engineering (Other),14.12,3,Associate's,21,8,13,38.1
+2024,Engineering (Other),14.12,5,Bachelor's,658,159,499,24.2
+2024,Engineering (Other),14.12,7,Master's,186,41,145,22.0
+2024,Engineering (Other),14.12,17,Doctorate,100,28,72,28.0
+2024,Engineering (Other),14.13,3,Associate's,319,76,243,23.8
+2024,Engineering (Other),14.13,5,Bachelor's,521,207,314,39.7
+2024,Engineering (Other),14.13,7,Master's,362,126,236,34.8
+2024,Engineering (Other),14.13,17,Doctorate,139,46,93,33.1
+2024,Engineering (Other),14.14,3,Associate's,1,1,0,100.0
+2024,Engineering (Other),14.14,5,Bachelor's,1858,1043,815,56.1
+2024,Engineering (Other),14.14,7,Master's,757,424,333,56.0
+2024,Engineering (Other),14.14,17,Doctorate,154,67,87,43.5
+2024,Engineering (Other),14.18,3,Associate's,5,1,4,20.0
+2024,Engineering (Other),14.18,5,Bachelor's,1194,438,756,36.7
+2024,Engineering (Other),14.18,7,Master's,1101,355,746,32.2
+2024,Engineering (Other),14.18,17,Doctorate,727,211,516,29.0
+2024,Engineering (Other),14.19,3,Associate's,305,52,253,17.0
+2024,Engineering (Other),14.19,5,Bachelor's,33346,5771,27575,17.3
+2024,Engineering (Other),14.19,7,Master's,7288,1373,5915,18.8
+2024,Engineering (Other),14.19,17,Doctorate,1812,344,1468,19.0
+2024,Engineering (Other),14.20,3,Associate's,1,1,0,100.0
+2024,Engineering (Other),14.20,5,Bachelor's,125,31,94,24.8
+2024,Engineering (Other),14.20,7,Master's,29,10,19,34.5
+2024,Engineering (Other),14.20,17,Doctorate,9,1,8,11.1
+2024,Engineering (Other),14.21,5,Bachelor's,151,27,124,17.9
+2024,Engineering (Other),14.21,7,Master's,85,16,69,18.8
+2024,Engineering (Other),14.21,17,Doctorate,24,7,17,29.2
+2024,Engineering (Other),14.22,3,Associate's,0,0,0,
+2024,Engineering (Other),14.22,5,Bachelor's,368,49,319,13.3
+2024,Engineering (Other),14.22,7,Master's,35,4,31,11.4
+2024,Engineering (Other),14.22,17,Doctorate,5,0,5,0.0
+2024,Engineering (Other),14.23,5,Bachelor's,431,101,330,23.4
+2024,Engineering (Other),14.23,7,Master's,311,74,237,23.8
+2024,Engineering (Other),14.23,17,Doctorate,169,38,131,22.5
+2024,Engineering (Other),14.24,5,Bachelor's,163,49,114,30.1
+2024,Engineering (Other),14.24,7,Master's,69,19,50,27.5
+2024,Engineering (Other),14.24,17,Doctorate,27,8,19,29.6
+2024,Engineering (Other),14.25,5,Bachelor's,489,92,397,18.8
+2024,Engineering (Other),14.25,7,Master's,150,33,117,22.0
+2024,Engineering (Other),14.25,17,Doctorate,82,18,64,22.0
+2024,Engineering (Other),14.27,5,Bachelor's,605,191,414,31.6
+2024,Engineering (Other),14.27,7,Master's,2163,626,1537,28.9
+2024,Engineering (Other),14.27,17,Doctorate,143,39,104,27.3
+2024,Engineering (Other),14.28,3,Associate's,0,0,0,
+2024,Engineering (Other),14.28,5,Bachelor's,194,155,39,79.9
+2024,Engineering (Other),14.28,7,Master's,49,42,7,85.7
+2024,Engineering (Other),14.28,17,Doctorate,23,14,9,60.9
+2024,Engineering (Other),14.32,5,Bachelor's,109,26,83,23.9
+2024,Engineering (Other),14.32,7,Master's,79,26,53,32.9
+2024,Engineering (Other),14.32,17,Doctorate,68,16,52,23.5
+2024,Engineering (Other),14.33,5,Bachelor's,898,157,741,17.5
+2024,Engineering (Other),14.33,7,Master's,632,161,471,25.5
+2024,Engineering (Other),14.33,17,Doctorate,6,2,4,33.3
+2024,Engineering (Other),14.34,3,Associate's,0,0,0,
+2024,Engineering (Other),14.34,5,Bachelor's,42,8,34,19.0
+2024,Engineering (Other),14.34,7,Master's,0,0,0,
+2024,Engineering (Other),14.34,17,Doctorate,0,0,0,
+2024,Engineering (Other),14.35,3,Associate's,16,6,10,37.5
+2024,Engineering (Other),14.35,5,Bachelor's,4848,1664,3184,34.3
+2024,Engineering (Other),14.35,7,Master's,2811,734,2077,26.1
+2024,Engineering (Other),14.35,17,Doctorate,384,138,246,35.9
+2024,Engineering (Other),14.36,3,Associate's,5,0,5,0.0
+2024,Engineering (Other),14.36,5,Bachelor's,485,96,389,19.8
+2024,Engineering (Other),14.36,7,Master's,343,81,262,23.6
+2024,Engineering (Other),14.36,17,Doctorate,5,1,4,20.0
+2024,Engineering (Other),14.37,5,Bachelor's,441,184,257,41.7
+2024,Engineering (Other),14.37,7,Master's,1047,417,630,39.8
+2024,Engineering (Other),14.37,17,Doctorate,85,25,60,29.4
+2024,Engineering (Other),14.38,5,Bachelor's,58,13,45,22.4
+2024,Engineering (Other),14.38,7,Master's,12,5,7,41.7
+2024,Engineering (Other),14.38,17,Doctorate,0,0,0,
+2024,Engineering (Other),14.39,3,Associate's,1,1,0,100.0
+2024,Engineering (Other),14.39,5,Bachelor's,120,48,72,40.0
+2024,Engineering (Other),14.39,7,Master's,125,23,102,18.4
+2024,Engineering (Other),14.39,17,Doctorate,12,6,6,50.0
+2024,Engineering (Other),14.40,5,Bachelor's,35,13,22,37.1
+2024,Engineering (Other),14.40,7,Master's,3,1,2,33.3
+2024,Engineering (Other),14.40,17,Doctorate,8,1,7,12.5
+2024,Engineering (Other),14.41,3,Associate's,5,1,4,20.0
+2024,Engineering (Other),14.41,5,Bachelor's,37,3,34,8.1
+2024,Engineering (Other),14.41,17,Doctorate,0,0,0,
+2024,Engineering (Other),14.42,3,Associate's,119,14,105,11.8
+2024,Engineering (Other),14.42,5,Bachelor's,545,96,449,17.6
+2024,Engineering (Other),14.42,7,Master's,1016,166,850,16.3
+2024,Engineering (Other),14.42,17,Doctorate,89,20,69,22.5
+2024,Engineering (Other),14.43,3,Associate's,0,0,0,
+2024,Engineering (Other),14.43,5,Bachelor's,89,50,39,56.2
+2024,Engineering (Other),14.43,7,Master's,32,15,17,46.9
+2024,Engineering (Other),14.43,17,Doctorate,3,2,1,66.7
+2024,Engineering (Other),14.44,5,Bachelor's,2,0,2,0.0
+2024,Engineering (Other),14.44,7,Master's,23,12,11,52.2
+2024,Engineering (Other),14.45,3,Associate's,0,0,0,
+2024,Engineering (Other),14.45,5,Bachelor's,352,183,169,52.0
+2024,Engineering (Other),14.45,7,Master's,87,40,47,46.0
+2024,Engineering (Other),14.45,17,Doctorate,38,14,24,36.8
+2024,Engineering (Other),14.47,5,Bachelor's,785,132,653,16.8
+2024,Engineering (Other),14.47,7,Master's,1053,228,825,21.7
+2024,Engineering (Other),14.47,17,Doctorate,166,30,136,18.1
+2024,Engineering (Other),14.48,3,Associate's,0,0,0,
+2024,Engineering (Other),14.48,5,Bachelor's,45,11,34,24.4
+2024,Engineering (Other),14.48,7,Master's,76,26,50,34.2
+2024,Engineering (Other),14.48,17,Doctorate,0,0,0,
+2024,Engineering (Other),14.99,3,Associate's,21,1,20,4.8
+2024,Engineering (Other),14.99,5,Bachelor's,758,280,478,36.9
+2024,Engineering (Other),14.99,7,Master's,1922,657,1265,34.2
+2024,Engineering (Other),14.99,17,Doctorate,216,72,144,33.3
+2024,IT & General Computing,11.01,3,Associate's,13341,3076,10265,23.1
+2024,IT & General Computing,11.01,5,Bachelor's,46746,11441,35305,24.5
+2024,IT & General Computing,11.01,7,Master's,35016,12421,22595,35.5
+2024,IT & General Computing,11.01,17,Doctorate,1196,324,872,27.1
+2024,Information & Data Science,11.04,3,Associate's,1046,228,818,21.8
+2024,Information & Data Science,11.04,5,Bachelor's,9605,2950,6655,30.7
+2024,Information & Data Science,11.04,7,Master's,10368,4402,5966,42.5
+2024,Information & Data Science,11.04,17,Doctorate,197,97,100,49.2
+2024,Networking & Systems,11.09,3,Associate's,3086,460,2626,14.9
+2024,Networking & Systems,11.09,5,Bachelor's,1165,145,1020,12.4
+2024,Networking & Systems,11.09,7,Master's,531,175,356,33.0
+2024,Networking & Systems,11.09,17,Doctorate,4,1,3,25.0
+2024,Other Computing,11.03,3,Associate's,769,192,577,25.0
+2024,Other Computing,11.03,5,Bachelor's,129,48,81,37.2
+2024,Other Computing,11.03,7,Master's,331,103,228,31.1
+2024,Other Computing,11.03,17,Doctorate,18,8,10,44.4
+2024,Other Computing,11.05,3,Associate's,133,35,98,26.3
+2024,Other Computing,11.05,5,Bachelor's,947,255,692,26.9
+2024,Other Computing,11.05,7,Master's,1206,424,782,35.2
+2024,Other Computing,11.05,17,Doctorate,2,1,1,50.0
+2024,Other Computing,11.06,3,Associate's,129,41,88,31.8
+2024,Other Computing,11.99,3,Associate's,157,33,124,21.0
+2024,Other Computing,11.99,5,Bachelor's,181,39,142,21.5
+2024,Other Computing,11.99,7,Master's,162,56,106,34.6
+2024,Other Computing,11.99,17,Doctorate,16,7,9,43.8
+2024,Software & Media Applications,11.08,3,Associate's,2255,1066,1189,47.3
+2024,Software & Media Applications,11.08,5,Bachelor's,4402,1939,2463,44.0
+2024,Software & Media Applications,11.08,7,Master's,4138,1788,2350,43.2
+2024,Software & Media Applications,11.08,17,Doctorate,4,2,2,50.0

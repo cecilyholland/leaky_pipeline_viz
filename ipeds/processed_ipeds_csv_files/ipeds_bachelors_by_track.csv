@@ -1,0 +1,49 @@
+year,track,cip4,AWLEVEL,award_label,CTOTALT,CTOTALW,CTOTALM,pct_women
+2010,Computer Engineering,14.09,5,Bachelor's,4589,403,4186,8.8
+2013,Computer Engineering,14.09,5,Bachelor's,5328,517,4811,9.7
+2016,Computer Engineering,14.09,5,Bachelor's,7531,883,6648,11.7
+2019,Computer Engineering,14.09,5,Bachelor's,10704,1428,9276,13.3
+2022,Computer Engineering,14.09,5,Bachelor's,12226,1951,10275,16.0
+2024,Computer Engineering,14.09,5,Bachelor's,12158,1901,10257,15.6
+2010,Computer Science,11.07,5,Bachelor's,8342,1069,7273,12.8
+2013,Computer Science,11.07,5,Bachelor's,11623,1542,10081,13.3
+2016,Computer Science,11.07,5,Bachelor's,19902,3396,16506,17.1
+2019,Computer Science,11.07,5,Bachelor's,31737,6299,25438,19.8
+2022,Computer Science,11.07,5,Bachelor's,41944,9090,32854,21.7
+2024,Computer Science,11.07,5,Bachelor's,46155,9991,36164,21.6
+2010,Cybersecurity,11.10,5,Bachelor's,3070,595,2475,19.4
+2013,Cybersecurity,11.10,5,Bachelor's,6612,1116,5496,16.9
+2016,Cybersecurity,11.10,5,Bachelor's,5252,852,4400,16.2
+2019,Cybersecurity,11.10,5,Bachelor's,7229,1237,5992,17.1
+2022,Cybersecurity,11.10,5,Bachelor's,10101,1921,8180,19.0
+2024,Cybersecurity,11.10,5,Bachelor's,14773,2854,11919,19.3
+2010,Electrical Engineering,14.10,5,Bachelor's,11798,1346,10452,11.4
+2013,Electrical Engineering,14.10,5,Bachelor's,13243,1568,11675,11.8
+2016,Electrical Engineering,14.10,5,Bachelor's,16174,2094,14080,12.9
+2019,Electrical Engineering,14.10,5,Bachelor's,17946,2634,15312,14.7
+2022,Electrical Engineering,14.10,5,Bachelor's,16470,2750,13720,16.7
+2024,Electrical Engineering,14.10,5,Bachelor's,14969,2432,12537,16.2
+2010,IT & General Computing,11.01,5,Bachelor's,16519,2976,13543,18.0
+2013,IT & General Computing,11.01,5,Bachelor's,19134,3423,15711,17.9
+2016,IT & General Computing,11.01,5,Bachelor's,26563,4850,21713,18.3
+2019,IT & General Computing,11.01,5,Bachelor's,36674,7326,29348,20.0
+2022,IT & General Computing,11.01,5,Bachelor's,42792,9806,32986,22.9
+2024,IT & General Computing,11.01,5,Bachelor's,46746,11441,35305,24.5
+2010,Information & Data Science,11.04,5,Bachelor's,5383,1295,4088,24.1
+2013,Information & Data Science,11.04,5,Bachelor's,6041,1319,4722,21.8
+2016,Information & Data Science,11.04,5,Bachelor's,6982,1692,5290,24.2
+2019,Information & Data Science,11.04,5,Bachelor's,9118,2414,6704,26.5
+2022,Information & Data Science,11.04,5,Bachelor's,9585,2669,6916,27.8
+2024,Information & Data Science,11.04,5,Bachelor's,9605,2950,6655,30.7
+2010,Networking & Systems,11.09,5,Bachelor's,1282,155,1127,12.1
+2013,Networking & Systems,11.09,5,Bachelor's,1833,182,1651,9.9
+2016,Networking & Systems,11.09,5,Bachelor's,1923,222,1701,11.5
+2019,Networking & Systems,11.09,5,Bachelor's,1270,169,1101,13.3
+2022,Networking & Systems,11.09,5,Bachelor's,1056,149,907,14.1
+2024,Networking & Systems,11.09,5,Bachelor's,1165,145,1020,12.4
+2010,Software & Media Applications,11.08,5,Bachelor's,3600,905,2695,25.1
+2013,Software & Media Applications,11.08,5,Bachelor's,3894,1313,2581,33.7
+2016,Software & Media Applications,11.08,5,Bachelor's,3251,1185,2066,36.5
+2019,Software & Media Applications,11.08,5,Bachelor's,3499,1486,2013,42.5
+2022,Software & Media Applications,11.08,5,Bachelor's,4137,1759,2378,42.5
+2024,Software & Media Applications,11.08,5,Bachelor's,4402,1939,2463,44.0

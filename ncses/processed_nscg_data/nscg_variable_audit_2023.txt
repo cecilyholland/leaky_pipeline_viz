@@ -1,0 +1,35 @@
+NSCG 2023 — Variable Audit
+==================================================
+Total columns: 14
+Total rows: 94,606
+
+KEY VARIABLE MAPPING:
+  sex             -> SEX_2023              sample values: {'M': 50244, 'F': 44362}
+  age             -> AGE                   sample values: {'32': 3730, '31': 3390, '34': 3348, '30': 3288, '33': 3178}
+  age_group       -> AGEGR                 sample values: {'30': 16934, '35': 12517, '25': 11388, '40': 8264, '45': 7688}
+  occupation      -> N2OCPRMG              sample values: {'7': 32177, '6': 18814, '8': 14806, '1': 10426, '5': 9905}
+  occ_detail      -> N2OCBLST              sample values: {'4': 80587, '3': 7266, '1': 3771, '2': 2982}
+  field_ba        -> NBAMEMG               sample values: {'5': 18403, '7': 17991, '4': 16958, '2': 10857, '6': 9899}
+  field_hd        -> NDGMEMG               sample values: {'7': 26442, '5': 17427, '6': 15213, '4': 12568, '1': 9359}
+  race_eth        -> RACETHM               sample values: {'5': 52630, '1': 18137, '4': 12560, '3': 7634, '7': 3253}
+  weight          -> WTSURVY               sample values: {'4204.3280': 22, '5691.2597': 14, '25099.6752': 13, '7711.0840': 12, '6190.6405': 12}
+  salary          -> SALARY                sample values: {'9999998': 14806, '100000': 2283, '120000': 1879, '150000': 1780, '60000': 1706}
+  empl_stat       -> LFSTAT                sample values: {'1': 79800, '3': 12921, '2': 1885}
+  sector          -> EMSECDT               sample values: {'21': 45142, 'L': 14806, '11': 8129, '12': 7005, '23': 6860}
+  work_act        -> WAPRI                 sample values: {'L': 14806, '08': 14738, '10': 13208, '13': 7892, '06': 7709}
+
+ALL COLUMNS:
+  AGE
+  AGEGR
+  EMSECDT
+  LFSTAT
+  N2OCBLST
+  N2OCPRMG
+  NBAMEMG
+  NDGMEMG
+  RACETHM
+  SALARY
+  SEX_2023
+  SURVEY_YEAR
+  WAPRI
+  WTSURVY

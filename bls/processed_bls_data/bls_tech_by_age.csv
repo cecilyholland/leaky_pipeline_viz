@@ -1,0 +1,881 @@
+year,occupation,age_bracket,count_k
+2015,CS & Math (all),age_16_19,20.0
+2015,CS & Math (all),age_20_24,266.0
+2015,CS & Math (all),age_25_34,1234.0
+2015,CS & Math (all),age_35_44,1224.0
+2015,CS & Math (all),age_45_54,951.0
+2015,CS & Math (all),age_55_64,565.0
+2015,CS & Math (all),age_65_plus,109.0
+2015,CS & Math (all),total,4369.0
+2016,CS & Math (all),age_16_19,29.0
+2016,CS & Math (all),age_20_24,279.0
+2016,CS & Math (all),age_25_34,1332.0
+2016,CS & Math (all),age_35_44,1250.0
+2016,CS & Math (all),age_45_54,995.0
+2016,CS & Math (all),age_55_64,592.0
+2016,CS & Math (all),age_65_plus,123.0
+2016,CS & Math (all),total,4601.0
+2017,CS & Math (all),age_16_19,28.0
+2017,CS & Math (all),age_20_24,284.0
+2017,CS & Math (all),age_25_34,1408.0
+2017,CS & Math (all),age_35_44,1286.0
+2017,CS & Math (all),age_45_54,1020.0
+2017,CS & Math (all),age_55_64,642.0
+2017,CS & Math (all),age_65_plus,135.0
+2017,CS & Math (all),total,4804.0
+2018,CS & Math (all),age_16_19,25.0
+2018,CS & Math (all),age_20_24,330.0
+2018,CS & Math (all),age_25_34,1563.0
+2018,CS & Math (all),age_35_44,1333.0
+2018,CS & Math (all),age_45_54,1038.0
+2018,CS & Math (all),age_55_64,692.0
+2018,CS & Math (all),age_65_plus,146.0
+2018,CS & Math (all),total,5126.0
+2019,CS & Math (all),age_16_19,26.0
+2019,CS & Math (all),age_20_24,354.0
+2019,CS & Math (all),age_25_34,1593.0
+2019,CS & Math (all),age_35_44,1414.0
+2019,CS & Math (all),age_45_54,1092.0
+2019,CS & Math (all),age_55_64,700.0
+2019,CS & Math (all),age_65_plus,173.0
+2019,CS & Math (all),total,5352.0
+2020,CS & Math (all),age_16_19,23.0
+2020,CS & Math (all),age_20_24,335.0
+2020,CS & Math (all),age_25_34,1692.0
+2020,CS & Math (all),age_35_44,1515.0
+2020,CS & Math (all),age_45_54,1095.0
+2020,CS & Math (all),age_55_64,785.0
+2020,CS & Math (all),age_65_plus,157.0
+2020,CS & Math (all),total,5603.0
+2021,CS & Math (all),age_16_19,28.0
+2021,CS & Math (all),age_20_24,347.0
+2021,CS & Math (all),age_25_34,1693.0
+2021,CS & Math (all),age_35_44,1489.0
+2021,CS & Math (all),age_45_54,1135.0
+2021,CS & Math (all),age_55_64,815.0
+2021,CS & Math (all),age_65_plus,181.0
+2021,CS & Math (all),total,5688.0
+2022,CS & Math (all),age_16_19,32.0
+2022,CS & Math (all),age_20_24,378.0
+2022,CS & Math (all),age_25_34,1896.0
+2022,CS & Math (all),age_35_44,1587.0
+2022,CS & Math (all),age_45_54,1158.0
+2022,CS & Math (all),age_55_64,905.0
+2022,CS & Math (all),age_65_plus,216.0
+2022,CS & Math (all),total,6171.0
+2023,CS & Math (all),age_16_19,35.0
+2023,CS & Math (all),age_20_24,387.0
+2023,CS & Math (all),age_25_34,1949.0
+2023,CS & Math (all),age_35_44,1746.0
+2023,CS & Math (all),age_45_54,1272.0
+2023,CS & Math (all),age_55_64,895.0
+2023,CS & Math (all),age_65_plus,218.0
+2023,CS & Math (all),total,6502.0
+2024,CS & Math (all),age_16_19,27.0
+2024,CS & Math (all),age_20_24,408.0
+2024,CS & Math (all),age_25_34,1875.0
+2024,CS & Math (all),age_35_44,1712.0
+2024,CS & Math (all),age_45_54,1266.0
+2024,CS & Math (all),age_55_64,886.0
+2024,CS & Math (all),age_65_plus,212.0
+2024,CS & Math (all),total,6386.0
+2015,CS Managers,age_16_19,1.0
+2015,CS Managers,age_20_24,11.0
+2015,CS Managers,age_25_34,104.0
+2015,CS Managers,age_35_44,217.0
+2015,CS Managers,age_45_54,197.0
+2015,CS Managers,age_55_64,102.0
+2015,CS Managers,age_65_plus,20.0
+2015,CS Managers,total,652.0
+2016,CS Managers,age_16_19,1.0
+2016,CS Managers,age_20_24,9.0
+2016,CS Managers,age_25_34,95.0
+2016,CS Managers,age_35_44,178.0
+2016,CS Managers,age_45_54,202.0
+2016,CS Managers,age_55_64,95.0
+2016,CS Managers,age_65_plus,18.0
+2016,CS Managers,total,597.0
+2017,CS Managers,age_16_19,0.0
+2017,CS Managers,age_20_24,13.0
+2017,CS Managers,age_25_34,95.0
+2017,CS Managers,age_35_44,192.0
+2017,CS Managers,age_45_54,192.0
+2017,CS Managers,age_55_64,124.0
+2017,CS Managers,age_65_plus,14.0
+2017,CS Managers,total,630.0
+2018,CS Managers,age_16_19,0.0
+2018,CS Managers,age_20_24,10.0
+2018,CS Managers,age_25_34,96.0
+2018,CS Managers,age_35_44,188.0
+2018,CS Managers,age_45_54,191.0
+2018,CS Managers,age_55_64,122.0
+2018,CS Managers,age_65_plus,16.0
+2018,CS Managers,total,623.0
+2019,CS Managers,age_16_19,1.0
+2019,CS Managers,age_20_24,6.0
+2019,CS Managers,age_25_34,115.0
+2019,CS Managers,age_35_44,197.0
+2019,CS Managers,age_45_54,198.0
+2019,CS Managers,age_55_64,116.0
+2019,CS Managers,age_65_plus,23.0
+2019,CS Managers,total,654.0
+2020,CS Managers,age_16_19,0.0
+2020,CS Managers,age_20_24,7.0
+2020,CS Managers,age_25_34,128.0
+2020,CS Managers,age_35_44,222.0
+2020,CS Managers,age_45_54,226.0
+2020,CS Managers,age_55_64,138.0
+2020,CS Managers,age_65_plus,23.0
+2020,CS Managers,total,744.0
+2021,CS Managers,age_16_19,2.0
+2021,CS Managers,age_20_24,9.0
+2021,CS Managers,age_25_34,113.0
+2021,CS Managers,age_35_44,209.0
+2021,CS Managers,age_45_54,212.0
+2021,CS Managers,age_55_64,149.0
+2021,CS Managers,age_65_plus,21.0
+2021,CS Managers,total,715.0
+2022,CS Managers,age_16_19,2.0
+2022,CS Managers,age_20_24,10.0
+2022,CS Managers,age_25_34,132.0
+2022,CS Managers,age_35_44,225.0
+2022,CS Managers,age_45_54,222.0
+2022,CS Managers,age_55_64,141.0
+2022,CS Managers,age_65_plus,31.0
+2022,CS Managers,total,764.0
+2023,CS Managers,age_16_19,0.0
+2023,CS Managers,age_20_24,8.0
+2023,CS Managers,age_25_34,156.0
+2023,CS Managers,age_35_44,243.0
+2023,CS Managers,age_45_54,223.0
+2023,CS Managers,age_55_64,139.0
+2023,CS Managers,age_65_plus,24.0
+2023,CS Managers,total,793.0
+2024,CS Managers,age_16_19,0.0
+2024,CS Managers,age_20_24,4.0
+2024,CS Managers,age_25_34,92.0
+2024,CS Managers,age_35_44,236.0
+2024,CS Managers,age_45_54,217.0
+2024,CS Managers,age_55_64,153.0
+2024,CS Managers,age_65_plus,31.0
+2024,CS Managers,total,732.0
+2015,Computer Hardware Engineers,age_16_19,0.0
+2015,Computer Hardware Engineers,age_20_24,2.0
+2015,Computer Hardware Engineers,age_25_34,11.0
+2015,Computer Hardware Engineers,age_35_44,19.0
+2015,Computer Hardware Engineers,age_45_54,23.0
+2015,Computer Hardware Engineers,age_55_64,14.0
+2015,Computer Hardware Engineers,age_65_plus,2.0
+2015,Computer Hardware Engineers,total,72.0
+2016,Computer Hardware Engineers,age_16_19,0.0
+2016,Computer Hardware Engineers,age_20_24,4.0
+2016,Computer Hardware Engineers,age_25_34,17.0
+2016,Computer Hardware Engineers,age_35_44,19.0
+2016,Computer Hardware Engineers,age_45_54,18.0
+2016,Computer Hardware Engineers,age_55_64,8.0
+2016,Computer Hardware Engineers,age_65_plus,2.0
+2016,Computer Hardware Engineers,total,69.0
+2017,Computer Hardware Engineers,age_16_19,0.0
+2017,Computer Hardware Engineers,age_20_24,6.0
+2017,Computer Hardware Engineers,age_25_34,18.0
+2017,Computer Hardware Engineers,age_35_44,26.0
+2017,Computer Hardware Engineers,age_45_54,20.0
+2017,Computer Hardware Engineers,age_55_64,8.0
+2017,Computer Hardware Engineers,age_65_plus,2.0
+2017,Computer Hardware Engineers,total,80.0
+2018,Computer Hardware Engineers,age_16_19,0.0
+2018,Computer Hardware Engineers,age_20_24,5.0
+2018,Computer Hardware Engineers,age_25_34,21.0
+2018,Computer Hardware Engineers,age_35_44,16.0
+2018,Computer Hardware Engineers,age_45_54,15.0
+2018,Computer Hardware Engineers,age_55_64,11.0
+2018,Computer Hardware Engineers,age_65_plus,3.0
+2018,Computer Hardware Engineers,total,71.0
+2019,Computer Hardware Engineers,age_16_19,0.0
+2019,Computer Hardware Engineers,age_20_24,12.0
+2019,Computer Hardware Engineers,age_25_34,17.0
+2019,Computer Hardware Engineers,age_35_44,22.0
+2019,Computer Hardware Engineers,age_45_54,11.0
+2019,Computer Hardware Engineers,age_55_64,13.0
+2019,Computer Hardware Engineers,age_65_plus,1.0
+2019,Computer Hardware Engineers,total,77.0
+2020,Computer Hardware Engineers,age_16_19,0.0
+2020,Computer Hardware Engineers,age_20_24,3.0
+2020,Computer Hardware Engineers,age_25_34,27.0
+2020,Computer Hardware Engineers,age_35_44,25.0
+2020,Computer Hardware Engineers,age_45_54,12.0
+2020,Computer Hardware Engineers,age_55_64,19.0
+2020,Computer Hardware Engineers,age_65_plus,3.0
+2020,Computer Hardware Engineers,total,89.0
+2021,Computer Hardware Engineers,age_16_19,0.0
+2021,Computer Hardware Engineers,age_20_24,1.0
+2021,Computer Hardware Engineers,age_25_34,36.0
+2021,Computer Hardware Engineers,age_35_44,27.0
+2021,Computer Hardware Engineers,age_45_54,11.0
+2021,Computer Hardware Engineers,age_55_64,8.0
+2021,Computer Hardware Engineers,age_65_plus,5.0
+2021,Computer Hardware Engineers,total,88.0
+2022,Computer Hardware Engineers,age_16_19,0.0
+2022,Computer Hardware Engineers,age_20_24,5.0
+2022,Computer Hardware Engineers,age_25_34,20.0
+2022,Computer Hardware Engineers,age_35_44,29.0
+2022,Computer Hardware Engineers,age_45_54,20.0
+2022,Computer Hardware Engineers,age_55_64,14.0
+2022,Computer Hardware Engineers,age_65_plus,2.0
+2022,Computer Hardware Engineers,total,90.0
+2023,Computer Hardware Engineers,age_16_19,0.0
+2023,Computer Hardware Engineers,age_20_24,4.0
+2023,Computer Hardware Engineers,age_25_34,17.0
+2023,Computer Hardware Engineers,age_35_44,20.0
+2023,Computer Hardware Engineers,age_45_54,15.0
+2023,Computer Hardware Engineers,age_55_64,14.0
+2023,Computer Hardware Engineers,age_65_plus,1.0
+2023,Computer Hardware Engineers,total,71.0
+2024,Computer Hardware Engineers,age_16_19,0.0
+2024,Computer Hardware Engineers,age_20_24,5.0
+2024,Computer Hardware Engineers,age_25_34,25.0
+2024,Computer Hardware Engineers,age_35_44,21.0
+2024,Computer Hardware Engineers,age_45_54,12.0
+2024,Computer Hardware Engineers,age_55_64,19.0
+2024,Computer Hardware Engineers,age_65_plus,4.0
+2024,Computer Hardware Engineers,total,85.0
+2015,Computer Network Architects,age_16_19,0.0
+2015,Computer Network Architects,age_20_24,1.0
+2015,Computer Network Architects,age_25_34,24.0
+2015,Computer Network Architects,age_35_44,45.0
+2015,Computer Network Architects,age_45_54,28.0
+2015,Computer Network Architects,age_55_64,10.0
+2015,Computer Network Architects,age_65_plus,6.0
+2015,Computer Network Architects,total,114.0
+2016,Computer Network Architects,age_16_19,0.0
+2016,Computer Network Architects,age_20_24,5.0
+2016,Computer Network Architects,age_25_34,31.0
+2016,Computer Network Architects,age_35_44,42.0
+2016,Computer Network Architects,age_45_54,26.0
+2016,Computer Network Architects,age_55_64,9.0
+2016,Computer Network Architects,age_65_plus,3.0
+2016,Computer Network Architects,total,115.0
+2017,Computer Network Architects,age_16_19,0.0
+2017,Computer Network Architects,age_20_24,4.0
+2017,Computer Network Architects,age_25_34,23.0
+2017,Computer Network Architects,age_35_44,37.0
+2017,Computer Network Architects,age_45_54,28.0
+2017,Computer Network Architects,age_55_64,10.0
+2017,Computer Network Architects,age_65_plus,4.0
+2017,Computer Network Architects,total,106.0
+2018,Computer Network Architects,age_16_19,0.0
+2018,Computer Network Architects,age_20_24,1.0
+2018,Computer Network Architects,age_25_34,24.0
+2018,Computer Network Architects,age_35_44,34.0
+2018,Computer Network Architects,age_45_54,33.0
+2018,Computer Network Architects,age_55_64,18.0
+2018,Computer Network Architects,age_65_plus,4.0
+2018,Computer Network Architects,total,114.0
+2019,Computer Network Architects,age_16_19,0.0
+2019,Computer Network Architects,age_20_24,1.0
+2019,Computer Network Architects,age_25_34,15.0
+2019,Computer Network Architects,age_35_44,32.0
+2019,Computer Network Architects,age_45_54,37.0
+2019,Computer Network Architects,age_55_64,19.0
+2019,Computer Network Architects,age_65_plus,3.0
+2019,Computer Network Architects,total,106.0
+2020,Computer Network Architects,age_16_19,0.0
+2020,Computer Network Architects,age_20_24,1.0
+2020,Computer Network Architects,age_25_34,20.0
+2020,Computer Network Architects,age_35_44,34.0
+2020,Computer Network Architects,age_45_54,38.0
+2020,Computer Network Architects,age_55_64,13.0
+2020,Computer Network Architects,age_65_plus,2.0
+2020,Computer Network Architects,total,107.0
+2021,Computer Network Architects,age_16_19,0.0
+2021,Computer Network Architects,age_20_24,0.0
+2021,Computer Network Architects,age_25_34,14.0
+2021,Computer Network Architects,age_35_44,39.0
+2021,Computer Network Architects,age_45_54,30.0
+2021,Computer Network Architects,age_55_64,16.0
+2021,Computer Network Architects,age_65_plus,2.0
+2021,Computer Network Architects,total,102.0
+2022,Computer Network Architects,age_16_19,0.0
+2022,Computer Network Architects,age_20_24,3.0
+2022,Computer Network Architects,age_25_34,20.0
+2022,Computer Network Architects,age_35_44,32.0
+2022,Computer Network Architects,age_45_54,24.0
+2022,Computer Network Architects,age_55_64,15.0
+2022,Computer Network Architects,age_65_plus,4.0
+2022,Computer Network Architects,total,98.0
+2023,Computer Network Architects,age_16_19,0.0
+2023,Computer Network Architects,age_20_24,4.0
+2023,Computer Network Architects,age_25_34,23.0
+2023,Computer Network Architects,age_35_44,34.0
+2023,Computer Network Architects,age_45_54,23.0
+2023,Computer Network Architects,age_55_64,18.0
+2023,Computer Network Architects,age_65_plus,1.0
+2023,Computer Network Architects,total,104.0
+2024,Computer Network Architects,age_16_19,0.0
+2024,Computer Network Architects,age_20_24,2.0
+2024,Computer Network Architects,age_25_34,20.0
+2024,Computer Network Architects,age_35_44,51.0
+2024,Computer Network Architects,age_45_54,43.0
+2024,Computer Network Architects,age_55_64,17.0
+2024,Computer Network Architects,age_65_plus,6.0
+2024,Computer Network Architects,total,139.0
+2015,Computer Programmers,age_16_19,2.0
+2015,Computer Programmers,age_20_24,28.0
+2015,Computer Programmers,age_25_34,108.0
+2015,Computer Programmers,age_35_44,127.0
+2015,Computer Programmers,age_45_54,123.0
+2015,Computer Programmers,age_55_64,77.0
+2015,Computer Programmers,age_65_plus,15.0
+2015,Computer Programmers,total,480.0
+2016,Computer Programmers,age_16_19,3.0
+2016,Computer Programmers,age_20_24,26.0
+2016,Computer Programmers,age_25_34,109.0
+2016,Computer Programmers,age_35_44,124.0
+2016,Computer Programmers,age_45_54,119.0
+2016,Computer Programmers,age_55_64,66.0
+2016,Computer Programmers,age_65_plus,19.0
+2016,Computer Programmers,total,466.0
+2017,Computer Programmers,age_16_19,4.0
+2017,Computer Programmers,age_20_24,27.0
+2017,Computer Programmers,age_25_34,125.0
+2017,Computer Programmers,age_35_44,131.0
+2017,Computer Programmers,age_45_54,113.0
+2017,Computer Programmers,age_55_64,62.0
+2017,Computer Programmers,age_65_plus,12.0
+2017,Computer Programmers,total,473.0
+2018,Computer Programmers,age_16_19,3.0
+2018,Computer Programmers,age_20_24,28.0
+2018,Computer Programmers,age_25_34,117.0
+2018,Computer Programmers,age_35_44,111.0
+2018,Computer Programmers,age_45_54,126.0
+2018,Computer Programmers,age_55_64,73.0
+2018,Computer Programmers,age_65_plus,18.0
+2018,Computer Programmers,total,477.0
+2019,Computer Programmers,age_16_19,2.0
+2019,Computer Programmers,age_20_24,19.0
+2019,Computer Programmers,age_25_34,117.0
+2019,Computer Programmers,age_35_44,105.0
+2019,Computer Programmers,age_45_54,116.0
+2019,Computer Programmers,age_55_64,72.0
+2019,Computer Programmers,age_65_plus,24.0
+2019,Computer Programmers,total,454.0
+2020,Computer Programmers,age_16_19,3.0
+2020,Computer Programmers,age_20_24,19.0
+2020,Computer Programmers,age_25_34,102.0
+2020,Computer Programmers,age_35_44,109.0
+2020,Computer Programmers,age_45_54,81.0
+2020,Computer Programmers,age_55_64,89.0
+2020,Computer Programmers,age_65_plus,15.0
+2020,Computer Programmers,total,417.0
+2021,Computer Programmers,age_16_19,5.0
+2021,Computer Programmers,age_20_24,19.0
+2021,Computer Programmers,age_25_34,108.0
+2021,Computer Programmers,age_35_44,115.0
+2021,Computer Programmers,age_45_54,95.0
+2021,Computer Programmers,age_55_64,82.0
+2021,Computer Programmers,age_65_plus,20.0
+2021,Computer Programmers,total,444.0
+2022,Computer Programmers,age_16_19,9.0
+2022,Computer Programmers,age_20_24,21.0
+2022,Computer Programmers,age_25_34,118.0
+2022,Computer Programmers,age_35_44,107.0
+2022,Computer Programmers,age_45_54,82.0
+2022,Computer Programmers,age_55_64,92.0
+2022,Computer Programmers,age_65_plus,27.0
+2022,Computer Programmers,total,457.0
+2023,Computer Programmers,age_16_19,3.0
+2023,Computer Programmers,age_20_24,19.0
+2023,Computer Programmers,age_25_34,103.0
+2023,Computer Programmers,age_35_44,99.0
+2023,Computer Programmers,age_45_54,84.0
+2023,Computer Programmers,age_55_64,71.0
+2023,Computer Programmers,age_65_plus,23.0
+2023,Computer Programmers,total,402.0
+2024,Computer Programmers,age_16_19,3.0
+2024,Computer Programmers,age_20_24,21.0
+2024,Computer Programmers,age_25_34,74.0
+2024,Computer Programmers,age_35_44,88.0
+2024,Computer Programmers,age_45_54,74.0
+2024,Computer Programmers,age_55_64,60.0
+2024,Computer Programmers,age_65_plus,14.0
+2024,Computer Programmers,total,334.0
+2015,Computer Support Specialists,age_16_19,6.0
+2015,Computer Support Specialists,age_20_24,40.0
+2015,Computer Support Specialists,age_25_34,129.0
+2015,Computer Support Specialists,age_35_44,122.0
+2015,Computer Support Specialists,age_45_54,96.0
+2015,Computer Support Specialists,age_55_64,71.0
+2015,Computer Support Specialists,age_65_plus,12.0
+2015,Computer Support Specialists,total,475.0
+2016,Computer Support Specialists,age_16_19,8.0
+2016,Computer Support Specialists,age_20_24,44.0
+2016,Computer Support Specialists,age_25_34,163.0
+2016,Computer Support Specialists,age_35_44,143.0
+2016,Computer Support Specialists,age_45_54,110.0
+2016,Computer Support Specialists,age_55_64,84.0
+2016,Computer Support Specialists,age_65_plus,18.0
+2016,Computer Support Specialists,total,570.0
+2017,Computer Support Specialists,age_16_19,7.0
+2017,Computer Support Specialists,age_20_24,42.0
+2017,Computer Support Specialists,age_25_34,164.0
+2017,Computer Support Specialists,age_35_44,123.0
+2017,Computer Support Specialists,age_45_54,102.0
+2017,Computer Support Specialists,age_55_64,81.0
+2017,Computer Support Specialists,age_65_plus,13.0
+2017,Computer Support Specialists,total,532.0
+2018,Computer Support Specialists,age_16_19,5.0
+2018,Computer Support Specialists,age_20_24,62.0
+2018,Computer Support Specialists,age_25_34,175.0
+2018,Computer Support Specialists,age_35_44,128.0
+2018,Computer Support Specialists,age_45_54,104.0
+2018,Computer Support Specialists,age_55_64,78.0
+2018,Computer Support Specialists,age_65_plus,15.0
+2018,Computer Support Specialists,total,566.0
+2019,Computer Support Specialists,age_16_19,5.0
+2019,Computer Support Specialists,age_20_24,36.0
+2019,Computer Support Specialists,age_25_34,158.0
+2019,Computer Support Specialists,age_35_44,145.0
+2019,Computer Support Specialists,age_45_54,119.0
+2019,Computer Support Specialists,age_55_64,68.0
+2019,Computer Support Specialists,age_65_plus,15.0
+2019,Computer Support Specialists,total,547.0
+2020,Computer Support Specialists,age_16_19,9.0
+2020,Computer Support Specialists,age_20_24,40.0
+2020,Computer Support Specialists,age_25_34,190.0
+2020,Computer Support Specialists,age_35_44,172.0
+2020,Computer Support Specialists,age_45_54,134.0
+2020,Computer Support Specialists,age_55_64,95.0
+2020,Computer Support Specialists,age_65_plus,19.0
+2020,Computer Support Specialists,total,660.0
+2021,Computer Support Specialists,age_16_19,6.0
+2021,Computer Support Specialists,age_20_24,62.0
+2021,Computer Support Specialists,age_25_34,180.0
+2021,Computer Support Specialists,age_35_44,139.0
+2021,Computer Support Specialists,age_45_54,140.0
+2021,Computer Support Specialists,age_55_64,110.0
+2021,Computer Support Specialists,age_65_plus,23.0
+2021,Computer Support Specialists,total,660.0
+2022,Computer Support Specialists,age_16_19,4.0
+2022,Computer Support Specialists,age_20_24,43.0
+2022,Computer Support Specialists,age_25_34,206.0
+2022,Computer Support Specialists,age_35_44,165.0
+2022,Computer Support Specialists,age_45_54,136.0
+2022,Computer Support Specialists,age_55_64,121.0
+2022,Computer Support Specialists,age_65_plus,30.0
+2022,Computer Support Specialists,total,704.0
+2023,Computer Support Specialists,age_16_19,5.0
+2023,Computer Support Specialists,age_20_24,44.0
+2023,Computer Support Specialists,age_25_34,185.0
+2023,Computer Support Specialists,age_35_44,186.0
+2023,Computer Support Specialists,age_45_54,138.0
+2023,Computer Support Specialists,age_55_64,104.0
+2023,Computer Support Specialists,age_65_plus,25.0
+2023,Computer Support Specialists,total,687.0
+2024,Computer Support Specialists,age_16_19,1.0
+2024,Computer Support Specialists,age_20_24,47.0
+2024,Computer Support Specialists,age_25_34,160.0
+2024,Computer Support Specialists,age_35_44,175.0
+2024,Computer Support Specialists,age_45_54,121.0
+2024,Computer Support Specialists,age_55_64,97.0
+2024,Computer Support Specialists,age_65_plus,32.0
+2024,Computer Support Specialists,total,633.0
+2015,Computer Systems Analysts,age_16_19,1.0
+2015,Computer Systems Analysts,age_20_24,26.0
+2015,Computer Systems Analysts,age_25_34,142.0
+2015,Computer Systems Analysts,age_35_44,160.0
+2015,Computer Systems Analysts,age_45_54,125.0
+2015,Computer Systems Analysts,age_55_64,82.0
+2015,Computer Systems Analysts,age_65_plus,17.0
+2015,Computer Systems Analysts,total,552.0
+2016,Computer Systems Analysts,age_16_19,1.0
+2016,Computer Systems Analysts,age_20_24,30.0
+2016,Computer Systems Analysts,age_25_34,138.0
+2016,Computer Systems Analysts,age_35_44,137.0
+2016,Computer Systems Analysts,age_45_54,129.0
+2016,Computer Systems Analysts,age_55_64,79.0
+2016,Computer Systems Analysts,age_65_plus,12.0
+2016,Computer Systems Analysts,total,526.0
+2017,Computer Systems Analysts,age_16_19,0.0
+2017,Computer Systems Analysts,age_20_24,34.0
+2017,Computer Systems Analysts,age_25_34,137.0
+2017,Computer Systems Analysts,age_35_44,132.0
+2017,Computer Systems Analysts,age_45_54,136.0
+2017,Computer Systems Analysts,age_55_64,96.0
+2017,Computer Systems Analysts,age_65_plus,19.0
+2017,Computer Systems Analysts,total,554.0
+2018,Computer Systems Analysts,age_16_19,2.0
+2018,Computer Systems Analysts,age_20_24,38.0
+2018,Computer Systems Analysts,age_25_34,193.0
+2018,Computer Systems Analysts,age_35_44,162.0
+2018,Computer Systems Analysts,age_45_54,136.0
+2018,Computer Systems Analysts,age_55_64,92.0
+2018,Computer Systems Analysts,age_65_plus,29.0
+2018,Computer Systems Analysts,total,652.0
+2019,Computer Systems Analysts,age_16_19,1.0
+2019,Computer Systems Analysts,age_20_24,59.0
+2019,Computer Systems Analysts,age_25_34,191.0
+2019,Computer Systems Analysts,age_35_44,181.0
+2019,Computer Systems Analysts,age_45_54,121.0
+2019,Computer Systems Analysts,age_55_64,94.0
+2019,Computer Systems Analysts,age_65_plus,16.0
+2019,Computer Systems Analysts,total,663.0
+2020,Computer Systems Analysts,age_16_19,2.0
+2020,Computer Systems Analysts,age_20_24,41.0
+2020,Computer Systems Analysts,age_25_34,174.0
+2020,Computer Systems Analysts,age_35_44,141.0
+2020,Computer Systems Analysts,age_45_54,120.0
+2020,Computer Systems Analysts,age_55_64,97.0
+2020,Computer Systems Analysts,age_65_plus,19.0
+2020,Computer Systems Analysts,total,594.0
+2021,Computer Systems Analysts,age_16_19,2.0
+2021,Computer Systems Analysts,age_20_24,17.0
+2021,Computer Systems Analysts,age_25_34,125.0
+2021,Computer Systems Analysts,age_35_44,127.0
+2021,Computer Systems Analysts,age_45_54,92.0
+2021,Computer Systems Analysts,age_55_64,83.0
+2021,Computer Systems Analysts,age_65_plus,18.0
+2021,Computer Systems Analysts,total,464.0
+2022,Computer Systems Analysts,age_16_19,1.0
+2022,Computer Systems Analysts,age_20_24,25.0
+2022,Computer Systems Analysts,age_25_34,136.0
+2022,Computer Systems Analysts,age_35_44,134.0
+2022,Computer Systems Analysts,age_45_54,97.0
+2022,Computer Systems Analysts,age_55_64,70.0
+2022,Computer Systems Analysts,age_65_plus,39.0
+2022,Computer Systems Analysts,total,501.0
+2023,Computer Systems Analysts,age_16_19,2.0
+2023,Computer Systems Analysts,age_20_24,25.0
+2023,Computer Systems Analysts,age_25_34,130.0
+2023,Computer Systems Analysts,age_35_44,121.0
+2023,Computer Systems Analysts,age_45_54,119.0
+2023,Computer Systems Analysts,age_55_64,88.0
+2023,Computer Systems Analysts,age_65_plus,28.0
+2023,Computer Systems Analysts,total,513.0
+2024,Computer Systems Analysts,age_16_19,1.0
+2024,Computer Systems Analysts,age_20_24,46.0
+2024,Computer Systems Analysts,age_25_34,158.0
+2024,Computer Systems Analysts,age_35_44,136.0
+2024,Computer Systems Analysts,age_45_54,98.0
+2024,Computer Systems Analysts,age_55_64,84.0
+2024,Computer Systems Analysts,age_65_plus,24.0
+2024,Computer Systems Analysts,total,547.0
+2015,Database Administrators,age_16_19,0.0
+2015,Database Administrators,age_20_24,1.0
+2015,Database Administrators,age_25_34,17.0
+2015,Database Administrators,age_35_44,20.0
+2015,Database Administrators,age_45_54,31.0
+2015,Database Administrators,age_55_64,20.0
+2015,Database Administrators,age_65_plus,4.0
+2015,Database Administrators,total,93.0
+2016,Database Administrators,age_16_19,0.0
+2016,Database Administrators,age_20_24,5.0
+2016,Database Administrators,age_25_34,23.0
+2016,Database Administrators,age_35_44,20.0
+2016,Database Administrators,age_45_54,19.0
+2016,Database Administrators,age_55_64,20.0
+2016,Database Administrators,age_65_plus,2.0
+2016,Database Administrators,total,90.0
+2017,Database Administrators,age_16_19,0.0
+2017,Database Administrators,age_20_24,5.0
+2017,Database Administrators,age_25_34,31.0
+2017,Database Administrators,age_35_44,17.0
+2017,Database Administrators,age_45_54,26.0
+2017,Database Administrators,age_55_64,16.0
+2017,Database Administrators,age_65_plus,2.0
+2017,Database Administrators,total,96.0
+2018,Database Administrators,age_16_19,1.0
+2018,Database Administrators,age_20_24,7.0
+2018,Database Administrators,age_25_34,34.0
+2018,Database Administrators,age_35_44,16.0
+2018,Database Administrators,age_45_54,24.0
+2018,Database Administrators,age_55_64,23.0
+2018,Database Administrators,age_65_plus,3.0
+2018,Database Administrators,total,108.0
+2019,Database Administrators,age_16_19,0.0
+2019,Database Administrators,age_20_24,5.0
+2019,Database Administrators,age_25_34,21.0
+2019,Database Administrators,age_35_44,29.0
+2019,Database Administrators,age_45_54,27.0
+2019,Database Administrators,age_55_64,18.0
+2019,Database Administrators,age_65_plus,7.0
+2019,Database Administrators,total,106.0
+2020,Database Administrators,age_16_19,0.0
+2020,Database Administrators,age_20_24,7.0
+2020,Database Administrators,age_25_34,33.0
+2020,Database Administrators,age_35_44,24.0
+2020,Database Administrators,age_45_54,36.0
+2020,Database Administrators,age_55_64,15.0
+2020,Database Administrators,age_65_plus,6.0
+2020,Database Administrators,total,121.0
+2021,Database Administrators,age_16_19,0.0
+2021,Database Administrators,age_20_24,1.0
+2021,Database Administrators,age_25_34,31.0
+2021,Database Administrators,age_35_44,19.0
+2021,Database Administrators,age_45_54,32.0
+2021,Database Administrators,age_55_64,27.0
+2021,Database Administrators,age_65_plus,1.0
+2021,Database Administrators,total,111.0
+2022,Database Administrators,age_16_19,1.0
+2022,Database Administrators,age_20_24,10.0
+2022,Database Administrators,age_25_34,32.0
+2022,Database Administrators,age_35_44,24.0
+2022,Database Administrators,age_45_54,33.0
+2022,Database Administrators,age_55_64,34.0
+2022,Database Administrators,age_65_plus,4.0
+2022,Database Administrators,total,137.0
+2023,Database Administrators,age_16_19,0.0
+2023,Database Administrators,age_20_24,3.0
+2023,Database Administrators,age_25_34,28.0
+2023,Database Administrators,age_35_44,31.0
+2023,Database Administrators,age_45_54,28.0
+2023,Database Administrators,age_55_64,30.0
+2023,Database Administrators,age_65_plus,3.0
+2023,Database Administrators,total,122.0
+2024,Database Administrators,age_16_19,1.0
+2024,Database Administrators,age_20_24,4.0
+2024,Database Administrators,age_25_34,50.0
+2024,Database Administrators,age_35_44,38.0
+2024,Database Administrators,age_45_54,30.0
+2024,Database Administrators,age_55_64,21.0
+2024,Database Administrators,age_65_plus,4.0
+2024,Database Administrators,total,148.0
+2015,Information Security Analysts,age_16_19,0.0
+2015,Information Security Analysts,age_20_24,2.0
+2015,Information Security Analysts,age_25_34,17.0
+2015,Information Security Analysts,age_35_44,19.0
+2015,Information Security Analysts,age_45_54,16.0
+2015,Information Security Analysts,age_55_64,12.0
+2015,Information Security Analysts,age_65_plus,4.0
+2015,Information Security Analysts,total,70.0
+2016,Information Security Analysts,age_16_19,0.0
+2016,Information Security Analysts,age_20_24,7.0
+2016,Information Security Analysts,age_25_34,15.0
+2016,Information Security Analysts,age_35_44,25.0
+2016,Information Security Analysts,age_45_54,24.0
+2016,Information Security Analysts,age_55_64,17.0
+2016,Information Security Analysts,age_65_plus,1.0
+2016,Information Security Analysts,total,89.0
+2017,Information Security Analysts,age_16_19,0.0
+2017,Information Security Analysts,age_20_24,6.0
+2017,Information Security Analysts,age_25_34,24.0
+2017,Information Security Analysts,age_35_44,32.0
+2017,Information Security Analysts,age_45_54,26.0
+2017,Information Security Analysts,age_55_64,16.0
+2017,Information Security Analysts,age_65_plus,3.0
+2017,Information Security Analysts,total,105.0
+2018,Information Security Analysts,age_16_19,1.0
+2018,Information Security Analysts,age_20_24,5.0
+2018,Information Security Analysts,age_25_34,26.0
+2018,Information Security Analysts,age_35_44,34.0
+2018,Information Security Analysts,age_45_54,17.0
+2018,Information Security Analysts,age_55_64,13.0
+2018,Information Security Analysts,age_65_plus,3.0
+2018,Information Security Analysts,total,97.0
+2019,Information Security Analysts,age_16_19,1.0
+2019,Information Security Analysts,age_20_24,12.0
+2019,Information Security Analysts,age_25_34,46.0
+2019,Information Security Analysts,age_35_44,31.0
+2019,Information Security Analysts,age_45_54,18.0
+2019,Information Security Analysts,age_55_64,15.0
+2019,Information Security Analysts,age_65_plus,2.0
+2019,Information Security Analysts,total,125.0
+2020,Information Security Analysts,age_16_19,0.0
+2020,Information Security Analysts,age_20_24,8.0
+2020,Information Security Analysts,age_25_34,38.0
+2020,Information Security Analysts,age_35_44,39.0
+2020,Information Security Analysts,age_45_54,26.0
+2020,Information Security Analysts,age_55_64,19.0
+2020,Information Security Analysts,age_65_plus,6.0
+2020,Information Security Analysts,total,137.0
+2021,Information Security Analysts,age_16_19,2.0
+2021,Information Security Analysts,age_20_24,9.0
+2021,Information Security Analysts,age_25_34,30.0
+2021,Information Security Analysts,age_35_44,45.0
+2021,Information Security Analysts,age_45_54,33.0
+2021,Information Security Analysts,age_55_64,21.0
+2021,Information Security Analysts,age_65_plus,13.0
+2021,Information Security Analysts,total,152.0
+2022,Information Security Analysts,age_16_19,2.0
+2022,Information Security Analysts,age_20_24,7.0
+2022,Information Security Analysts,age_25_34,42.0
+2022,Information Security Analysts,age_35_44,57.0
+2022,Information Security Analysts,age_45_54,35.0
+2022,Information Security Analysts,age_55_64,32.0
+2022,Information Security Analysts,age_65_plus,3.0
+2022,Information Security Analysts,total,178.0
+2023,Information Security Analysts,age_16_19,0.0
+2023,Information Security Analysts,age_20_24,17.0
+2023,Information Security Analysts,age_25_34,67.0
+2023,Information Security Analysts,age_35_44,54.0
+2023,Information Security Analysts,age_45_54,54.0
+2023,Information Security Analysts,age_55_64,33.0
+2023,Information Security Analysts,age_65_plus,6.0
+2023,Information Security Analysts,total,231.0
+2024,Information Security Analysts,age_16_19,1.0
+2024,Information Security Analysts,age_20_24,15.0
+2024,Information Security Analysts,age_25_34,70.0
+2024,Information Security Analysts,age_35_44,61.0
+2024,Information Security Analysts,age_45_54,58.0
+2024,Information Security Analysts,age_55_64,28.0
+2024,Information Security Analysts,age_65_plus,10.0
+2024,Information Security Analysts,total,243.0
+2015,Network & Systems Admins,age_16_19,0.0
+2015,Network & Systems Admins,age_20_24,8.0
+2015,Network & Systems Admins,age_25_34,64.0
+2015,Network & Systems Admins,age_35_44,65.0
+2015,Network & Systems Admins,age_45_54,55.0
+2015,Network & Systems Admins,age_55_64,23.0
+2015,Network & Systems Admins,age_65_plus,3.0
+2015,Network & Systems Admins,total,218.0
+2016,Network & Systems Admins,age_16_19,0.0
+2016,Network & Systems Admins,age_20_24,10.0
+2016,Network & Systems Admins,age_25_34,52.0
+2016,Network & Systems Admins,age_35_44,68.0
+2016,Network & Systems Admins,age_45_54,61.0
+2016,Network & Systems Admins,age_55_64,22.0
+2016,Network & Systems Admins,age_65_plus,5.0
+2016,Network & Systems Admins,total,218.0
+2017,Network & Systems Admins,age_16_19,4.0
+2017,Network & Systems Admins,age_20_24,11.0
+2017,Network & Systems Admins,age_25_34,40.0
+2017,Network & Systems Admins,age_35_44,62.0
+2017,Network & Systems Admins,age_45_54,55.0
+2017,Network & Systems Admins,age_55_64,29.0
+2017,Network & Systems Admins,age_65_plus,9.0
+2017,Network & Systems Admins,total,210.0
+2018,Network & Systems Admins,age_16_19,0.0
+2018,Network & Systems Admins,age_20_24,4.0
+2018,Network & Systems Admins,age_25_34,56.0
+2018,Network & Systems Admins,age_35_44,54.0
+2018,Network & Systems Admins,age_45_54,52.0
+2018,Network & Systems Admins,age_55_64,33.0
+2018,Network & Systems Admins,age_65_plus,5.0
+2018,Network & Systems Admins,total,204.0
+2019,Network & Systems Admins,age_16_19,0.0
+2019,Network & Systems Admins,age_20_24,8.0
+2019,Network & Systems Admins,age_25_34,48.0
+2019,Network & Systems Admins,age_35_44,65.0
+2019,Network & Systems Admins,age_45_54,50.0
+2019,Network & Systems Admins,age_55_64,25.0
+2019,Network & Systems Admins,age_65_plus,4.0
+2019,Network & Systems Admins,total,199.0
+2020,Network & Systems Admins,age_16_19,0.0
+2020,Network & Systems Admins,age_20_24,7.0
+2020,Network & Systems Admins,age_25_34,54.0
+2020,Network & Systems Admins,age_35_44,74.0
+2020,Network & Systems Admins,age_45_54,62.0
+2020,Network & Systems Admins,age_55_64,30.0
+2020,Network & Systems Admins,age_65_plus,11.0
+2020,Network & Systems Admins,total,238.0
+2021,Network & Systems Admins,age_16_19,1.0
+2021,Network & Systems Admins,age_20_24,5.0
+2021,Network & Systems Admins,age_25_34,49.0
+2021,Network & Systems Admins,age_35_44,57.0
+2021,Network & Systems Admins,age_45_54,54.0
+2021,Network & Systems Admins,age_55_64,38.0
+2021,Network & Systems Admins,age_65_plus,8.0
+2021,Network & Systems Admins,total,212.0
+2022,Network & Systems Admins,age_16_19,0.0
+2022,Network & Systems Admins,age_20_24,7.0
+2022,Network & Systems Admins,age_25_34,56.0
+2022,Network & Systems Admins,age_35_44,59.0
+2022,Network & Systems Admins,age_45_54,44.0
+2022,Network & Systems Admins,age_55_64,47.0
+2022,Network & Systems Admins,age_65_plus,4.0
+2022,Network & Systems Admins,total,217.0
+2023,Network & Systems Admins,age_16_19,0.0
+2023,Network & Systems Admins,age_20_24,4.0
+2023,Network & Systems Admins,age_25_34,47.0
+2023,Network & Systems Admins,age_35_44,64.0
+2023,Network & Systems Admins,age_45_54,51.0
+2023,Network & Systems Admins,age_55_64,33.0
+2023,Network & Systems Admins,age_65_plus,3.0
+2023,Network & Systems Admins,total,202.0
+2024,Network & Systems Admins,age_16_19,0.0
+2024,Network & Systems Admins,age_20_24,7.0
+2024,Network & Systems Admins,age_25_34,26.0
+2024,Network & Systems Admins,age_35_44,42.0
+2024,Network & Systems Admins,age_45_54,38.0
+2024,Network & Systems Admins,age_55_64,37.0
+2024,Network & Systems Admins,age_65_plus,5.0
+2024,Network & Systems Admins,total,154.0
+2015,Software Developers,age_16_19,1.0
+2015,Software Developers,age_20_24,74.0
+2015,Software Developers,age_25_34,438.0
+2015,Software Developers,age_35_44,387.0
+2015,Software Developers,age_45_54,280.0
+2015,Software Developers,age_55_64,148.0
+2015,Software Developers,age_65_plus,25.0
+2015,Software Developers,total,1353.0
+2016,Software Developers,age_16_19,6.0
+2016,Software Developers,age_20_24,79.0
+2016,Software Developers,age_25_34,490.0
+2016,Software Developers,age_35_44,404.0
+2016,Software Developers,age_45_54,302.0
+2016,Software Developers,age_55_64,168.0
+2016,Software Developers,age_65_plus,35.0
+2016,Software Developers,total,1483.0
+2017,Software Developers,age_16_19,5.0
+2017,Software Developers,age_20_24,80.0
+2017,Software Developers,age_25_34,526.0
+2017,Software Developers,age_35_44,433.0
+2017,Software Developers,age_45_54,277.0
+2017,Software Developers,age_55_64,175.0
+2017,Software Developers,age_65_plus,40.0
+2017,Software Developers,total,1536.0
+2018,Software Developers,age_16_19,1.0
+2018,Software Developers,age_20_24,99.0
+2018,Software Developers,age_25_34,595.0
+2018,Software Developers,age_35_44,462.0
+2018,Software Developers,age_45_54,291.0
+2018,Software Developers,age_55_64,200.0
+2018,Software Developers,age_65_plus,34.0
+2018,Software Developers,total,1682.0
+2019,Software Developers,age_16_19,2.0
+2019,Software Developers,age_20_24,111.0
+2019,Software Developers,age_25_34,640.0
+2019,Software Developers,age_35_44,496.0
+2019,Software Developers,age_45_54,313.0
+2019,Software Developers,age_55_64,195.0
+2019,Software Developers,age_65_plus,56.0
+2019,Software Developers,total,1815.0
+2020,Software Developers,age_16_19,4.0
+2020,Software Developers,age_20_24,109.0
+2020,Software Developers,age_25_34,675.0
+2020,Software Developers,age_35_44,529.0
+2020,Software Developers,age_45_54,303.0
+2020,Software Developers,age_55_64,220.0
+2020,Software Developers,age_65_plus,43.0
+2020,Software Developers,total,1883.0
+2021,Software Developers,age_16_19,4.0
+2021,Software Developers,age_20_24,122.0
+2021,Software Developers,age_25_34,700.0
+2021,Software Developers,age_35_44,523.0
+2021,Software Developers,age_45_54,338.0
+2021,Software Developers,age_55_64,205.0
+2021,Software Developers,age_65_plus,40.0
+2021,Software Developers,total,1932.0
+2022,Software Developers,age_16_19,0.0
+2022,Software Developers,age_20_24,133.0
+2022,Software Developers,age_25_34,746.0
+2022,Software Developers,age_35_44,553.0
+2022,Software Developers,age_45_54,376.0
+2022,Software Developers,age_55_64,234.0
+2022,Software Developers,age_65_plus,43.0
+2022,Software Developers,total,2085.0
+2023,Software Developers,age_16_19,7.0
+2023,Software Developers,age_20_24,132.0
+2023,Software Developers,age_25_34,779.0
+2023,Software Developers,age_35_44,582.0
+2023,Software Developers,age_45_54,349.0
+2023,Software Developers,age_55_64,220.0
+2023,Software Developers,age_65_plus,65.0
+2023,Software Developers,total,2134.0
+2024,Software Developers,age_16_19,3.0
+2024,Software Developers,age_20_24,129.0
+2024,Software Developers,age_25_34,742.0
+2024,Software Developers,age_35_44,567.0
+2024,Software Developers,age_45_54,366.0
+2024,Software Developers,age_55_64,230.0
+2024,Software Developers,age_65_plus,40.0
+2024,Software Developers,total,2077.0

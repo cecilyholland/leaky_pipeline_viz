@@ -1,0 +1,18 @@
+gss_code,field_label,year,n_institutions,ft_wmen_black_v,ft_wmen_hisp_v,ft_wmen_asian_v,ft_wmen_indian_v,ft_wmen_white_v,ft_wmen_multi_v,ft_wmen_forgn_v,ft_tot_all_races_v
+106,Computer science,2016,263,81,96,324,3,561,0.0,7375,38158
+106,Computer science,2019,273,107,140,512,2,758,73.0,6455,35426
+106,Computer science,2020,249,74,100,310,1,607,65.0,3436,22164
+106,Computer science,2021,249,84,142,407,16,595,85.0,3958,24187
+106,Computer science,2022,247,100,141,427,94,595,90.0,4322,25801
+106,Computer science,2023,248,109,144,414,3,560,97.0,4154,24699
+106,Computer science,2024,253,109,166,457,4,623,80.0,3949,24656
+118,Computer engineering,2020,135,28,43,122,0,155,16.0,1911,8339
+118,Computer engineering,2021,135,35,43,153,1,158,14.0,2266,9557
+118,Computer engineering,2022,134,25,30,135,1,160,17.0,3208,12081
+118,Computer engineering,2023,137,18,44,146,0,150,16.0,3317,12658
+118,Computer engineering,2024,144,29,48,178,1,155,23.0,3021,12587
+119,Electrical engineering,2020,81,35,40,94,2,213,28.0,518,3026
+119,Electrical engineering,2021,83,32,38,118,3,246,26.0,885,4048
+119,Electrical engineering,2022,88,28,48,100,2,219,22.0,810,3788
+119,Electrical engineering,2023,84,25,51,100,2,218,26.0,795,3669
+119,Electrical engineering,2024,88,32,57,135,1,234,32.0,953,4311
