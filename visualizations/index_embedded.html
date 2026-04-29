@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Leaky Pipeline: Women in Tech</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, #E15759 0%, #B07AA1 100%); color: white; padding: 40px 20px; text-align: center; margin-bottom: 30px; }
+        header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        header p { font-size: 1.2em; opacity: 0.9; }
+        .act { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-bottom: 30px; overflow: hidden; }
+        .act-header { padding: 20px; border-bottom: 1px solid #eee; }
+        .act-header h2 { color: #E15759; margin-bottom: 5px; }
+        .act-header .act-num { display: inline-block; background: #E15759; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.85em; margin-right: 10px; }
+        .act-content { padding: 20px; }
+        .act-content p { margin-bottom: 15px; color: #555; }
+        .data-source { background: #f0f7ff; border-left: 4px solid #4E79A7; padding: 15px 18px; margin: 15px 0; font-size: 0.9em; }
+        .data-source strong { color: #4E79A7; }
+        .data-source ul { margin: 10px 0 0 20px; color: #555; }
+        .data-source li { margin-bottom: 5px; }
+        .insight-box { background: #f5fff5; border-left: 4px solid #59A14F; padding: 15px 18px; margin: 15px 0; font-size: 0.95em; }
+        .insight-box strong { color: #59A14F; }
+        .insight-box ul { margin: 10px 0 0 20px; color: #555; }
+        .insight-box li { margin-bottom: 8px; }
+        .stat-box { display: inline-block; background: #f8f8f8; border-left: 4px solid #E15759; padding: 15px 20px; margin: 10px 10px 10px 0; }
+        .stat-box .number { font-size: 2em; font-weight: bold; color: #E15759; }
+        .stat-box .label { font-size: 0.9em; color: #666; }
+        .chart-container { width: 100%; min-height: 500px; }
+        .nav-tabs { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+        .nav-tab { padding: 10px 20px; background: #eee; border: none; border-radius: 4px; cursor: pointer; font-size: 1em; transition: all 0.2s; }
+        .nav-tab:hover { background: #ddd; }
+        .nav-tab.active { background: #E15759; color: white; }
+        .instructions { background: #fff8e6; border: 1px solid #ffe0a6; border-radius: 4px; padding: 12px 15px; margin: 15px 0; font-size: 0.9em; }
+        .instructions strong { color: #b8860b; }
+        h3 { color: #4E79A7; margin: 20px 0 10px 0; font-size: 1.1em; }
+        footer { text-align: center; padding: 30px 20px; color: #666; font-size: 0.9em; }
+        footer a { color: #4E79A7; }
+        .controls { margin-bottom: 15px; display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
+        .controls select, .controls button { padding: 8px 15px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; background: white; cursor: pointer; }
+        .controls select:hover, .controls button:hover { border-color: #999; }
+        .controls button.active { background: #E15759; color: white; border-color: #E15759; }
+        .cell-detail { background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 6px; padding: 15px; margin-bottom: 15px; }
+        .cell-detail h4 { margin: 0 0 10px 0; color: #4E79A7; }
+        .cell-detail .detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+        .cell-detail .detail-item { background: white; padding: 10px; border-radius: 4px; border-left: 3px solid #E15759; }
+        .cell-detail .detail-item .label { font-size: 0.8em; color: #666; }
+        .cell-detail .detail-item .value { font-size: 1.2em; font-weight: bold; color: #333; }
+        .cell-detail .close-btn { float: right; background: none; border: none; font-size: 1.2em; cursor: pointer; color: #999; }
+        .cell-detail .close-btn:hover { color: #333; }
+        .controls .download-btn { background: #4E79A7 !important; color: white !important; border: none !important; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-size: 13px; margin-left: auto; }
+        .controls .download-btn:hover { background: #3d6289 !important; }
+        .tour-btn { background: white; color: #E15759; border: 2px solid #E15759; padding: 10px 20px; border-radius: 25px; cursor: pointer; font-size: 14px; font-weight: bold; transition: all 0.2s; }
+        .tour-btn:hover { background: #E15759; color: white; }
+        .tour-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 1000; }
+        .tour-highlight { position: absolute; box-shadow: 0 0 0 4000px rgba(0,0,0,0.7); border-radius: 8px; z-index: 1001; pointer-events: none; }
+        .tour-tooltip { position: absolute; background: white; border-radius: 8px; padding: 20px; max-width: 350px; z-index: 1002; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .tour-tooltip h3 { margin: 0 0 10px 0; color: #E15759; font-size: 1.1em; }
+        .tour-tooltip p { margin: 0 0 15px 0; color: #555; line-height: 1.5; }
+        .tour-tooltip .tour-nav { display: flex; justify-content: space-between; align-items: center; }
+        .tour-tooltip .tour-nav button { padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 13px; }
+        .tour-tooltip .tour-prev { background: #eee; border: none; color: #666; }
+        .tour-tooltip .tour-prev:hover { background: #ddd; }
+        .tour-tooltip .tour-next { background: #E15759; border: none; color: white; }
+        .tour-tooltip .tour-next:hover { background: #c94a4c; }
+        .tour-tooltip .tour-skip { background: none; border: none; color: #999; cursor: pointer; font-size: 12px; }
+        .tour-tooltip .tour-skip:hover { color: #666; }
+        .tour-tooltip .tour-progress { font-size: 12px; color: #999; }
+        .tour-arrow { position: absolute; width: 0; height: 0; border: 10px solid transparent; }
+        .tour-arrow.top { border-bottom-color: white; top: -20px; left: 20px; }
+        .tour-arrow.bottom { border-top-color: white; bottom: -20px; left: 20px; }
+        .tour-arrow.left { border-right-color: white; left: -20px; top: 20px; }
+        .tour-arrow.right { border-left-color: white; right: -20px; top: 20px; }
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8em; }
+            .stat-box { display: block; margin: 10px 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Leaky Pipeline</h1>
+            <p>A data story about women in tech: where they enter, where they leave, and why we can no longer measure it</p>
+            <button class="tour-btn" onclick="startTour()" style="margin-top: 15px;">Take the Guided Tour</button>
+        </div>
+    </header>
+
+    <!-- Tour overlay -->
+    <div id="tour-overlay" class="tour-overlay"></div>
+    <div id="tour-highlight" class="tour-highlight" style="display: none;"></div>
+    <div id="tour-tooltip" class="tour-tooltip" style="display: none;"></div>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showAct(1)">Act 1: Education</button>
+            <button class="nav-tab" onclick="showAct(2)">Act 2: The Cliff</button>
+            <button class="nav-tab" onclick="showAct(3)">Act 3: Intersections</button>
+            <button class="nav-tab" onclick="showAct(4)">Act 4: Data Gap</button>
+        </div>
+
+        <!-- Act 1: Education Pipeline -->
+        <div class="act" id="act1">
+            <div class="act-header">
+                <h2><span class="act-num">Act 1</span> The Education Pipeline</h2>
+            </div>
+            <div class="act-content">
+                <p>The pipeline begins in education. Despite decades of outreach programs, scholarships, and initiatives to encourage women in STEM, women remain severely underrepresented in computing degree programs. The progress over 14 years has been glacial — less than half a percentage point per year.</p>
+                <div class="data-source">
+                    <strong>Data Source: IPEDS (Integrated Postsecondary Education Data System)</strong>
+                    <ul>
+                        <li><strong>What it is:</strong> The U.S. Department of Education's comprehensive database tracking degree completions at all Title IV-eligible postsecondary institutions (over 6,000 colleges and universities)</li>
+                        <li><strong>What we used:</strong> Completions by CIP code for computing fields (CIP 11.xx) and computer/electrical engineering (CIP 14.09, 14.10)</li>
+                        <li><strong>Years covered:</strong> 2010, 2013, 2016, 2019, 2022, 2024 (sampled every 3 years)</li>
+                        <li><strong>Degree levels:</strong> Associate's, Bachelor's, Master's, and Doctorate</li>
+                        <li><strong>Limitations:</strong> 2024 data is preliminary; doesn't capture bootcamps or non-accredited programs</li>
+                    </ul>
+                </div>
+                <div class="stat-box"><div class="number">23.8%</div><div class="label">Women earning CS Bachelor's (2024)</div></div>
+                <div class="stat-box"><div class="number">+5.5pp</div><div class="label">Change since 2010 (14 years)</div></div>
+                <div class="stat-box"><div class="number">0.4%</div><div class="label">Average annual improvement</div></div>
+                <div class="insight-box">
+                    <strong>Key Insights:</strong>
+                    <ul>
+                        <li><strong>The doctoral paradox:</strong> Women's representation is often higher at Master's than Bachelor's, but drops again at Doctorate — suggesting barriers to academic careers</li>
+                        <li><strong>Field variation matters:</strong> Cybersecurity and Information Science tend to have higher women's representation than core Computer Science or Computer Engineering</li>
+                        <li><strong>Historical context:</strong> In 1984, women earned 37% of CS Bachelor's degrees — today's 24% represents a regression, not progress from a low baseline</li>
+                        <li><strong>At this rate:</strong> Reaching gender parity (50%) would take over 65 years</li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <strong>How to explore:</strong> Use the dropdown to select different computing tracks. Enable "Compare" to overlay a second track. Click degree names in the legend to show/hide lines.
+                </div>
+                <div class="controls">
+                    <label>Track: <select id="ipeds-track" onchange="updateIPEDSChart()">
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Information & Data Science">Information & Data Science</option>
+                        <option value="IT & General Computing">IT & General Computing</option>
+                    </select></label>
+                    <label><input type="checkbox" id="ipeds-compare" onchange="toggleIPEDSCompare()"> Compare with:</label>
+                    <label><select id="ipeds-track2" onchange="updateIPEDSChart()" disabled>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Computer Engineering">Computer Engineering</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Information & Data Science">Information & Data Science</option>
+                        <option value="IT & General Computing">IT & General Computing</option>
+                    </select></label>
+                    <label>Degree: <select id="ipeds-degree" onchange="updateIPEDSChart()">
+                        <option value="all">All Degrees</option>
+                        <option value="Associate's">Associate's</option>
+                        <option value="Bachelor's">Bachelor's</option>
+                        <option value="Master's">Master's</option>
+                        <option value="Doctorate">Doctorate</option>
+                    </select></label>
+                    <button class="download-btn" onclick="downloadIPEDSData()">Download CSV</button>
+                </div>
+                <div id="ipeds-chart" class="chart-container"></div>
+            </div>
+        </div>
+
+        <!-- Act 2: The Age Cliff -->
+        <div class="act" id="act2" style="display: none;">
+            <div class="act-header">
+                <h2><span class="act-num">Act 2</span> The Age Cliff</h2>
+            </div>
+            <div class="act-content">
+                <p>Women who do enter tech often don't stay. Bureau of Labor Statistics data reveals a sharp drop in women's representation around age 35 — the "cliff" where tech careers derail. This pattern persists across occupations and has barely improved over the past decade.</p>
+                <div class="data-source">
+                    <strong>Data Source: BLS Current Population Survey (CPS)</strong>
+                    <ul>
+                        <li><strong>What it is:</strong> The primary source of U.S. labor force statistics, surveying approximately 60,000 households monthly</li>
+                        <li><strong>What we used:</strong> Annual averages from Table 11 (employed by occupation and sex) and Table 11b (employed by occupation and age)</li>
+                        <li><strong>Years covered:</strong> 2015-2024 (10 consecutive years)</li>
+                        <li><strong>Occupations tracked:</strong> Software Developers, Computer Systems Analysts, Database Admins, InfoSec Analysts, Programmers, Network Admins</li>
+                        <li><strong>Important caveat:</strong> BLS doesn't publish age x sex x occupation directly. Women counts by age are <em>estimated</em> by multiplying (total in age bracket) x (% women in occupation)</li>
+                    </ul>
+                </div>
+                <div class="stat-box"><div class="number">24%</div><div class="label">Drop from 25-34 to 35-44 age bracket</div></div>
+                <div class="stat-box"><div class="number">35-44</div><div class="label">The cliff: where women leave tech</div></div>
+                <div class="stat-box"><div class="number">20.3%</div><div class="label">Software Devs who are women (2024)</div></div>
+                <div class="insight-box">
+                    <strong>Key Insights:</strong>
+                    <ul>
+                        <li><strong>The 35-44 cliff is real:</strong> Across nearly every tech occupation, women's numbers peak in the 25-34 bracket then drop sharply — often by 20-30%</li>
+                        <li><strong>It's not just motherhood:</strong> While family responsibilities play a role, research shows hostile work environments, lack of advancement, and "bro culture" drive women out</li>
+                        <li><strong>Continued decline:</strong> The drop continues through 45-54 and 55-64, meaning women who leave rarely return to technical roles</li>
+                        <li><strong>Near-stagnant progress:</strong> Software Developers went from 17.9% women (2015) to 20.3% (2024) — just 2.4 percentage points in 9 years</li>
+                        <li><strong>Lost experience:</strong> The cliff means companies lose senior women just as they'd be moving into leadership</li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <strong>How to explore:</strong> Enable "Compare" to overlay two occupations side-by-side. Toggle "Show Values" to see exact numbers. Use Play Animation to watch changes over time.
+                </div>
+                <div class="controls">
+                    <label>Occupation: <select id="bls-occupation" onchange="updateBLSChart()">
+                        <option value="Software Developers">Software Developers</option>
+                        <option value="CS & Math (all)">All Computer & Math</option>
+                        <option value="Computer Systems Analysts">Computer Systems Analysts</option>
+                        <option value="Database Administrators">Database Administrators</option>
+                        <option value="Information Security Analysts">Information Security Analysts</option>
+                        <option value="Computer Programmers">Computer Programmers</option>
+                        <option value="Network & Systems Admins">Network & Systems Admins</option>
+                    </select></label>
+                    <label><input type="checkbox" id="bls-compare" onchange="toggleBLSCompare()"> Compare with:</label>
+                    <label><select id="bls-occupation2" onchange="updateBLSChart()" disabled>
+                        <option value="CS & Math (all)">All Computer & Math</option>
+                        <option value="Software Developers">Software Developers</option>
+                        <option value="Computer Systems Analysts">Computer Systems Analysts</option>
+                        <option value="Database Administrators">Database Administrators</option>
+                        <option value="Information Security Analysts">Information Security Analysts</option>
+                        <option value="Computer Programmers">Computer Programmers</option>
+                        <option value="Network & Systems Admins">Network & Systems Admins</option>
+                    </select></label>
+                </div>
+                <div class="controls">
+                    <label>Year: <select id="bls-year" onchange="updateBLSChart()"></select></label>
+                    <button id="bls-play" onclick="toggleBLSAnimation()">Play Animation</button>
+                    <label><input type="checkbox" id="bls-showvalues" onchange="updateBLSChart()"> Show Values</label>
+                    <button class="download-btn" onclick="downloadBLSData()">Download CSV</button>
+                </div>
+                <div id="bls-chart" class="chart-container"></div>
+            </div>
+        </div>
+
+        <!-- Act 3: Intersectional View -->
+        <div class="act" id="act3" style="display: none;">
+            <div class="act-header">
+                <h2><span class="act-num">Act 3</span> The Intersectional View</h2>
+            </div>
+            <div class="act-content">
+                <p>The cliff doesn't affect all women equally. When we examine the intersection of race and age, distinct patterns emerge. Some groups face steeper cliffs than others, and the COVID-19 pandemic may have affected different communities differently.</p>
+                <div class="data-source">
+                    <strong>Data Source: NSCG (National Survey of College Graduates)</strong>
+                    <ul>
+                        <li><strong>What it is:</strong> A biennial survey conducted by NSF through the National Center for Science and Engineering Statistics (NCSES)</li>
+                        <li><strong>What we used:</strong> Public-use microdata files filtered to "Computer and mathematical scientists" (N2OCPRMG=1)</li>
+                        <li><strong>Sample size:</strong> ~130,000 respondents per wave, representing U.S. college graduates</li>
+                        <li><strong>Years covered:</strong> 2019 (pre-COVID baseline) and 2023 (post-COVID)</li>
+                        <li><strong>Variables used:</strong> SEX, RACETHM (race/ethnicity), AGEGR (age group), WTSURVY (survey weight)</li>
+                        <li><strong>Important caveat:</strong> Small subgroups (n < 20) are suppressed per NCSES guidelines to protect privacy</li>
+                    </ul>
+                </div>
+                <div class="stat-box"><div class="number">8</div><div class="label">Race/age cells suppressed (sample too small)</div></div>
+                <div class="stat-box"><div class="number">2019 vs 2023</div><div class="label">Pre-COVID to post-COVID comparison</div></div>
+                <div class="stat-box"><div class="number">27%</div><div class="label">Avg women in computing (all races, 2023)</div></div>
+                <div class="insight-box">
+                    <strong>Key Insights:</strong>
+                    <ul>
+                        <li><strong>Data gaps tell a story:</strong> The gray suppressed cells aren't just missing data — they reveal how few women of certain races exist in computing at certain ages</li>
+                        <li><strong>Hispanic women show resilience:</strong> One of the few groups with data across most age brackets, suggesting better retention or different career paths</li>
+                        <li><strong>The "Under 25" gap:</strong> Very few cells have data for youngest bracket, reflecting that most computing careers require at least a bachelor's degree</li>
+                        <li><strong>COVID's uneven impact:</strong> Compare 2019 to 2023 using the "Change" view — some groups improved while others declined</li>
+                        <li><strong>Intersectionality matters:</strong> A white woman and a Black woman in tech face different challenges; aggregate statistics mask this complexity</li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <strong>How to explore:</strong> Click buttons to switch between 2023, 2019, and Change views. Hover over cells to highlight row/column. Click a cell to see detailed sample size information. Gray cells (--) indicate suppressed data where sample size was too small.
+                </div>
+                <div class="controls">
+                    <button id="nscg-2023" class="active" onclick="updateNSCGChart(2023)">2023</button>
+                    <button id="nscg-2019" onclick="updateNSCGChart(2019)">2019</button>
+                    <button id="nscg-change" onclick="updateNSCGChart('change')">Change</button>
+                    <button class="download-btn" onclick="downloadNSCGData()">Download CSV</button>
+                </div>
+                <div id="nscg-detail" class="cell-detail" style="display: none;"></div>
+                <div id="nscg-chart" class="chart-container"></div>
+            </div>
+        </div>
+
+        <!-- Act 4: The Data Cliff -->
+        <div class="act" id="act4" style="display: none;">
+            <div class="act-header">
+                <h2><span class="act-num">Act 4</span> The Data Cliff</h2>
+            </div>
+            <div class="act-content">
+                <p>Just as we began to measure progress, the data itself is disappearing. Starting in 2024-2025, major tech companies have stopped publishing annual diversity reports. Without this data, we lose the ability to hold companies accountable or track whether initiatives are working.</p>
+                <div class="data-source">
+                    <strong>Data Source: Big Tech Annual Diversity Reports</strong>
+                    <ul>
+                        <li><strong>What it is:</strong> Self-reported workforce composition data that major tech companies began voluntarily publishing around 2014, following pressure from activists and journalists</li>
+                        <li><strong>Companies tracked:</strong> Google, Apple, Microsoft, Meta (Facebook), and Amazon</li>
+                        <li><strong>Metrics reported:</strong> Women as % of overall workforce, and women as % of technical roles</li>
+                        <li><strong>Years covered:</strong> 2014-2024 (varies by company; Google has the longest history)</li>
+                        <li><strong>Important caveats:</strong> Data is self-reported and not independently audited; companies define "technical roles" differently; Amazon only reports overall workforce, not technical breakdown; reports often exclude contractors</li>
+                    </ul>
+                </div>
+                <div class="stat-box"><div class="number">3</div><div class="label">Companies stopped reporting (Google, Meta, Microsoft)</div></div>
+                <div class="stat-box"><div class="number">2</div><div class="label">Still reporting (Apple, Amazon)</div></div>
+                <div class="stat-box"><div class="number">~10 years</div><div class="label">Of data we may never get again</div></div>
+                <div class="insight-box">
+                    <strong>Key Insights:</strong>
+                    <ul>
+                        <li><strong>Progress was real but slow:</strong> Google went from 17% to 27% women in technical roles over 10 years — meaningful progress, but still far from parity</li>
+                        <li><strong>The reporting cliff is political:</strong> Companies stopped publishing DEI reports following the 2024 political shift and backlash against diversity initiatives</li>
+                        <li><strong>What we lose:</strong> Without annual reports, researchers, journalists, and advocates cannot track whether companies are making progress or backsliding</li>
+                        <li><strong>Apple and Amazon remain:</strong> As of 2025, only Apple and Amazon have committed to continuing diversity reporting — and Amazon doesn't break out technical roles</li>
+                        <li><strong>The irony:</strong> Just as the data showed that DEI efforts were slowly working, the companies stopped measuring</li>
+                        <li><strong>Government data isn't enough:</strong> BLS and Census data have 1-2 year lags and can't identify individual companies</li>
+                    </ul>
+                </div>
+                <div class="instructions">
+                    <strong>How to explore:</strong> Toggle between "Technical Roles" and "Overall Workforce" views. Click a company name in the legend to isolate it. Enable "Show Projections" to see where trends might have gone. Key events are marked on the timeline.
+                </div>
+                <div class="controls">
+                    <button id="bigtech-technical" class="active" onclick="updateBigTechChart('technical')">Technical Roles</button>
+                    <button id="bigtech-overall" onclick="updateBigTechChart('overall')">Overall Workforce</button>
+                    <label><input type="checkbox" id="bigtech-projections" onchange="updateBigTechChart(currentBigTechMetric)"> Show Projections</label>
+                    <label><input type="checkbox" id="bigtech-events" onchange="updateBigTechChart(currentBigTechMetric)" checked> Show Key Events</label>
+                    <button id="bigtech-reset" onclick="resetBigTechHighlight()">Reset View</button>
+                    <button class="download-btn" onclick="downloadBigTechData()">Download CSV</button>
+                </div>
+                <div id="bigtech-chart" class="chart-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>CPSC 5530 Data Visualization Project | Data sources:
+            <a href="https://nces.ed.gov/ipeds/">IPEDS</a> (Education),
+            <a href="https://www.bls.gov/cps/">BLS CPS</a> (Workforce),
+            <a href="https://ncses.nsf.gov/">NSF NCSES</a> (Intersectional),
+            Big Tech DEI Reports (Data Gap)
+        </p>
+        <p style="margin-top: 10px; font-size: 0.85em;">
+            All data is from publicly available sources. Analysis and visualizations created for educational purposes.
+        </p>
+    </footer>
+
+    <script>
+        // Chart data - loaded inline for simplicity
+        let blsData, nscgData, bigtechData, ipedsData;
+
+        // Load all chart data
+        async function loadData() {
+            const [bls, nscg, bigtech, ipeds] = await Promise.all([
+                fetch('chart_data/bls_chart.json').then(r => r.json()),
+                fetch('chart_data/nscg_chart.json').then(r => r.json()),
+                fetch('chart_data/bigtech_chart.json').then(r => r.json()),
+                fetch('chart_data/ipeds_chart.json').then(r => r.json())
+            ]);
+            blsData = bls;
+            nscgData = nscg;
+            bigtechData = bigtech;
+            ipedsData = ipeds;
+
+            // Populate year dropdown
+            const yearSelect = document.getElementById('bls-year');
+            blsData.years.forEach(y => {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y;
+                if (y === blsData.years[blsData.years.length - 1]) opt.selected = true;
+                yearSelect.appendChild(opt);
+            });
+
+            // Initialize charts
+            updateIPEDSChart();
+            updateBLSChart();
+            updateNSCGChart(2023);
+            updateBigTechChart('technical');
+        }
+
+        function toggleIPEDSCompare() {
+            const compareEnabled = document.getElementById('ipeds-compare').checked;
+            document.getElementById('ipeds-track2').disabled = !compareEnabled;
+            updateIPEDSChart();
+        }
+
+        function updateIPEDSChart() {
+            const track = document.getElementById('ipeds-track').value;
+            const compareEnabled = document.getElementById('ipeds-compare').checked;
+            const track2 = document.getElementById('ipeds-track2').value;
+            const degreeFilter = document.getElementById('ipeds-degree').value;
+            const data = ipedsData.data[track];
+            const traces = [];
+
+            const degreesToShow = degreeFilter === 'all' ? ipedsData.degrees : [degreeFilter];
+            const dashedColors = { "Associate's": '#76B7B2', "Bachelor's": '#59A14F', "Master's": '#EDC948', "Doctorate": '#B07AA1' };
+
+            for (const degree of degreesToShow) {
+                if (data[degree] && data[degree].values.length > 0) {
+                    traces.push({
+                        x: data[degree].years,
+                        y: data[degree].values,
+                        mode: 'lines+markers',
+                        name: `${degree}` + (compareEnabled ? ` (${track})` : ''),
+                        line: { color: ipedsData.colors[degree], width: 2.5 },
+                        marker: { size: 8 },
+                        hovertemplate: `<b>${track}</b><br>${degree}: %{y:.1f}%<br>Year: %{x}<extra></extra>`
+                    });
+                }
+            }
+
+            // Add comparison track if enabled
+            if (compareEnabled && track2 !== track) {
+                const data2 = ipedsData.data[track2];
+                for (const degree of degreesToShow) {
+                    if (data2[degree] && data2[degree].values.length > 0) {
+                        traces.push({
+                            x: data2[degree].years,
+                            y: data2[degree].values,
+                            mode: 'lines+markers',
+                            name: `${degree} (${track2})`,
+                            line: { color: ipedsData.colors[degree], width: 2.5, dash: 'dash' },
+                            marker: { size: 8, symbol: 'diamond' },
+                            hovertemplate: `<b>${track2}</b><br>${degree}: %{y:.1f}%<br>Year: %{x}<extra></extra>`
+                        });
+                    }
+                }
+            }
+
+            let title = compareEnabled && track2 !== track
+                ? `Women by Degree: ${track} (solid) vs ${track2} (dashed)`
+                : `Women in ${track} by Degree Level`;
+
+            const layout = {
+                title: title,
+                xaxis: { title: 'Year', tickmode: 'array', tickvals: ipedsData.years },
+                yaxis: { title: '% Women', range: [0, 50], ticksuffix: '%' },
+                legend: { orientation: 'h', y: -0.2 },
+                margin: { t: 50, b: 80, l: 60, r: 30 },
+                plot_bgcolor: 'white',
+                hovermode: 'x unified'
+            };
+
+            Plotly.newPlot('ipeds-chart', traces, layout, { responsive: true });
+        }
+
+        function toggleBLSCompare() {
+            const compareEnabled = document.getElementById('bls-compare').checked;
+            document.getElementById('bls-occupation2').disabled = !compareEnabled;
+            updateBLSChart();
+        }
+
+        function updateBLSChart() {
+            const occ = document.getElementById('bls-occupation').value;
+            const year = parseInt(document.getElementById('bls-year').value);
+            const values = blsData.data[occ][year];
+            const compareEnabled = document.getElementById('bls-compare').checked;
+            const occ2 = document.getElementById('bls-occupation2').value;
+            const showValues = document.getElementById('bls-showvalues').checked;
+
+            const traces = [];
+
+            // Primary occupation trace
+            traces.push({
+                x: blsData.age_labels,
+                y: values,
+                type: 'bar',
+                name: occ,
+                marker: { color: '#E15759' },
+                text: showValues ? values.map(v => v ? Math.round(v) + 'k' : '') : [],
+                textposition: 'outside',
+                textfont: { size: 10 },
+                hovertemplate: `<b>${occ}</b><br>Age %{x}<br>Women: %{y:.0f}k<extra></extra>`
+            });
+
+            // Comparison occupation if enabled
+            if (compareEnabled && occ2 !== occ) {
+                const values2 = blsData.data[occ2][year];
+                traces.push({
+                    x: blsData.age_labels,
+                    y: values2,
+                    type: 'bar',
+                    name: occ2,
+                    marker: { color: '#4E79A7' },
+                    text: showValues ? values2.map(v => v ? Math.round(v) + 'k' : '') : [],
+                    textposition: 'outside',
+                    textfont: { size: 10 },
+                    hovertemplate: `<b>${occ2}</b><br>Age %{x}<br>Women: %{y:.0f}k<extra></extra>`
+                });
+            }
+
+            let title = compareEnabled && occ2 !== occ
+                ? `Women by Age (${year}): ${occ} vs ${occ2}`
+                : `Women in ${occ} by Age (${year})`;
+
+            const layout = {
+                title: title,
+                xaxis: { title: 'Age Bracket' },
+                yaxis: { title: 'Employment (thousands)', rangemode: 'tozero' },
+                margin: { t: 50, b: 60, l: 60, r: compareEnabled ? 150 : 30 },
+                plot_bgcolor: 'white',
+                barmode: compareEnabled ? 'group' : 'relative',
+                showlegend: compareEnabled,
+                legend: { orientation: 'v', x: 1.02, y: 0.95, xanchor: 'left' },
+                annotations: [{
+                    x: '35-44', y: 0, xref: 'x', yref: 'paper',
+                    text: '<- The Cliff', showarrow: true, arrowhead: 2, ax: 60, ay: -20,
+                    font: { size: 11, color: '#666' }
+                }]
+            };
+
+            Plotly.newPlot('bls-chart', traces, layout, { responsive: true });
+        }
+
+        // BLS Animation
+        let blsAnimationInterval = null;
+        function toggleBLSAnimation() {
+            const btn = document.getElementById('bls-play');
+            const yearSelect = document.getElementById('bls-year');
+
+            if (blsAnimationInterval) {
+                clearInterval(blsAnimationInterval);
+                blsAnimationInterval = null;
+                btn.textContent = 'Play Animation';
+                btn.classList.remove('active');
+            } else {
+                btn.textContent = 'Stop';
+                btn.classList.add('active');
+                yearSelect.selectedIndex = 0;
+                updateBLSChart();
+
+                blsAnimationInterval = setInterval(() => {
+                    if (yearSelect.selectedIndex < yearSelect.options.length - 1) {
+                        yearSelect.selectedIndex++;
+                        updateBLSChart();
+                    } else {
+                        clearInterval(blsAnimationInterval);
+                        blsAnimationInterval = null;
+                        btn.textContent = 'Play Animation';
+                        btn.classList.remove('active');
+                    }
+                }, 800);
+            }
+        }
+
+        let currentNSCGView = 2023;
+
+        function updateNSCGChart(view) {
+            currentNSCGView = view;
+            // Update button states
+            document.querySelectorAll('#act3 .controls button').forEach(b => b.classList.remove('active'));
+            document.getElementById(`nscg-${view}`).classList.add('active');
+
+            // Hide detail panel when switching views
+            document.getElementById('nscg-detail').style.display = 'none';
+
+            let z, colorscale, title, colorbarTitle;
+
+            if (view === 'change') {
+                z = nscgData.data[2023].pct.map((row, i) =>
+                    row.map((val, j) => {
+                        const v2019 = nscgData.data[2019].pct[i][j];
+                        return (val !== null && v2019 !== null) ? Math.round((val - v2019) * 10) / 10 : null;
+                    })
+                );
+                colorscale = 'RdYlGn';
+                title = 'Change in Women % (2019 to 2023)';
+                colorbarTitle = 'Change (pp)';
+            } else {
+                z = nscgData.data[view].pct;
+                colorscale = 'YlOrRd';
+                title = `Women in Computing by Race & Age (${view})`;
+                colorbarTitle = '% Women';
+            }
+
+            const trace = {
+                z: z,
+                x: nscgData.age_labels,
+                y: nscgData.race_labels,
+                type: 'heatmap',
+                colorscale: colorscale,
+                zmin: view === 'change' ? -15 : 10,
+                zmax: view === 'change' ? 15 : 45,
+                zmid: view === 'change' ? 0 : undefined,
+                hoverongaps: false,
+                colorbar: { title: colorbarTitle },
+                hovertemplate: '<b>%{y}</b>, Age %{x}<br>Value: %{z}<extra></extra>'
+            };
+
+            // Add text annotations
+            const annotations = [];
+            for (let i = 0; i < nscgData.race_labels.length; i++) {
+                for (let j = 0; j < nscgData.age_labels.length; j++) {
+                    const val = z[i][j];
+                    let text = val === null ? '--' : (view === 'change' ? (val > 0 ? '+' : '') + val : val + '%');
+                    annotations.push({
+                        x: nscgData.age_labels[j], y: nscgData.race_labels[i],
+                        text: text, showarrow: false,
+                        font: { color: val === null ? '#666' : (Math.abs(val) > 30 || (view === 'change' && Math.abs(val) > 8) ? 'white' : 'black'), size: 11 }
+                    });
+                }
+            }
+
+            const layout = {
+                title: title,
+                xaxis: { title: 'Age Bracket', fixedrange: true },
+                yaxis: { title: 'Race/Ethnicity', autorange: 'reversed', fixedrange: true },
+                margin: { t: 50, b: 80, l: 100, r: 80 },
+                annotations: annotations
+            };
+
+            Plotly.newPlot('nscg-chart', [trace], layout, { responsive: true });
+
+            // Add click handler for cell details
+            const chartDiv = document.getElementById('nscg-chart');
+            chartDiv.on('plotly_click', function(data) {
+                const point = data.points[0];
+                const race = point.y;
+                const age = point.x;
+                const raceIdx = nscgData.race_labels.indexOf(race);
+                const ageIdx = nscgData.age_labels.indexOf(age);
+
+                showNSCGDetail(race, age, raceIdx, ageIdx);
+            });
+
+            // Add hover handler for row/column highlighting
+            chartDiv.on('plotly_hover', function(data) {
+                const point = data.points[0];
+                highlightRowCol(point.y, point.x);
+            });
+
+            chartDiv.on('plotly_unhover', function() {
+                clearHighlight();
+            });
+        }
+
+        function showNSCGDetail(race, age, raceIdx, ageIdx) {
+            const detailDiv = document.getElementById('nscg-detail');
+
+            const pct2023 = nscgData.data[2023].pct[raceIdx] ? nscgData.data[2023].pct[raceIdx][ageIdx] : null;
+            const pct2019 = nscgData.data[2019].pct[raceIdx] ? nscgData.data[2019].pct[raceIdx][ageIdx] : null;
+            const n2023 = nscgData.data[2023].n[raceIdx] ? nscgData.data[2023].n[raceIdx][ageIdx] : null;
+            const n2019 = nscgData.data[2019].n[raceIdx] ? nscgData.data[2019].n[raceIdx][ageIdx] : null;
+
+            const change = (pct2023 !== null && pct2019 !== null) ? (pct2023 - pct2019).toFixed(1) : null;
+            const changeSign = change > 0 ? '+' : '';
+
+            // Estimate margin of error (rough approximation based on sample size)
+            const moe2023 = n2023 ? (1.96 * Math.sqrt(0.25 / n2023) * 100).toFixed(1) : null;
+            const moe2019 = n2019 ? (1.96 * Math.sqrt(0.25 / n2019) * 100).toFixed(1) : null;
+
+            detailDiv.innerHTML = `
+                <button class="close-btn" onclick="document.getElementById('nscg-detail').style.display='none'">&times;</button>
+                <h4>${race} Women in Computing, Age ${age}</h4>
+                <div class="detail-grid">
+                    <div class="detail-item">
+                        <div class="label">2023 % Women</div>
+                        <div class="value">${pct2023 !== null ? pct2023 + '%' : 'Suppressed'}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">2023 Sample Size</div>
+                        <div class="value">${n2023 !== null ? n2023.toLocaleString() : 'n < 20'}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">2019 % Women</div>
+                        <div class="value">${pct2019 !== null ? pct2019 + '%' : 'Suppressed'}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">2019 Sample Size</div>
+                        <div class="value">${n2019 !== null ? n2019.toLocaleString() : 'n < 20'}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">Change (2019-2023)</div>
+                        <div class="value" style="color: ${change > 0 ? '#59A14F' : change < 0 ? '#E15759' : '#666'}">${change !== null ? changeSign + change + ' pp' : 'N/A'}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="label">Est. Margin of Error (2023)</div>
+                        <div class="value">${moe2023 !== null ? '±' + moe2023 + '%' : 'N/A'}</div>
+                    </div>
+                </div>
+                <p style="font-size: 0.8em; color: #666; margin-top: 10px;">
+                    Note: Margin of error is a rough estimate assuming simple random sampling. Actual survey uses complex design with weights.
+                    ${n2023 && n2023 < 50 ? '<br><strong>Caution:</strong> Small sample size - interpret with care.' : ''}
+                </p>
+            `;
+            detailDiv.style.display = 'block';
+        }
+
+        function highlightRowCol(race, age) {
+            const chartDiv = document.getElementById('nscg-chart');
+            const raceIdx = nscgData.race_labels.indexOf(race);
+            const ageIdx = nscgData.age_labels.indexOf(age);
+
+            // Create highlight shapes for row and column
+            const shapes = [
+                // Row highlight
+                { type: 'rect', xref: 'paper', x0: 0, x1: 1, yref: 'y', y0: raceIdx - 0.5, y1: raceIdx + 0.5, fillcolor: 'rgba(78, 121, 167, 0.1)', line: { width: 0 } },
+                // Column highlight
+                { type: 'rect', xref: 'x', x0: ageIdx - 0.5, x1: ageIdx + 0.5, yref: 'paper', y0: 0, y1: 1, fillcolor: 'rgba(78, 121, 167, 0.1)', line: { width: 0 } }
+            ];
+
+            Plotly.relayout(chartDiv, { shapes: shapes });
+        }
+
+        function clearHighlight() {
+            const chartDiv = document.getElementById('nscg-chart');
+            Plotly.relayout(chartDiv, { shapes: [] });
+        }
+
+        let currentBigTechMetric = 'technical';
+        let highlightedCompany = null;
+
+        // Key events in tech diversity history
+        const bigTechEvents = [
+            { year: 2014, text: 'First reports', description: 'Google publishes first diversity report, others follow' },
+            { year: 2017, text: 'Google memo', description: 'James Damore memo sparks debate on diversity in tech' },
+            { year: 2020, text: 'BLM movement', description: 'George Floyd protests spark renewed DEI commitments' },
+            { year: 2023, text: 'DEI backlash', description: 'Anti-DEI sentiment grows, layoffs hit DEI teams' },
+            { year: 2024.5, text: 'Reports end', description: 'Google, Meta, Microsoft stop publishing diversity data' }
+        ];
+
+        function updateBigTechChart(metric) {
+            currentBigTechMetric = metric;
+            // Update button states
+            document.querySelectorAll('#act4 .controls button:not(#bigtech-reset)').forEach(b => {
+                if (b.id === `bigtech-${metric}`) b.classList.add('active');
+                else if (b.id === 'bigtech-technical' || b.id === 'bigtech-overall') b.classList.remove('active');
+            });
+
+            const showProjections = document.getElementById('bigtech-projections').checked;
+            const showEvents = document.getElementById('bigtech-events').checked;
+
+            const traces = [];
+            const field = metric === 'technical' ? 'technical' : 'overall';
+
+            // Status for 2025
+            const companyStatus = {
+                'Google': 'stopped', 'Apple': 'still_reporting', 'Microsoft': 'stopped',
+                'Meta': 'stopped', 'Amazon': 'still_reporting'
+            };
+
+            for (const company of bigtechData.companies) {
+                const d = bigtechData.data[company];
+                const years = [], values = [];
+                let lastValue = null;
+                let lastYear = null;
+
+                for (let i = 0; i < d.years.length; i++) {
+                    if (d[field][i] !== null && d.status[i] === 'reported') {
+                        years.push(d.years[i]);
+                        values.push(d[field][i]);
+                        lastValue = d[field][i];
+                        lastYear = d.years[i];
+                    }
+                }
+
+                // Determine opacity based on highlight
+                const isHighlighted = highlightedCompany === null || highlightedCompany === company;
+                const opacity = isHighlighted ? 1 : 0.15;
+                const lineWidth = isHighlighted ? (highlightedCompany === company ? 4 : 2.5) : 1;
+
+                if (values.length > 0) {
+                    traces.push({
+                        x: years, y: values,
+                        mode: 'lines+markers',
+                        name: company,
+                        line: { color: bigtechData.colors[company], width: lineWidth },
+                        marker: { size: 8 },
+                        opacity: opacity,
+                        legendgroup: company
+                    });
+
+                    // Add projection line if enabled and company stopped reporting
+                    if (showProjections && companyStatus[company] === 'stopped' && values.length >= 3) {
+                        // Calculate trend from last 3 data points
+                        const recentYears = years.slice(-3);
+                        const recentValues = values.slice(-3);
+                        const slope = linearRegression(recentYears, recentValues);
+
+                        // Project to 2027
+                        const projYears = [lastYear, 2025, 2026, 2027];
+                        const projValues = projYears.map(y => lastValue + slope * (y - lastYear));
+
+                        traces.push({
+                            x: projYears, y: projValues,
+                            mode: 'lines',
+                            name: `${company} (projected)`,
+                            line: { color: bigtechData.colors[company], width: 2, dash: 'dot' },
+                            opacity: opacity * 0.7,
+                            legendgroup: company,
+                            showlegend: false,
+                            hovertemplate: `<b>${company} (projected)</b><br>Year: %{x}<br>Projected: %{y:.1f}%<extra></extra>`
+                        });
+                    }
+
+                    // Add 2025 status marker
+                    const status = companyStatus[company];
+                    const symbol = status === 'still_reporting' ? 'star' : 'x';
+                    const markerMode = status === 'still_reporting' ? 'markers+text' : 'markers';
+                    traces.push({
+                        x: [2025], y: [lastValue],
+                        mode: markerMode,
+                        text: status === 'still_reporting' ? [`${lastValue}%`] : [],
+                        textposition: 'right',
+                        textfont: { size: 10, color: bigtechData.colors[company] },
+                        marker: { size: symbol === 'star' ? 14 : 12, symbol: symbol, color: bigtechData.colors[company], line: { width: 2, color: symbol === 'star' ? 'white' : bigtechData.colors[company] } },
+                        hovertemplate: `<b>${company}</b><br>2025: ${status === 'still_reporting' ? 'Still reporting' : 'Stopped reporting'}<extra></extra>`,
+                        legendgroup: company,
+                        showlegend: false,
+                        opacity: opacity
+                    });
+                }
+            }
+
+            // Build shapes array
+            const shapes = [
+                { type: 'line', x0: 2024.5, x1: 2024.5, y0: 0, y1: 1, yref: 'paper', line: { color: '#888', width: 2, dash: 'dash' } }
+            ];
+
+            // Build annotations array
+            const annotations = [
+                { x: 2024.5, y: 0.95, xref: 'x', yref: 'paper', text: 'DEI Reporting<br>Cliff', showarrow: false, font: { size: 10, color: '#666' }, xanchor: 'left', xshift: 5 },
+                { x: 0.5, y: -0.32, xref: 'paper', yref: 'paper', text: 'X = Stopped reporting | Star = Still reporting | Amazon: Overall workforce only (no technical breakdown)', showarrow: false, font: { size: 10, color: '#666' }, xanchor: 'center' }
+            ];
+
+            // Add event annotations if enabled
+            if (showEvents) {
+                bigTechEvents.forEach((event, idx) => {
+                    if (event.year !== 2024.5) { // Skip the cliff marker since we already have it
+                        shapes.push({
+                            type: 'line', x0: event.year, x1: event.year, y0: 0, y1: 0.15,
+                            yref: 'paper', line: { color: '#999', width: 1, dash: 'dot' }
+                        });
+                        annotations.push({
+                            x: event.year, y: 0.18, xref: 'x', yref: 'paper',
+                            text: event.text, showarrow: false,
+                            font: { size: 9, color: '#666' },
+                            textangle: -45,
+                            hovertext: event.description
+                        });
+                    }
+                });
+            }
+
+            const layout = {
+                title: `Big Tech ${metric === 'technical' ? 'Technical Roles' : 'Overall Workforce'}: % Women` + (showProjections ? ' (with projections)' : ''),
+                xaxis: { title: 'Year', range: [2013.5, showProjections ? 2027.5 : 2026], dtick: 2 },
+                yaxis: { title: '% Women', range: [15, 50], ticksuffix: '%' },
+                legend: { orientation: 'h', y: -0.2 },
+                margin: { t: 50, b: 150, l: 60, r: 50 },
+                plot_bgcolor: 'white',
+                shapes: shapes,
+                annotations: annotations
+            };
+
+            Plotly.newPlot('bigtech-chart', traces, layout, { responsive: true });
+
+            // Add legend click handler for company isolation
+            const chartDiv = document.getElementById('bigtech-chart');
+            chartDiv.on('plotly_legendclick', function(data) {
+                const clickedCompany = data.data[data.curveNumber].name;
+                if (highlightedCompany === clickedCompany) {
+                    highlightedCompany = null; // Toggle off
+                } else {
+                    highlightedCompany = clickedCompany;
+                }
+                updateBigTechChart(currentBigTechMetric);
+                return false; // Prevent default legend behavior
+            });
+        }
+
+        function resetBigTechHighlight() {
+            highlightedCompany = null;
+            updateBigTechChart(currentBigTechMetric);
+        }
+
+        // Simple linear regression to calculate slope
+        function linearRegression(x, y) {
+            const n = x.length;
+            const sumX = x.reduce((a, b) => a + b, 0);
+            const sumY = y.reduce((a, b) => a + b, 0);
+            const sumXY = x.reduce((total, xi, i) => total + xi * y[i], 0);
+            const sumXX = x.reduce((total, xi) => total + xi * xi, 0);
+            return (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+        }
+
+        function showAct(actNum) {
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById('act' + i).style.display = 'none';
+            }
+            document.getElementById('act' + actNum).style.display = 'block';
+            document.querySelectorAll('.nav-tab').forEach((tab, idx) => {
+                tab.classList.toggle('active', idx === actNum - 1);
+            });
+
+            // Resize chart when switching tabs (Plotly needs this)
+            setTimeout(() => {
+                const chartId = ['ipeds-chart', 'bls-chart', 'nscg-chart', 'bigtech-chart'][actNum - 1];
+                Plotly.Plots.resize(document.getElementById(chartId));
+            }, 100);
+        }
+
+        // ============ DOWNLOAD FUNCTIONS ============
+        function downloadCSV(filename, csvContent) {
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = filename;
+            link.click();
+        }
+
+        function downloadIPEDSData() {
+            const track = document.getElementById('ipeds-track').value;
+            const data = ipedsData.data[track];
+            let csv = 'Year,Degree,Percent_Women\n';
+            for (const degree of ipedsData.degrees) {
+                if (data[degree]) {
+                    for (let i = 0; i < data[degree].years.length; i++) {
+                        csv += `${data[degree].years[i]},${degree},${data[degree].values[i] || ''}\n`;
+                    }
+                }
+            }
+            downloadCSV(`ipeds_${track.replace(/[^a-z0-9]/gi, '_')}.csv`, csv);
+        }
+
+        function downloadBLSData() {
+            const occ = document.getElementById('bls-occupation').value;
+            let csv = 'Year,Age_Bracket,Women_Thousands\n';
+            for (const year of blsData.years) {
+                const values = blsData.data[occ][year];
+                for (let i = 0; i < blsData.age_labels.length; i++) {
+                    csv += `${year},${blsData.age_labels[i]},${values[i] || ''}\n`;
+                }
+            }
+            downloadCSV(`bls_${occ.replace(/[^a-z0-9]/gi, '_')}.csv`, csv);
+        }
+
+        function downloadNSCGData() {
+            let csv = 'Year,Race,Age_Bracket,Percent_Women,Sample_Size\n';
+            for (const year of [2019, 2023]) {
+                for (let i = 0; i < nscgData.race_labels.length; i++) {
+                    for (let j = 0; j < nscgData.age_labels.length; j++) {
+                        const pct = nscgData.data[year].pct[i] ? nscgData.data[year].pct[i][j] : null;
+                        const n = nscgData.data[year].n[i] ? nscgData.data[year].n[i][j] : null;
+                        csv += `${year},${nscgData.race_labels[i]},${nscgData.age_labels[j]},${pct || ''},${n || ''}\n`;
+                    }
+                }
+            }
+            downloadCSV('nscg_intersectional.csv', csv);
+        }
+
+        function downloadBigTechData() {
+            let csv = 'Company,Year,Technical_Pct,Overall_Pct,Reporting_Status\n';
+            for (const company of bigtechData.companies) {
+                const d = bigtechData.data[company];
+                for (let i = 0; i < d.years.length; i++) {
+                    csv += `${company},${d.years[i]},${d.technical[i] || ''},${d.overall[i] || ''},${d.status[i]}\n`;
+                }
+            }
+            downloadCSV('bigtech_diversity.csv', csv);
+        }
+
+        // ============ KEYBOARD SHORTCUTS ============
+        document.addEventListener('keydown', function(e) {
+            // Only handle if Act 2 is visible
+            if (document.getElementById('act2').style.display !== 'none') {
+                const yearSelect = document.getElementById('bls-year');
+                if (e.key === 'ArrowLeft' && yearSelect.selectedIndex > 0) {
+                    yearSelect.selectedIndex--;
+                    updateBLSChart();
+                    e.preventDefault();
+                } else if (e.key === 'ArrowRight' && yearSelect.selectedIndex < yearSelect.options.length - 1) {
+                    yearSelect.selectedIndex++;
+                    updateBLSChart();
+                    e.preventDefault();
+                }
+            }
+            // Escape closes tour
+            if (e.key === 'Escape' && tourActive) {
+                endTour();
+            }
+        });
+
+        // ============ GUIDED TOUR ============
+        let tourActive = false;
+        let tourStep = 0;
+
+        const tourSteps = [
+            {
+                act: 1,
+                target: '#act1 .stat-box:first-child',
+                title: 'The Starting Point',
+                content: 'Only 23.8% of CS Bachelor\'s degrees go to women. This is actually <strong>lower</strong> than in 1984 (37%). We\'ve gone backwards.',
+                position: 'bottom'
+            },
+            {
+                act: 1,
+                target: '#ipeds-chart',
+                title: 'The Education Pipeline',
+                content: 'Use the dropdown to compare fields. Notice how Cybersecurity has higher women\'s representation than core CS — field choice matters.',
+                position: 'top'
+            },
+            {
+                act: 2,
+                target: '#act2 .stat-box:first-child',
+                title: 'The Cliff Begins',
+                content: 'Women\'s numbers drop 24% between the 25-34 and 35-44 age brackets. This is "the cliff" — where tech careers derail.',
+                position: 'bottom'
+            },
+            {
+                act: 2,
+                target: '#bls-chart',
+                title: 'Watch It Over Time',
+                content: 'Use the arrow keys or Play button to animate through years. The cliff appears in almost every occupation, year after year.',
+                position: 'top'
+            },
+            {
+                act: 3,
+                target: '#nscg-chart',
+                title: 'Not All Women Face the Same Cliff',
+                content: 'Gray cells show where sample sizes are too small to report — revealing just how few women of certain races exist in computing at certain ages.',
+                position: 'top'
+            },
+            {
+                act: 3,
+                target: '#act3 .controls',
+                title: 'Before and After COVID',
+                content: 'Click "Change" to see how representation shifted from 2019 to 2023. Green = improvement, Red = decline.',
+                position: 'bottom'
+            },
+            {
+                act: 4,
+                target: '#bigtech-chart',
+                title: 'The Data Cliff',
+                content: 'Progress was slow but real — Google went from 17% to 27% women in technical roles. Then companies stopped reporting.',
+                position: 'top'
+            },
+            {
+                act: 4,
+                target: '#act4 .controls',
+                title: 'What Could Have Been',
+                content: 'Enable "Show Projections" to see where trends might have continued. We\'ll never know for sure.',
+                position: 'bottom'
+            },
+            {
+                act: null,
+                target: 'header',
+                title: 'Tour Complete!',
+                content: 'You\'ve seen the leaky pipeline: from education, through the workforce cliff, across intersections, to the data gap. Explore more on your own!',
+                position: 'bottom'
+            }
+        ];
+
+        function startTour() {
+            tourActive = true;
+            tourStep = 0;
+            document.getElementById('tour-overlay').style.display = 'block';
+            showTourStep();
+        }
+
+        function endTour() {
+            tourActive = false;
+            document.getElementById('tour-overlay').style.display = 'none';
+            document.getElementById('tour-highlight').style.display = 'none';
+            document.getElementById('tour-tooltip').style.display = 'none';
+        }
+
+        function showTourStep() {
+            const step = tourSteps[tourStep];
+
+            // Switch to correct act if needed
+            if (step.act) {
+                showAct(step.act);
+                // Wait for act transition
+                setTimeout(() => positionTourElements(step), 150);
+            } else {
+                positionTourElements(step);
+            }
+        }
+
+        function positionTourElements(step) {
+            const target = document.querySelector(step.target);
+            if (!target) {
+                nextTourStep();
+                return;
+            }
+
+            const rect = target.getBoundingClientRect();
+            const highlight = document.getElementById('tour-highlight');
+            const tooltip = document.getElementById('tour-tooltip');
+
+            // Position highlight
+            highlight.style.display = 'block';
+            highlight.style.top = (rect.top + window.scrollY - 5) + 'px';
+            highlight.style.left = (rect.left - 5) + 'px';
+            highlight.style.width = (rect.width + 10) + 'px';
+            highlight.style.height = (rect.height + 10) + 'px';
+
+            // Build tooltip content
+            tooltip.innerHTML = `
+                <div class="tour-arrow ${step.position === 'bottom' ? 'top' : 'bottom'}"></div>
+                <h3>${step.title}</h3>
+                <p>${step.content}</p>
+                <div class="tour-nav">
+                    <span class="tour-progress">${tourStep + 1} of ${tourSteps.length}</span>
+                    <div>
+                        ${tourStep > 0 ? '<button class="tour-prev" onclick="prevTourStep()">Back</button>' : ''}
+                        ${tourStep < tourSteps.length - 1
+                            ? '<button class="tour-next" onclick="nextTourStep()">Next</button>'
+                            : '<button class="tour-next" onclick="endTour()">Finish</button>'}
+                    </div>
+                </div>
+                <button class="tour-skip" onclick="endTour()">Skip tour</button>
+            `;
+
+            // Position tooltip
+            tooltip.style.display = 'block';
+            if (step.position === 'bottom') {
+                tooltip.style.top = (rect.bottom + window.scrollY + 15) + 'px';
+            } else {
+                tooltip.style.top = (rect.top + window.scrollY - tooltip.offsetHeight - 15) + 'px';
+            }
+            tooltip.style.left = Math.max(10, Math.min(rect.left, window.innerWidth - 370)) + 'px';
+
+            // Scroll into view
+            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function nextTourStep() {
+            if (tourStep < tourSteps.length - 1) {
+                tourStep++;
+                showTourStep();
+            } else {
+                endTour();
+            }
+        }
+
+        function prevTourStep() {
+            if (tourStep > 0) {
+                tourStep--;
+                showTourStep();
+            }
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
