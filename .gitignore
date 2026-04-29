@@ -1,0 +1,23 @@
+# Raw data files (too large for GitHub, download from sources)
+bls/bls_datasets/
+ipeds/ipeds_datasets/
+ncses/ncses_datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
