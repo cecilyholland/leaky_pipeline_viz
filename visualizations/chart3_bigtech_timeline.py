@@ -299,12 +299,12 @@ def create_chart_v2(df):
     buttons = [
         dict(
             args=[{'visible': tech_visible}],
-            label='Technical Roles   ',
+            label='  Technical Roles                ',
             method='update'
         ),
         dict(
             args=[{'visible': overall_visible}],
-            label='Overall Workforce ',
+            label='  Overall Workforce              ',
             method='update'
         ),
     ]
