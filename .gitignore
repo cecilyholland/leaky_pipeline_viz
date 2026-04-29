@@ -3,6 +3,9 @@ bls/bls_datasets/
 ipeds/ipeds_datasets/
 ncses/ncses_datasets/
 
+# Claude Code
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]
