@@ -3,7 +3,7 @@
 A data visualization project exploring women's representation in tech - from education through workforce, and the growing data gap that makes measurement increasingly difficult.
 
 **Course:** CPSC 5530 Data Visualization and Exploration  
-**Due:** Sunday May 4th 11:59pm
+Youtube link to presentation: https://www.youtube.com/watch?v=VOf9SW9kf8Y
 
 ## Quick Start
 
